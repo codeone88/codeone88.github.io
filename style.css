@@ -128,6 +128,12 @@ header{
 	top:100px;
 }
 
+.wid-box{
+	position:relative;
+	width:80vw;
+	min-height:250px;
+}
+
 .nameW{
 	position:absolute;
 	width:20%;
@@ -137,18 +143,9 @@ header{
 	transform:rotate(90deg);
 }
 
-.wid-box{
-	position:relative;
-	width:80vw;
-	height:80vw;
-	min-height:200px;
-}
-
 .im-wid{
 	position:absolute;
 	width:100%;
-	right:0;
-	top:0;
 }
 
 
