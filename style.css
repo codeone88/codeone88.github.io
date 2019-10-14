@@ -20,6 +20,10 @@ body {
     src:url(Fonts/Gobold.otf);
 }
 
+section{
+	overflow:hidden;
+}
+
 
 /*--------------- HEAD ------------------*/
 header{
@@ -34,12 +38,13 @@ header{
 #logo{
 	position:absolute;
 	width:100px;
+	cursor:pointer;
 }
 
 #menu-cont{
 	position:absolute;
-	right:20px;
-	width:250px;
+	right:0px;
+	width:230px;
 }
 
 
@@ -61,8 +66,8 @@ header{
 #partCont{
 	position:absolute;
 	border-radius:50%;
-	width:200px;
-	height:200px;
+	width:400px;
+	height:400px;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
@@ -91,6 +96,7 @@ header{
 	border-bottom:2px solid #D6D6D6;
 	border-left:2px solid #D6D6D6;
 	padding:20px;
+	font-family: 'rob';
 }
 
 #l{
@@ -128,11 +134,12 @@ header{
 	text-align:center;
 	color:#FFFFFF;
 	font-size:16px;
+	transform:rotate(90deg);
 }
 
 .wid-box{
 	position:relative;
-	width:80%;
+	width:90%;
 	height:auto;
 	min-height:200px;
 }
@@ -145,14 +152,36 @@ header{
 }
 
 
+/*----------------- SECTION 4-------------------*/
+#section4{
+	position:relative;
+	background:#FFFFFF;
+	width:100%;
+	height:100px;
+}
+
+#social-cont{
+	position:absolute;
+}
+
+#social-cont img{
+	display:inline-block;
+	width:50px;
+	padding:0 30px;
+	cursor:pointer;
+}
+
+
 /* CLASES */
 .txt-head{
 	display:inline-block;
 	min-width:100px;
 	height:30px;
 	color:#FFFFFF;
-	font-size:18px;
+	font-size:16px;
 	text-align:center;
+	font-family: 'rob';
+	cursor:pointer;
 }
 
 .midX{

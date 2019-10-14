@@ -10,10 +10,10 @@
 <body onLoad="init()">
 	
     <header>
-    	<img id="logo" src="img/logo.png" alt="">
+    	<img id="logo" src="img/logo.png" alt="" onClick="goHome()">
         <div id="menu-cont" class="midY">
-        	<div class="txt-head">Repo</div>
-        	<div class="txt-head">Widgets</div>
+        	<div class="txt-head" id="repoBtn">Repo</div>
+        	<div class="txt-head" id="widBtn">Widgets</div>
         </div>
     </header>
     
@@ -35,7 +35,16 @@
     	<div id="wid-cont"></div>
     </section>
     
+    <section id="section4">
+    	<div id="social-cont" class="center">
+        	<img src="img/telegram.jpg" alt="" onClick="window.open('https://t.me/CodeWalls', '_blank');">
+            <img src="img/twitter.png" alt="" onClick="window.open('https://twitter.com/Enter_Apps', '_blank');">
+            <img src="img/reddit.png" alt="" onClick="window.open('https://www.reddit.com/user/CodeOne88', '_blank');">
+        </div>
+    </section>
     
+    
+    <script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="Scripts/main.js"></script>
     <script src="Scripts/particles.js"></script>
     <script src="Scripts/app.js"></script>

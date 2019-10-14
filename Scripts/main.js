@@ -7,8 +7,33 @@ window.addEventListener("load", function() {
 
 
 function init(){
+	const menuItems = document.querySelectorAll('.txt-head');
+	menuItems.forEach(item => item.addEventListener('click', openWindow));
+	
 	loadWidgets();
 }
+
+function goHome(){
+	$('html, body').animate({
+		scrollTop: $('#section1').offset().top
+	}, 200);
+}
+
+function openWindow(e){
+	
+	if(this.id === 'repoBtn'){
+		$('html, body').animate({
+			scrollTop: $('#section2').offset().top
+		}, 200);
+	}
+	
+	if(this.id === 'widBtn'){
+		$('html, body').animate({
+			scrollTop: $('#section3').offset().top
+		}, 200);
+	}
+}
+
 
 function loadWidgets(){
 	var data_url = "widgets.json";
