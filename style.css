@@ -59,7 +59,6 @@ header{
 	position:absolute;
 	color:#979FA3;
 	font-size:40px;
-	letter-spacing:25px;
 }
 
 /*----------------- PARTICLES ----------------------*/
@@ -120,6 +119,7 @@ header{
 	position:relative;
 	width:100%;
 	min-height:100vh;
+	overflow:auto;
 }
 
 #wid-cont{
@@ -132,6 +132,7 @@ header{
 	position:relative;
 	width:80vw;
 	min-height:250px;
+	overflow:hidden;
 }
 
 .nameW{
@@ -159,6 +160,8 @@ header{
 
 #social-cont{
 	position:absolute;
+	width:100%;
+	text-align:center;
 }
 
 #social-cont img{
@@ -177,10 +180,11 @@ header{
 	height:100vh;
 	z-index:200;
 	display:none;
+	overflow:auto
 }
 
 #closeBtn{
-	position:absolute;
+	position:fixed;
 	background:#FFFFFF;
 	width:60px;
 	border-radius:5px;
