@@ -1,0 +1,8 @@
+// JSON Document
+{
+	"data":[
+		{"name":"Alkaline", "img":"alkaline.png"},
+		{"name":"Compact", "img":"compact.jpg"},
+		{"name":"Fusion", "img":"fusion.jpg"}
+	]
+}
