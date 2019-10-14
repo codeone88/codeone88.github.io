@@ -22,6 +22,11 @@ function loadWidgets(){
 			
 		_box.classList.add('wid-box');
 		_box.classList.add('midX');
+		
+		_name.innerHTML = arrWid[i].name;
+		_name.classList.add('midY');
+		_name.classList.add('nameW');
+		_box.appendChild(_name);
 			
 		_img.src = 'img/widgets/' + arrWid[i].img;
 		_img.classList.add('im-wid');
