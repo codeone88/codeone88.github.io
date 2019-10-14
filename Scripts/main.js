@@ -15,8 +15,6 @@ function loadWidgets(){
 	var data_obj = JSON.parse(get_data_from_url(data_url));
 	var arrWid = data_obj.data;
 	
-	condole.log(arrWid[0].name);
-	
 	for(var i=0; i<arrWid.length; i++){
 		var _box = document.createElement('div'),
 			_name = document.createElement('div'),
