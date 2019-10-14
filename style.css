@@ -66,8 +66,8 @@ header{
 #partCont{
 	position:absolute;
 	border-radius:50%;
-	width:400px;
-	height:400px;
+	width:200px;
+	height:200px;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
@@ -139,14 +139,14 @@ header{
 
 .wid-box{
 	position:relative;
-	width:90%;
-	height:auto;
+	width:80vw;
+	height:80vw;
 	min-height:200px;
 }
 
 .im-wid{
 	position:absolute;
-	width:80%;
+	width:100%;
 	right:0;
 	top:0;
 }
