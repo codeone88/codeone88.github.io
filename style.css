@@ -44,7 +44,7 @@ header{
 #menu-cont{
 	position:absolute;
 	right:0px;
-	width:230px;
+	width:310px;
 }
 
 
@@ -167,6 +167,36 @@ header{
 	padding:0 30px;
 	cursor:pointer;
 }
+
+
+/*----------------- SECTION 4-------------------*/
+#image-viewer{
+	position:fixed;
+	background:rgba(0,0,0,.90);
+	width:100vw;
+	height:100vh;
+	z-index:200;
+	display:none;
+}
+
+#closeBtn{
+	position:absolute;
+	background:#FFFFFF;
+	width:60px;
+	border-radius:5px;
+	padding:5px;
+	font-size:14px;
+	text-align:center;
+	top:40px;
+	right:20px;
+}
+
+#full-wid{
+	position:absolute;
+	width:90%;
+}
+
+
 
 
 /* CLASES */
