@@ -1,0 +1,283 @@
+body {
+    padding:0;
+    margin:0;
+	background:#000000;
+	font-family: 'rob';
+}
+
+/*@font-face{
+    font-family: 'ocr';
+    src:url(Fonts/OCRAStd.otf);
+}*/
+
+@font-face{
+    font-family: 'rob';
+    src:url(Fonts/Roboto-Thin.ttf);
+}
+
+@font-face{
+    font-family: 'pro';
+    src:url(Fonts/Prototype.ttf);
+}
+
+
+/*--------------- HEAD ------------------*/
+header{
+	position:fixed;
+	width:100vw;
+	height:100px;
+	overflow:hidden;
+	z-index:100;
+	-webkit-backdrop-filter: blur(5px);
+}
+
+#logo{
+	position:absolute;
+	width:100px;
+}
+
+#menu-cont{
+	position:absolute;
+	right:20px;
+	width:250px;
+}
+
+
+
+/* CLASES */
+.txt-head{
+	display:inline-block;
+	min-width:100px;
+	height:30px;
+	color:#FFFFFF;
+	font-size:18px;
+	text-align:center;
+}
+
+.midX{
+	left:50%;
+	transform:translateX(-50%);
+}
+
+.midY{
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.center{
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+
+/*#container{
+	position:relative;
+	width:100vw;
+	height:100vh;
+	text-transform:lowercase;
+}
+
+#_bg{
+	position:absolute;
+	background:var(--bgC);
+	width:100%;
+	height:100%;
+	opacity:0;
+}
+
+/*----------------- HEAD -------------------
+#head{
+	position:absolute;
+	height:var(--hH);
+	width:100%;
+	opacity:0;
+}
+
+#_time{
+	position:absolute;
+	width:20px;
+	height:10px;
+	text-align:center;
+	font-size:10px;
+	color:var(--hTc);
+	left:30px;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+/*#cl{
+	position:absolute;
+	width:20px;
+	top:var(--hH);
+	fill:#000000;
+}
+
+#cr{
+	position:absolute;
+	width:20px;
+	top:var(--hH);
+	right:0;
+	fill:#000000;
+}
+
+/*------------- BATTERY ------------------
+#battCont{
+	position:absolute;
+	width:50px;
+	height:10px;
+	right:15px;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+#battery{
+	position:absolute;
+	width:20px;
+	text-align:center;
+	font-size:10px;
+	top:0px;
+	left:25px;
+	color:var(--hTc);
+}
+
+#bl1{
+	position:absolute;
+	background:var(--hTc);
+	border-radius:10px;
+	top:4px;
+	width:20px;
+	height:4px;
+	opacity:0.4;
+}
+
+#bl2{
+	position:absolute;
+	background:var(--hTc);
+	border-radius:10px;
+	height:4px;
+	top:4px;
+}
+
+
+/*---------------------- HOME -----------------------
+#homeCont{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#infoCont{
+	position:absolute;
+	left:var(--xp);
+	top:100px;
+}
+
+#weaCont{
+	position:absolute;
+	left:var(--xp);
+	top:50%;
+	transform:translateY(-50%);
+	opacity:0;
+}
+
+#_temp, #_condition, #_loc, #_date, #_battHome, #_ch{
+	height:30px;
+	padding-top:8px;
+	margin-bottom:var(--sp);
+	font-size:var(--fs);
+	color:var(--primary);
+}
+
+/*---------------------- MUSIC -----------------------
+#musCont{
+	position:absolute;
+	left:var(--xp);
+	top:75%;
+}
+
+#_title, #_artist{
+	height:30px;
+	padding-top:8px;
+	font-size:var(--fs);
+	color:var(--primary);
+}
+
+#controls{
+	height:30px;
+	margin-top:10px;
+	color:var(--primary);
+}
+
+#playPause, #prev, #next{
+	font-size:var(--fs);
+	padding:8px 10px;
+}
+
+
+/*----------- SHORTCUTS -----------------
+#shortCuts{
+	position:absolute;
+	width:100%;
+	height:100%;
+	opacity:0;
+	display:none;
+}
+
+#btnCont{
+	position:absolute;
+	width:100%;
+	height:30px;
+	bottom:30px;
+}
+
+#pP, #nP{
+	position:absolute;
+	color:var(--primary);
+	height:30px;
+	width:60px;
+	padding-top:15px;
+	font-size:14px;
+	text-align:center;
+}
+
+#pP{
+	left:40px;
+}
+
+#nP{
+	right:40px;
+}
+
+#aC2, #aC3{
+	display:none;
+}
+
+
+
+
+/* CLASES 
+.ta{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.menuCont{
+	position:absolute;
+	left:var(--xp);
+	bottom:60px;
+}
+
+._app{
+	color:var(--primary);
+	height:30px;
+	margin-bottom:var(--sp);
+	padding-top:8px;
+	font-size:var(--fs);
+	text-align:left;
+}
+*/
+
+
+
