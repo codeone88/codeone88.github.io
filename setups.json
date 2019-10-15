@@ -2,14 +2,14 @@
 	"data":[
 		{"name":"Minimal", "img":"lightphone3.jpg", 
 		"list":"MiscSettings<br>HideYourApps<br>HomeList<br>DockRemover<br>Xen HTML<br>XenInfo<br>LightPhone3(widget)",
-		"user":"u/CodeOne88"},
+		"user":"https://twitter.com/Enter_Apps", "username":"CodeOne88"},
 		
 		{"name":"Calculator", "img":"ink.jpg", 
 		"list":"MiscSettings<br>Boxy3<br>DockRemover<br>Bladient(theme)<br>Xen HTML<br>XenInfo<br>Ink(widget)",
-		"user":"u/CodeOne88"},
+		"user":"https://twitter.com/Enter_Apps", "username":"CodeOne88"},
 		
 		{"name":"HUD", "img":"hud.PNG", 
 		"list":"MiscSettings<br>Boxy3<br>Zenith<br>EclipseDarkMode<br>Lotus(theme)<br>Xen HTML<br>XenInfo<br>Ink(widget)",
-		"user":"u/CodeOne88"}
+		"user":"https://twitter.com/Enter_Apps", "username":"CodeOne88"}
 	]
 }

@@ -90,10 +90,11 @@ function openSubmit(){
 
 
 //--------------------- LOAD SETUPS ---------------------------
+var arrSet = [];
 function loadSetups(){
 	var data_url = "setups.json";
 	var data_obj = JSON.parse(get_data_from_url(data_url));
-	var arrSet = data_obj.data;
+	arrSet = data_obj.data;
 	
 	for(var i=0; i<arrSet.length; i++){
 		var _box = document.createElement('div'),
@@ -113,7 +114,7 @@ function loadSetups(){
 		_box.appendChild(_name);
 		
 		_box.classList.add('set-item');
-		//_box.setAttribute("id", arrWid[i].img);
+		_box.setAttribute("id", i);
 		
 		document.getElementById('set-cont').appendChild(_box);
 	}
@@ -123,7 +124,11 @@ function loadSetups(){
 }
 
 function openSetup(){
-	
+	document.getElementById('setup-viewer').style.display = 'block';
+	document.getElementById('full-set').src = 'img/widgets/' + arrSet[this.id].img;
+	document.getElementById('_desc').innerHTML = arrSet[this.id].name + '<br><br>' +
+									arrSet[this.id].list + '<br><br>' +
+									"by <a href='" + arrSet[this.id].user + "' target='_blank'>" + arrSet[this.id].username + '</a>';
 }
 
 

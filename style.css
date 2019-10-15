@@ -1,4 +1,4 @@
-body {
+html, body {
     padding:0;
     margin:0;
 	background:#000000;
@@ -44,7 +44,7 @@ header{
 #menu-cont{
 	position:absolute;
 	right:0px;
-	width:410px;
+	width:415px;
 }
 
 /*--------------- setup --------------*/
@@ -146,13 +146,15 @@ header{
 
 .nameW{
 	position:absolute;
+	background:rgba(0,0,0,.50);
+	padding-top:5px;
 	width:20%;
 	text-align:center;
 	color:#FFFFFF;
 	font-size:16px;
 }
 
-.im-wid, .im-set{
+.im-wid{
 	position:absolute;
 	width:100%;
 }
@@ -172,10 +174,17 @@ header{
 
 .nameS{
 	position:absolute;
+	background:rgba(0,0,0,.50);
+	padding-top:5px;
 	width:80%;
 	text-align:center;
 	color:#FFFFFF;
 	font-size:16px;
+}
+
+.im-set{
+	position:absolute;
+	width:100%;
 }
 
 
@@ -202,7 +211,7 @@ header{
 
 
 /*----------------- IMAGE VIEWER-------------------*/
-#image-viewer{
+#image-viewer, #setup-viewer{
 	position:fixed;
 	background:rgba(0,0,0,.90);
 	width:100vw;
@@ -217,6 +226,30 @@ header{
 #full-wid{
 	position:absolute;
 	width:70%;
+}
+
+/*-------------------- setup ----------------------*/
+#full-set{
+	position:absolute;
+	width:40%;
+	left:10%;
+}
+
+#_desc{
+	position:absolute;
+	width:40%;
+	left:60%;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+	font-size:16px;
+	font-family: 'rob';
+	color:#FFFFFF;
+}
+
+#_desc a{
+	color:#FFFFFF;
+	text-decoration:none;
 }
 
 /*----------------- SUBMIT VIEW -------------------*/
@@ -258,11 +291,15 @@ header{
 	display:inline-block;
 	min-width:100px;
 	height:30px;
+	padding-top:10px;
+	margin-left:-4px;
+	border-right:1px solid #FFFFFF;
 	color:#FFFFFF;
-	font-size:16px;
+	font-size:14px;
 	text-align:center;
 	font-family: 'rob';
 	cursor:pointer;
+	transition:background 1s;
 }
 
 .midX{
@@ -279,6 +316,18 @@ header{
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
+}
+
+
+@media not all and (pointer: coarse) {
+	.txt-head{
+		transition:background 1s;
+	}
+	
+	.txt-head:hover{
+		background:rgba(255,255,255,1.0);
+		color:#C12044;
+	}
 }
 
 
@@ -303,6 +352,20 @@ header{
 
 	#full-wid{
 		width:90%;
+	}
+	
+	#full-set{
+		width:90%;
+		top:100px;
+		left:50%;
+		transform:translateX(-50%);
+	}
+	
+	#_desc{
+		width:80%;
+		left:50%;
+		top:95vw;
+		transform:translateX(-50%);
 	}
 }
 
