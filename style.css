@@ -121,6 +121,8 @@ header{
 	width:100%;
 	min-height:100vh;
 	overflow:auto;
+	-webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
 }
 
 #wid-cont{
@@ -153,9 +155,9 @@ header{
 /*----------------- SECTION 4-------------------*/
 #section4{
 	position:relative;
-	background:#FFFFFF;
+	background:#EEEEEE;
 	width:100%;
-	height:100px;
+	height:80px;
 }
 
 #social-cont{
@@ -166,7 +168,7 @@ header{
 
 #social-cont img{
 	display:inline-block;
-	width:50px;
+	width:40px;
 	padding:0 30px;
 	cursor:pointer;
 }
@@ -198,7 +200,7 @@ header{
 
 #full-wid{
 	position:absolute;
-	width:80%;
+	width:70%;
 }
 
 
