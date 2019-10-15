@@ -59,6 +59,7 @@ header{
 	position:absolute;
 	color:#979FA3;
 	font-size:40px;
+	letter-spacing:25px;
 }
 
 /*----------------- PARTICLES ----------------------*/
@@ -141,7 +142,6 @@ header{
 	text-align:center;
 	color:#FFFFFF;
 	font-size:16px;
-	transform:rotate(90deg);
 }
 
 .im-wid{
@@ -172,7 +172,7 @@ header{
 }
 
 
-/*----------------- SECTION 4-------------------*/
+/*----------------- IMAGE VIEWER-------------------*/
 #image-viewer{
 	position:fixed;
 	background:rgba(0,0,0,.90);
@@ -193,11 +193,12 @@ header{
 	text-align:center;
 	top:40px;
 	right:20px;
+	cursor:pointer;
 }
 
 #full-wid{
 	position:absolute;
-	width:90%;
+	width:80%;
 }
 
 
@@ -229,6 +230,23 @@ header{
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
+}
+
+
+
+@media screen and (max-width: 550px){
+	
+	#_title{
+		letter-spacing:15px;
+	}
+	
+	.wid-box{
+		min-height:200px;
+	}
+
+	#full-wid{
+		width:90%;
+	}
 }
 
 
