@@ -256,7 +256,7 @@ header{
 /*----------------- SUBMIT VIEW -------------------*/
 #submit-view{
 	position:fixed;
-	background:rgba(255,255,255,.90);
+	background:rgba(255,255,255,.95);
 	width:100vw;
 	height:100vh;
 	z-index:200;
@@ -349,10 +349,15 @@ header{
 	
 	.set-box{
 		width:50%;
+		height:200px;
 	}
 
 	#full-wid{
 		width:90%;
+	}
+	
+	#txt-submit{
+		width:80%;
 	}
 	
 	#setup-viewer{
@@ -374,7 +379,7 @@ header{
 		margin-top:20px;
 		margin-left: auto;
     	margin-right: auto;
-		transform:translateY(35%);
+		transform:translateY(45%);
 		/*left:50%;
 		top:98vw;
 		transform:translateX(-50%);*/
