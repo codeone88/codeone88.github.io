@@ -125,7 +125,12 @@ function loadSetups(){
 	}
 	
 	const locItems = document.querySelectorAll('.set-item');
+	const imItems = document.querySelectorAll('.im-set');
 	locItems.forEach(item => item.addEventListener('click', openSetup));
+	
+	imItems.forEach(item => item.addEventListener('load', function(){
+		this.style.opacity = 1;
+	}));
 }
 
 function openSetup(){
