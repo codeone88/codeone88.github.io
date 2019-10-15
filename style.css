@@ -166,6 +166,7 @@ header{
 }
 
 .set-box{
+	position:relative;
 	display:inline-block;
 	width:30%;
 	height:250px;
