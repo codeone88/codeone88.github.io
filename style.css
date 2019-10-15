@@ -362,7 +362,7 @@ header{
 	#full-set{
 		position:static;
 		width:90%;
-		transform:translateY(25%);
+		transform:translateY(35%);
 		/*top:100px;
 		left:50%;
 		transform:translateX(-50%);*/
@@ -374,6 +374,7 @@ header{
 		margin-top:20px;
 		margin-left: auto;
     	margin-right: auto;
+		transform:translateY(35%);
 		/*left:50%;
 		top:98vw;
 		transform:translateX(-50%);*/
