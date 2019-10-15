@@ -11,5 +11,9 @@
 		{"name":"HUD", "img":"hud.PNG", 
 		"list":"MiscSettings<br>Boxy3<br>Zenith<br>EclipseDarkMode<br>Lotus(theme)<br>Xen HTML<br>XenInfo<br>IonicSys(widget)",
 		"user":"https://twitter.com/Enter_Apps", "username":"CodeOne88"}
+		
+		{"name":"Viola Purle", "img":"violapurple.jpeg", 
+		"list":"BadgesStyles<br>VioletWeather<br>Aerodock<br>Flow<br>LatchKey<br>NiceBarX<br>Bazzi2<br>Bettersettings<br>ViolaDark(theme)",
+		"user":"https://twitter.com/SusoGault", "username":"Suso Wolf"}
 	]
 }
