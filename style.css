@@ -362,7 +362,7 @@ header{
 	#full-set{
 		position:static;
 		width:90%;
-		padding-top:50%;
+		transform:translateY(25%);
 		/*top:100px;
 		left:50%;
 		transform:translateX(-50%);*/
