@@ -125,7 +125,7 @@ function loadSetups(){
 
 function openSetup(){
 	document.getElementById('setup-viewer').style.display = 'block';
-	document.getElementById('full-set').src = 'img/widgets/' + arrSet[this.id].img;
+	document.getElementById('full-set').src = 'img/setups/' + arrSet[this.id].img;
 	document.getElementById('_desc').innerHTML = '<b>' + arrSet[this.id].name + '</b><br><br>' +
 									arrSet[this.id].list + '<br><br>' +
 									"by <a href='" + arrSet[this.id].user + "' target='_blank'>" + arrSet[this.id].username + '</a>';
