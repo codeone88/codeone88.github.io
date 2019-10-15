@@ -103,7 +103,7 @@ function loadSetups(){
 		_box.classList.add('set-box');
 		//_box.classList.add('midX');
 		
-		_img.src = 'img/setups/' + arrWid[i].img;
+		_img.src = 'img/setups/' + arrSet[i].img;
 		_img.classList.add('im-set');
 		_box.appendChild(_img);
 		
