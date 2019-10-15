@@ -152,6 +152,8 @@ header{
 .im-wid{
 	position:absolute;
 	width:100%;
+	opacity: 0;
+	transition: opacity 2s;
 }
 
 /*---------------- setup -------------------*/
@@ -230,7 +232,7 @@ header{
     linear-gradient(
 	  60deg,
       rgba(27,40,76,.90),
-      rgba(46,116,174,.90)
+      rgba(15,168,165,.90)
     );
 }
 

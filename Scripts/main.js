@@ -70,7 +70,12 @@ function loadWidgets(){
 	}
 	
 	const locItems = document.querySelectorAll('.wid-item');
+	const imItems = document.querySelectorAll('.im-wid');
 	locItems.forEach(item => item.addEventListener('click', openWidget));
+	
+	imItems.forEach(item => item.addEventListener('load', function(){
+		this.style.opacity = 1;
+	}));
 }
 
 
