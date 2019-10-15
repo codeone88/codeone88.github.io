@@ -142,12 +142,12 @@ header{
 	width:80vw;
 	height:250px;
 	overflow:hidden;
+	cursor:pointer;
 }
 
 .nameW{
 	position:absolute;
 	background:rgba(0,0,0,.50);
-	padding-top:5px;
 	width:20%;
 	text-align:center;
 	color:#FFFFFF;
@@ -170,12 +170,12 @@ header{
 	width:30%;
 	height:250px;
 	overflow:hidden;
+	cursor:pointer;
 }
 
 .nameS{
 	position:absolute;
 	background:rgba(0,0,0,.50);
-	padding-top:5px;
 	width:80%;
 	text-align:center;
 	color:#FFFFFF;
@@ -364,7 +364,7 @@ header{
 	#_desc{
 		width:80%;
 		left:50%;
-		top:95vw;
+		top:98vw;
 		transform:translateX(-50%);
 	}
 }
