@@ -47,6 +47,12 @@ header{
 	width:410px;
 }
 
+/*--------------- setup --------------*/
+#subBtn{
+	position:absolute;
+	right:10px;
+}
+
 
 /*----------------- SECTION 1-------------------*/
 #section1{
@@ -134,7 +140,7 @@ header{
 .wid-box{
 	position:relative;
 	width:80vw;
-	min-height:250px;
+	height:250px;
 	overflow:hidden;
 }
 
@@ -146,9 +152,30 @@ header{
 	font-size:16px;
 }
 
-.im-wid{
+.im-wid, .im-set{
 	position:absolute;
 	width:100%;
+}
+
+/*---------------- setup -------------------*/
+#set-cont{
+	position:absolute;
+	width:90%;
+}
+
+.set-box{
+	display:inline-block;
+	width:30%;
+	height:250px;
+	overflow:hidden;
+}
+
+.nameS{
+	position:absolute;
+	width:80%;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:16px;
 }
 
 
@@ -187,7 +214,34 @@ header{
     -ms-overflow-style: none;
 }
 
-#closeBtn{
+#full-wid{
+	position:absolute;
+	width:70%;
+}
+
+/*----------------- SUBMIT VIEW -------------------*/
+#submit-view{
+	position:fixed;
+	background:rgba(255,255,255,.90);
+	width:100vw;
+	height:100vh;
+	z-index:200;
+	display:none;
+}
+
+#txt-submit{
+	position:absolute;
+	width:50%;
+	font-size:16px;
+	padding:20px;
+	font-family: 'rob';
+}
+
+
+
+
+/* CLASES */
+.closeBtn{
 	position:fixed;
 	background:#FFFFFF;
 	width:60px;
@@ -200,15 +254,6 @@ header{
 	cursor:pointer;
 }
 
-#full-wid{
-	position:absolute;
-	width:70%;
-}
-
-
-
-
-/* CLASES */
 .txt-head{
 	display:inline-block;
 	min-width:100px;
@@ -249,7 +294,11 @@ header{
 	}
 	
 	.wid-box{
-		min-height:200px;
+		height:200px;
+	}
+	
+	.set-box{
+		width:50%;
 	}
 
 	#full-wid{

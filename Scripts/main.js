@@ -79,8 +79,51 @@ function openWidget(){
 	document.getElementById('full-wid').src = 'img/widgets/' + this.id;
 }
 
-function closeWidget(){
-	document.getElementById('image-viewer').style.display = 'none';
+function closeWindow(str){
+	document.getElementById(str).style.display = 'none';
+}
+
+
+function openSubmit(){
+	document.getElementById('submit-view').style.display = 'block';
+}
+
+
+//--------------------- LOAD SETUPS ---------------------------
+function loadSetups(){
+	var data_url = "setups.json";
+	var data_obj = JSON.parse(get_data_from_url(data_url));
+	var arrSet = data_obj.data;
+	
+	for(var i=0; i<arrSet.length; i++){
+		var _box = document.createElement('div'),
+			_name = document.createElement('div'),
+			_img = document.createElement('img');
+			
+		_box.classList.add('set-box');
+		//_box.classList.add('midX');
+		
+		_img.src = 'img/setups/' + arrWid[i].img;
+		_img.classList.add('im-set');
+		_box.appendChild(_img);
+		
+		_name.innerHTML = arrSet[i].name;
+		_name.classList.add('center');
+		_name.classList.add('nameS');
+		_box.appendChild(_name);
+		
+		_box.classList.add('set-item');
+		//_box.setAttribute("id", arrWid[i].img);
+		
+		document.getElementById('set-cont').appendChild(_box);
+	}
+	
+	const locItems = document.querySelectorAll('.set-item');
+	locItems.forEach(item => item.addEventListener('click', openSetup));
+}
+
+function openSetup(){
+	
 }
 
 
