@@ -44,7 +44,7 @@ header{
 #menu-cont{
 	position:absolute;
 	right:0px;
-	width:310px;
+	width:410px;
 }
 
 
@@ -182,7 +182,9 @@ header{
 	height:100vh;
 	z-index:200;
 	display:none;
-	overflow:auto
+	overflow:auto;
+	-webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
 }
 
 #closeBtn{
@@ -237,6 +239,10 @@ header{
 
 
 @media screen and (max-width: 550px){
+	
+	#menu-cont{
+		width:220px;
+	}
 	
 	#_title{
 		letter-spacing:15px;
