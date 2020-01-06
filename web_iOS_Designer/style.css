@@ -286,10 +286,10 @@ section{
 #social-cont{
 	position:absolute;
 	background:#FFFFFF;
-	border-radius:15px 15px 0 0;
+	border-radius:15px;
 	padding:10px 0;
 	text-align:center;
-	top:calc(100% - 80px);
+	top:60%;
 }
 
 #social-cont img{
@@ -443,7 +443,7 @@ section{
 	}
 	
 	#land_im{
-		right:15%;
+		right:10%;
 	}
 	
 	#iconsContExt{
@@ -469,11 +469,6 @@ section{
 	
 	#iconsCont img{
 		margin:10px;
-	}
-	
-	#social-cont{
-		padding:5px 0;
-		width:85%;
 	}
 	
 	/*#menu-cont{
