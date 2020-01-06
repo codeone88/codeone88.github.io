@@ -68,6 +68,7 @@ section{
 /*----------------- SECTION 1-------------------*/
 #section1{
 	position:relative;
+	background: url(img/land_image.jpeg) no-repeat center center/cover;
 	width:100%;
 	height:100vh;
 	overflow:hidden;
@@ -81,7 +82,7 @@ section{
 
 #_title{
 	width:100%;
-	color:#484848;
+	color:#FFFFFF;
 	font-size:60px;
 	font-family: 'go';
 	text-shadow:0 0 10px 5px #484848;
@@ -94,13 +95,11 @@ section{
 	font-size:14px;
 }
 
-#land_im{
+/*#land_im{
 	position:absolute;
-	height:75%;
-	top:50%;
-	left:60%;
-	transform:translateY(-50%);
-}
+	height:100%;
+	opacity:0.2;
+}*/
 
 
 /*----------------- SECTION 2-------------------*/
@@ -478,11 +477,11 @@ section{
 		text-align:center;
 	}
 	
-	#land_im{
+	/*#land_im{
 		left:50%;
 		top:100%;
 		transform:translate(-50%,-50%);
-	}
+	}*/
 	
 	#iconsContExt{
 		height:60%;
