@@ -471,6 +471,14 @@ section{
 		margin:10px;
 	}
 	
+	#social-cont{
+		width:85px;
+	}
+	
+	#social-cont img{
+		width:50px;
+	}
+	
 	/*#menu-cont{
 		width:220px;
 	}
