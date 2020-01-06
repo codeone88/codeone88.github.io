@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="menu_style.css" type="text/css" media="screen"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>iOS_Designer</title>
+</head>
+
+<body onLoad="init()">
+	
+    <header class="header">
+    	<img id="logo" src="img/logo.png" alt="" onClick="goHome()">
+        <input class="menu-btn" type="checkbox" id="menu-btn" name="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+        	<li><a class="txt-head" id="home">Home</a></li>
+           	<li><a class="txt-head" id="repo">Add Repo</a></li>
+           	<li><a class="txt-head" href="#">Themes</a></li>
+           	<li><a class="txt-head" id="social">Social</a></li>
+         </ul>
+        <!--<div id="menu-cont" class="midY">
+        	<div class="txt-head" id="repoBtn">Repo</div>
+        	<div class="txt-head" id="widBtn">Widgets</div>
+        	<div class="txt-head" id="seBtn" onClick="window.open('setups.html');">Setups</div>
+        	<div class="txt-head" id="soBtn">Social</div>
+        </div>-->
+    </header>
+    
+    <div id="image-viewer">
+        <img alt="" id="full-wid" class="center">
+    	<div class="closeBtn" onClick="closeWindow('image-viewer')">Close</div>
+    </div>
+    
+    <section id="section1" class="aos-item" data-aos="fade-up">
+        <img id="land_im" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" class="midY" src="img/land_image.png" alt="">
+    	<div id="descCont" class="midY">
+        	<div id="_title">iOS_Designer</div>
+        	<div id="_desc">Design UI/UX theme creator</div>
+        </div>
+    </section>
+    
+    <section id="section2" class="aos-item" data-aos="fade">
+        <img id="rep_bg" class="aos-item" data-aos="flip-up" src="img/repobg.png" alt="">
+        
+        <div id="iconsContExt" class="midX">
+        	<div id="iconsCont" class="midX">
+                <img src="img/cydia.png" alt="" onClick="window.open('https://cydia.saurik.com/api/share#?source=https://iosdesigner.github.io/repo/', '_blank');">
+                <img src="img/sileo.png" alt="" onClick="window.open('sileo://source/https://iosdesigner.github.io/repo/', '_blank');">
+                <img src="img/zebra.png" alt="" onClick="window.open('zbra://sources/add/https://iosdesigner.github.io/repo/', '_blank');">
+            </div>
+        </div>
+        
+        <div id="_titleS2" class="midX">iOS_Designer's Repo</div>
+        <div id="_descS2" class="midX">Add to:</div>
+    </section>
+    
+    <section id="section3">
+    	<div id="themeCont"></div>
+    </section>
+    
+    <section id="section4" class="aos-item" data-aos="fade-right">
+    	<div id="_titleS4">Be Social</div>
+        <div id="_descS4">Get in touch or request some icons</div>
+            
+    	<div id="social-cont" class="midX">
+        	<img src="img/telegram.png" alt="" onClick="window.open('https://t.me/CodeWalls', '_blank');">
+            <img src="img/twitter.png" alt="" onClick="window.open('https://twitter.com/Enter_Apps', '_blank');">
+            <img src="img/reddit.png" alt="" onClick="window.open('https://www.reddit.com/user/CodeOne88', '_blank');">
+        </div>
+    </section>
+    
+    
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Scripts/main.js"></script>
+    <!--<script src="Scripts/particles.js"></script>
+    <script src="Scripts/app.js"></script>
+	
+	<script type="text/javascript" charset="utf-8" src="Scripts/TweenMax.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Scripts/lang.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Scripts/musicClass.js"></script>
+	-->
+    
+</body>
+</html>
