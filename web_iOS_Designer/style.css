@@ -472,7 +472,8 @@ section{
 	}
 	
 	#social-cont{
-		width:95%;
+		padding:5px 0;
+		width:85%;
 	}
 	
 	/*#menu-cont{
