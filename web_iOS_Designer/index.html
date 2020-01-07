@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
-	<link rel="stylesheet" href="menu_style.css" type="text/css" media="screen"/>
+    <!--<link rel="icon" type="image/png" href="" sizes="96x96">-->
+    
+	<link rel="stylesheet" href="Styles/style.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="Styles/menu_style.css" type="text/css" media="screen"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>iOS_Designer</title>
 </head>
@@ -12,7 +14,7 @@
 <body onLoad="init()">
 	
     <header class="header">
-    	<img id="logo" src="img/logo.png" alt="" onClick="goHome()">
+    	<img id="logo" src="img/logo.jpg" alt="" onClick="goHome()">
         <input class="menu-btn" type="checkbox" id="menu-btn" name="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
@@ -29,13 +31,13 @@
         </div>-->
     </header>
     
-    <div id="image-viewer">
+    <!--<div id="image-viewer">
         <img alt="" id="full-wid" class="center">
     	<div class="closeBtn" onClick="closeWindow('image-viewer')">Close</div>
-    </div>
+    </div>-->
     
     <section id="section1" class="aos-item" data-aos="fade-up">
-    	<div id="descCont" class="midY">
+    	<div id="descCont">
         	<div id="_title">iOS_Designer</div>
         	<div id="_desc">I've been creating themes for Cydia for a few years.<br><br>
             I also create logos, concepts and more...</div>
@@ -78,18 +80,16 @@
         </div>
     </section>
     
+    <section id="footer">
+        <p id="code">Developed by CodeOne88</p>
+    </section>
+    
     
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="Scripts/main.js"></script>
-    <!--<script src="Scripts/particles.js"></script>
-    <script src="Scripts/app.js"></script>
-	
-	<script type="text/javascript" charset="utf-8" src="Scripts/TweenMax.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="Config.js"></script>
-	<script type="text/javascript" charset="utf-8" src="Scripts/lang.js"></script>
-	<script type="text/javascript" charset="utf-8" src="Scripts/musicClass.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="Scripts/TweenMax.min.js"></script>
 	-->
     
 </body>
