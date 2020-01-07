@@ -68,9 +68,10 @@ function loadThemes(){
         tempBottom: 0, //temp vertical position from bottom
         fontSize: 20, //day text and temp size
         iconURL: 'img/themes/', //url to icon
-        iconsName: 'weatherIcons', //id for weather icons (increments)
-        daysName: 'weatherDays', //id for days (increments)
-        tempsName: 'weatherTemps', //id for temps (increments)
+        iconsName: 'weatherIcons', 
+        themesName: 'themesName', 
+        priceName: 'priceName', 
+        mmvName: 'mmvName', 
     });
 	
 	var icon, i;
