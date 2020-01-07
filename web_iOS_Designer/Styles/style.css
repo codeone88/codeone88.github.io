@@ -52,17 +52,6 @@ section{
 	cursor:pointer;
 }
 
-/*#menu-cont{
-	position:absolute;
-	right:0px;
-	width:415px;
-}
-
-/*--------------- setup --------------*/
-#subBtn{
-	position:absolute;
-	right:10px;
-}
 
 
 /*----------------- SECTION 1-------------------*/
@@ -107,7 +96,7 @@ section{
 #_desc{
 	width:100%;
 	margin-top:20px;
-	color:#6762FF;/*ED7900*/
+	color:#ED7900;/*6762FF*/
 	font-size:14px;
 }
 
@@ -313,7 +302,7 @@ section{
 	width:70%;
 	left:50px;
 	top:140px;
-	color:#6762FF;
+	color:#ED7900;
 	font-size:14px;
 }
 
