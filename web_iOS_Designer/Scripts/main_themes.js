@@ -19,7 +19,7 @@ function initThemes(){
 
 function goHome(){
 	$('html, body').animate({
-		scrollTop: $('#section1').offset().top
+		scrollTop: $('#section1T').offset().top
 	}, 200);
 }
 
@@ -74,7 +74,8 @@ function loadThemes(){
     });
 	
 	var icon, i;
-    for (i = 0; i < fcastObj.dayCount; i++) { 
+    for (i = 0; i < arrSet.length; i++) {
+		console.log(arrSet[i].img[0]);
         document.getElementById(fcastObj.icon + i).src = fcastObj.iconURL +  arrSet[i].img[0];
         document.getElementById(fcastObj.day + i).innerHTML = arrSet[i].name;
         document.getElementById(fcastObj.temp + i).innerHTML = arrSet[i].price;

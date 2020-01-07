@@ -18,8 +18,8 @@
 		{"name":"Theme 2",
 		"developer":"iOS_Designer", 
 		"img":[
-			"im1.png",
 			"im2.png",
+			"im1.png",
 			"im3.png"],  
 		"desciption":"This is the widget description.<br>Thanks.",
 		"price":"1.99",
@@ -33,9 +33,9 @@
 		{"name":"Theme 3",
 		"developer":"iOS_Designer", 
 		"img":[
-			"im1.png",
+			"im3.png",
 			"im2.png",
-			"im3.png"],
+			"im1.png"],
 		"desciption":"This is the widget description.<br>Thanks.",
 		"price":"Free",
 		"version":"2.0",
