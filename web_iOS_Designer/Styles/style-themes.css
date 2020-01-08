@@ -164,11 +164,11 @@ section{
 }
 
 .title{
-	padding:10px;
+	padding:25px 10px 10px 10px;
 	font-size:20px;
 }
 
-#ver, #pri, #ios, #con, #txt{
+#ver, #upd, #pri, #ios, #con, #txt{
 	background:#EEEEEE;
 	border-bottom:1px solid #FFFFFF;
 	padding:10px;

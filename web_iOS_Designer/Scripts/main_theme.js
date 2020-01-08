@@ -30,6 +30,7 @@ function loadTheme(){
 			showSc(arrSetT[i].img);
 			document.getElementById('txt').innerHTML = arrSetT[i].wNew;
 			document.getElementById('ver').innerHTML = 'Version: ' + arrSetT[i].version;
+			document.getElementById('upd').innerHTML = 'Updated: ' + arrSetT[i].updated;
 			document.getElementById('pri').innerHTML = 'Price: ' + arrSetT[i].price;
 			document.getElementById('ios').innerHTML = 'iOS Version: ' + arrSetT[i].miniosver + ' - ' + arrSetT[i].maxiosver;
 			//document.getElementById('con').innerHTML = 'Contact: ';
