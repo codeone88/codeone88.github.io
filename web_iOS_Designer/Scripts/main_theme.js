@@ -70,12 +70,24 @@ function loadTheme(){
 function showSc(_src){
 	for(var i=0; i<_src.length; i++){
 		image = document.createElement('img')
-		image.id = _src[i];
+		image.id = scPath + _src[i];
 		image.classList.add('sc');
 		image.src = scPath + _src[i];
 		console.log(scPath + _src[i]);
 		document.getElementById('scCont').appendChild(image);
 	}
+	
+	const imItems = document.querySelectorAll('.sc');
+	imItems.forEach(item => item.addEventListener('click', openImage));
+}
+
+function openImage(){
+	var largeImage = document.getElementById(this.id);
+   	largeImage.style.display = 'block';
+   	largeImage.style.width = "200px";
+   	var url = largeImage.getAttribute('src');
+   	window.open(url,'Image','width=largeImage.stylewidth,resizable=1');
+
 }
 
 
