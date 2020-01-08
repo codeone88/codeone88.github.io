@@ -11,7 +11,7 @@ function initTheme(){
 	const urlParams = new URLSearchParams(window.location.search);
 	id = urlParams.get('themevar');
 	
-	console.log(id);
+	//console.log(id);
 	loadTheme();
 }
 
@@ -25,6 +25,7 @@ function loadTheme(){
 	
 	for(var i=0; i<arrSetT.length; i++){
 		if(arrSetT[i].package === id){
+			document.title = 'iOS_Designer | ' + arrSetT[i].name;
 			document.getElementById('desc').innerHTML = arrSetT[i].desciption;
 			showSc(arrSetT[i].img);
 			document.getElementById('txt').innerHTML = arrSetT[i].wNew;
