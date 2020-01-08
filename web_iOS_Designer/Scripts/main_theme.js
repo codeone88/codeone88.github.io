@@ -72,7 +72,7 @@ function showSc(_src){
 		image = document.createElement('img')
 		image.id = _src[i];
 		image.classList.add('sc');
-		imageimage.src = scPath + _src[i];
+		image.src = scPath + _src[i];
 		console.log(scPath + _src[i]);
 		document.getElementById('scCont').appendChild(image);
 	}
