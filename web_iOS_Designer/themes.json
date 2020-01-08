@@ -1,7 +1,8 @@
 {
 	"data":[
 		{"name":"Theme 1",
-		"developer":"iOS_Designer", 
+		"developer":"iOS_Designer",
+		"package":"com.theme.theme1", 
 		"img":[
 			"im1.png",
 			"im2.png",
@@ -9,7 +10,7 @@
 		"desciption":"This is the widget description.<br>Thanks.",
 		"price":"Free",
 		"version":"1.0",
-		"new":"Release",
+		"wNew":"Release",
 		"miniosver":"11.2.3",
 		"maxiosver":"13.3.3",
 		"contact":"https://twitter.com/ios_designer"
@@ -17,6 +18,7 @@
 		
 		{"name":"Theme 2",
 		"developer":"iOS_Designer", 
+		"package":"com.theme.theme2", 
 		"img":[
 			"im2.png",
 			"im1.png",
@@ -24,14 +26,15 @@
 		"desciption":"This is the widget description.<br>Thanks.",
 		"price":"1.99",
 		"version":"1.1.1",
-		"new":"New icons added",
+		"wNew":"New icons added",
 		"miniosver":"11.2.3",
 		"maxiosver":"13.3.3",
 		"contact":"https://twitter.com/ios_designer"
 		},
 		
 		{"name":"Theme 3",
-		"developer":"iOS_Designer", 
+		"developer":"iOS_Designer",
+		"package":"com.theme.theme3",  
 		"img":[
 			"im3.png",
 			"im2.png",
@@ -39,7 +42,7 @@
 		"desciption":"This is the widget description.<br>Thanks.",
 		"price":"Free",
 		"version":"2.0",
-		"new":"New icons added",
+		"wNew":"New icons added",
 		"miniosver":"11.2.3",
 		"maxiosver":"13.3.3",
 		"contact":"https://twitter.com/ios_designer"

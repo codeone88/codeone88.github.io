@@ -9,42 +9,54 @@
 	<link rel="stylesheet" href="Styles/style-themes.css" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="Styles/menu_style.css" type="text/css" media="screen"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>iOS_Designer | Themes</title>
+    <title>iOS_Designer</title>
 </head>
 
-<body onLoad="initThemes()">
+<body onLoad="initTheme()">
 	
     <header class="header">
-    	<img id="logo" src="img/logo.png" alt="" onClick="goHome()">
-        <input class="menu-btn" type="checkbox" id="menu-btn" name="menu-btn" />
+    	<img id="logo" src="img/logo.png" alt="">
+        <!--<input class="menu-btn" type="checkbox" id="menu-btn" name="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
         	<li><a href="index.html">Home</a></li>
-         </ul>
+         </ul>-->
     </header>
     
-    <section id="section1T" class="aos-item" data-aos="fade-up">
+    <!--<section id="section1T" class="aos-item" data-aos="fade-up">
     	<div id="descCont1T" class="center">
         	<div id="_title1T">Themes</div>
         	<div id="_desc1T">Unleash your device</div>
         </div>
-    </section>
+    </section>-->
     
-    <div id="section2T" class="aos-item" data-aos="fade">
-        
+    <div id="themeCont">
+        <div id="container">
+        	<div id="desc"></div>
+        	<div id="scCont"></div>
+        	<div id="wNew">
+            	<div class="title">What's New</div>
+                <div id="txt">Release</div>
+            </div>
+        	<div id="pInfo">
+            	<div class="title">Information</div>
+            	<div id="ver">Version: 1.0</div>
+            	<div id="pri">Price: 1.99</div>
+            	<div id="ios">iOS Version: 11.2.3 - 13.3.3</div>
+            	<div id="con" onClick="window.open('https://twitter.com/ios_designer', '_blank');">Contact: Twitter</div>
+            </div>
+        </div>
     </div>
     
     <section id="footerT">
-        <p id="code">Developed by CodeOne88</p>
+        <p id="code">Developed by CodeOne88 & c0dine</p>
     </section>
     
     
     
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="Scripts/config.js"></script>
-    <script type="text/javascript" charset="utf-8" src="Scripts/themes_loader.js"></script>
-    <script type="text/javascript" charset="utf-8" src="Scripts/main_themes.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Scripts/main_theme.js"></script>
     <!--<script type="text/javascript" charset="utf-8" src="Scripts/TweenMax.min.js"></script>
 	-->
     

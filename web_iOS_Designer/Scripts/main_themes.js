@@ -11,9 +11,6 @@ function initThemes(){
         easing: 'ease-in-out-sine'
     });
 	
-	const menuItems = document.querySelectorAll('.txt-head');
-	menuItems.forEach(item => item.addEventListener('click', openWindow));
-	
 	loadThemes();
 }
 
@@ -23,34 +20,9 @@ function goHome(){
 	}, 200);
 }
 
-/*function openWindow(e){
-	
-	$('input[name=menu-btn]').attr('checked', false);
-	
-	if(this.id === 'home'){
-		$('html, body').animate({
-			scrollTop: $('#section1').offset().top
-		}, 200);
-	}
-	
-	if(this.id === 'repo'){
-		$('html, body').animate({
-			scrollTop: $('#section2').offset().top
-		}, 200);
-	}
-	
-	
-	if(this.id === 'social'){
-		$('html, body').animate({
-			scrollTop: $('#section4').offset().top
-		}, 200);
-	}
-	
-}*/
-
 
 //--------------------- LOAD THEMES ---------------------------
-var arrSet = [];
+
 function loadThemes(){
 	var data_url = "themes.json";
 	var data_obj = JSON.parse(get_data_from_url(data_url));
@@ -59,7 +31,7 @@ function loadThemes(){
 	themeMaker.makeTheme({
         holder: document.getElementById('section2T'),
 		color: '#484848',
-        dayCount: arrSet.length, //number of days
+        dayCount: 3, //number of days
         dayWidth: 300, //holder width can also be used as spacing
         dayHeight: 250, //holder height
         imgWidth: 300, //image size
@@ -67,21 +39,24 @@ function loadThemes(){
         dayTop: 210, //day vertical position from top
         tempBottom: 0, //temp vertical position from bottom
         fontSize: 20, //day text and temp size
-        iconURL: 'img/themes/', //url to icon
+        iconURL: scPath, //url to icon
         iconsName: 'weatherIcons', 
         themesName: 'themesName', 
         priceName: 'priceName', 
         mmvName: 'mmvName', 
     });
 	
-	var icon, i;
+	var i;
     for (i = 0; i < arrSet.length; i++) {
-		console.log(arrSet[i].price);
         document.getElementById(fcastObj.icon + i).src = fcastObj.iconURL +  arrSet[i].img[0];
         document.getElementById(fcastObj.day + i).innerHTML = arrSet[i].name;
         document.getElementById(fcastObj.temp + i).innerHTML = arrSet[i].price;
         document.getElementById(fcastObj.mmv + i).innerHTML = 'iOS ' + arrSet[i].miniosver + ' - ' + arrSet[i].maxiosver;
+		document.getElementById(i).id = arrSet[i].package;
     }
+	
+	const locItems = document.querySelectorAll('.the-item');
+	locItems.forEach(item => item.addEventListener('click', openTheme));
 	
 	/*for(var i=0; i<arrSet.length; i++){
 		var _box = document.createElement('div'),
@@ -117,13 +92,10 @@ function loadThemes(){
 	}));*/
 }
 
-/*function openSetup(){
-	document.getElementById('setup-viewer').style.display = 'block';
-	document.getElementById('full-set').src = 'img/setups/' + arrSet[this.id].img;
-	document.getElementById('_desc').innerHTML = '<b>' + arrSet[this.id].name + '</b><br><br>' +
-									arrSet[this.id].list + '<br><br>' +
-									"by <a href='" + arrSet[this.id].user + "' target='_blank'>" + arrSet[this.id].username + '</a>';
-}*/
+function openTheme(){
+	var id = this.id;
+	window.open("theme.html?themevar=" + id, "_blank");
+}
 
 
 //--------------------------- JSON FUNCTION ------------------------------

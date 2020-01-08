@@ -30,7 +30,11 @@ var themeMaker = {
 					height: " + obj.dayHeight + "px;\
 					margin:10px;\
 					display:inline-block; \
+					cursor:pointer;\
 		  			";
+					
+			box.classList.add('the-item');
+			box.setAttribute("id", i);
 					
 			//image holder element	
             imageHolder.style.cssText = "\
@@ -55,7 +59,7 @@ var themeMaker = {
 					top:50%;\
 		  			-webkit-transform:translate(-50%, -50%); \
 					";
-            image.src = obj.iconURL + 'im' + (i+1) + ".png";
+            //image.src = obj.iconURL + 'im' + (i+1) + ".png";
             imageHolder.appendChild(image);
 
             //name element
@@ -85,7 +89,7 @@ var themeMaker = {
 					width: " + obj.dayWidth / 2 + "px;\
 					color:" + obj.color +";\
 					opacity:0.5;\
-					font-size:14px;\
+					font-size:12px;\
 					font-family:" + obj.font + ";\
 					;"
             box.appendChild(mmver);
