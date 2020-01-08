@@ -84,9 +84,8 @@ function showSc(_src){
 function openImage(){
 	var largeImage = document.getElementById(this.id);
    	largeImage.style.display = 'block';
-   	largeImage.style.width = "200px";
    	var url = largeImage.getAttribute('src');
-   	window.open(url,'Image','width=largeImage.stylewidth,resizable=1');
+   	window.open(url,'Image','resizable=1');
 
 }
 
