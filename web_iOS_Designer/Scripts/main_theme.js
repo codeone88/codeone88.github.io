@@ -68,7 +68,7 @@ function loadTheme(){
 
 function showSc(_src){
 	for(var i=0; i<_src.length; i++){
-		image = doc.createElement('img')
+		image = document.createElement('img')
 		image.id = _src[i];
 		image.classList.add('sc');
 		imageimage.src = scPath + _src[i];
