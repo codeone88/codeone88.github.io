@@ -1,0 +1,61 @@
+{
+	"data":[
+		{
+		"id":0,
+		"name":"Another Perspective",
+		"songs":[
+			{
+				"title": "smoke",
+				"artist": "SwuM",
+				"link": "smoke.mp3",
+				"source": "https://soundcloud.com/swumbeats"
+			},
+			{
+				"title": "Business As Usual",
+				"artist": "Guggenz",
+				"link": "1. Guggenz - Business As Usual.mp3",
+				"source": "https://soundcloud.com/chillhopdotcom"
+			}
+		]
+		},
+
+		{
+		"id":1,
+		"name":"Closing My Eyes",
+		"songs":[
+			{
+				"title": "elevated",
+				"artist": "SwuM",
+				"link": "Elavated.mp3",
+				"source": "https://soundcloud.com/swumbeats"
+			},
+			{
+				"title": "Canals",
+				"artist": "Joakim Karud",
+				"link": "2. Joakim Karud - Canals.mp3",
+				"source": "https://soundcloud.com/joakimkarud"
+			}
+		]
+		},
+
+		{
+		"id":2,
+		"name":"Sleep Well",
+		"songs":[
+			{
+				"title": "intoxicated",
+				"artist": "Iomode",
+				"link": "intoxicated (feat. ivri).mp3",
+				"source": "https://soundcloud.com/lomodemusic"
+			},
+			{
+				"title": "Heatinupyabody",
+				"artist": "Gorila",
+				"link": "8. Gorila - Heatinupyabody.mp3",
+				"source": "https://soundcloud.com/chillhopdotcom"
+			}
+		]
+		}
+		
+	]
+}
