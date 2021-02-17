@@ -6,22 +6,20 @@ window.addEventListener("load", function() {
 
 
 var radio = new Audio();
-var source = 'http://stream.zeno.fm/db5hy4tr7k8uv';//'http://www.yourStreamingURLhere:8000'
-var //player = document.getElementById('aud'),
-    btnPlayPause = document.getElementById('playPause');
+var source = 'http://stream.zeno.fm/db5hy4tr7k8uv';
+var btnPlayPause = document.getElementById('playPause');
+	
+var SW;
 
 
 function init(){
-	/*const menuItems = document.querySelectorAll('.txt-head');
-	menuItems.forEach(item => item.addEventListener('click', openWindow));
 	
-	loadWidgets();*/
-	
+	setWave();
 	playAudio();
 	
 }
 
-
+//----------------------------------- AUDIO ------------------------------------
 function playAudio(){
 	radio.src = source; 
 	radio.volume = 1;
@@ -30,12 +28,14 @@ function playAudio(){
 	radio.addEventListener('play', function() {
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
+		SW.start();
 	}, false);
 	  
 	radio.addEventListener('pause', function() {
 	  	// Change the button to be a play button
 	  	document.getElementById('playPause').classList.remove("zeek-buttonpause");
 		document.getElementById('playPause').classList.add("zeek-buttonplay");
+		SW.stop();
 	}, false);
 }
 
@@ -45,17 +45,32 @@ function playPauseAudio() {
   	if (radio.src) {
 		if (radio.paused || radio.ended) {
 			// Change the button to a pause button
-			document.getElementById('playPause').classList.remove("zeek-buttonplay");
-			document.getElementById('playPause').classList.add("zeek-buttonpause");
+			//document.getElementById('playPause').classList.remove("zeek-buttonplay");
+			//document.getElementById('playPause').classList.add("zeek-buttonpause");
 			radio.play();
 		}
 		else {
 			// Change the button to a play button
-			document.getElementById('playPause').classList.remove("zeek-buttonpause");
-			document.getElementById('playPause').classList.add("zeek-buttonplay");
+			//document.getElementById('playPause').classList.remove("zeek-buttonpause");
+			//document.getElementById('playPause').classList.add("zeek-buttonplay");
 			radio.pause();
 		}
   	}
+}
+
+//----------------------------------- WAVE ------------------------------------
+function setWave(){
+	document.getElementById('waveCont').style.width = window.innerWidth + 'px';
+	
+	SW = new SiriWave({
+		style: 'ios',
+		speed: 0.1,
+		amplitude: 1,
+		speedInterpolationSpeed: 0,
+		container: document.getElementById('waveCont'),
+		color:'#FFFFFF',
+		autostart: false,
+	});
 }
 
 
