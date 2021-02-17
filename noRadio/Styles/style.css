@@ -65,6 +65,19 @@ header{
 	top:100px;
 }
 
+#playPause{
+	position:absolute;
+	width:1.3rem;
+	bottom:100px;
+	left:50%;
+	transform:translateX(-50%);
+	font-size:1rem;
+	border-radius:1.5rem;
+	color:#FFFFFF;
+	text-align:center;
+	padding:10px;
+}
+
 [class^="zeek-"]:before,[class*=" zeek-"]:before {
 	font-family: 'music' !important;
 	font-style: normal !important;

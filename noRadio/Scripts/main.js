@@ -30,18 +30,20 @@ function init(){
 
 
 function playPauseAudio() {
-  if (player.src) {
-    if (player.paused || player.ended) {
-      // Change the button to a pause button
-      changeButtonType(btnPlayPause, '\62');
-      player.play();
-    }
-    else {
-      // Change the button to a play button
-      changeButtonType(btnPlayPause, '\63');
-      player.pause();
-    }
-  }
+  	if (player.src) {
+		if (player.paused || player.ended) {
+			// Change the button to a pause button
+			document.getElementById('playPause').classList.remove("zeek-buttonplay");
+			document.getElementById('playPause').classList.add("zeek-buttonpause");
+			player.play();
+		}
+		else {
+			// Change the button to a play button
+			document.getElementById('playPause').classList.remove("zeek-buttonpause");
+			document.getElementById('playPause').classList.add("zeek-buttonplay");
+			player.pause();
+		}
+  	}
 }
 
 
