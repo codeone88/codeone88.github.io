@@ -14,7 +14,7 @@ var SW;
 
 function init(){
 	
-	setWave();
+	//setWave();
 	playAudio();
 	
 }
@@ -28,14 +28,14 @@ function playAudio(){
 	radio.addEventListener('play', function() {
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
-		SW.start();
+		//SW.start();
 	}, false);
 	  
 	radio.addEventListener('pause', function() {
 	  	// Change the button to be a play button
 	  	document.getElementById('playPause').classList.remove("zeek-buttonpause");
 		document.getElementById('playPause').classList.add("zeek-buttonplay");
-		SW.stop();
+		//SW.stop();
 	}, false);
 }
 

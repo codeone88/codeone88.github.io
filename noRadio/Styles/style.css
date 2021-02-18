@@ -1,6 +1,7 @@
 html, body {
     padding:0;
     margin:0;
+	background:#433689;
 	background-image:
     linear-gradient(
 	  to bottom,
@@ -60,6 +61,8 @@ header{
 iframe{
 	position:absolute;
 	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
 }
 
 
@@ -90,14 +93,6 @@ iframe{
 	height:100px;
 	top:50%;
 	transform:translateY(-50%);
-}
-
-#waveCont2{
-	position:absolute;
-	width:300px;
-	height:100px;
-	top:50%;
-	transform:translateY(-50%) rotate(180deg);
 }
 
 #playPause{
