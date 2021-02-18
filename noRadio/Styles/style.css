@@ -71,11 +71,21 @@ iframe{
 	width:100%;
 	height:calc(100% - 160px);
 	top:100px;
+	overflow:hidden;
+}
+
+#bg-im{
+	position:absolute;
+	width:100%;
+	height:auto;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
 }
 
 #_title{
 	position:absolute;
-	background:rgba(255,255,255,.30);
+	background:rgba(0,0,0,.30);
 	color:#FFFFFF;
 	font-size:1rem;
 	font-family: 'rob';
@@ -474,6 +484,11 @@ iframe{
 		height:50px;
 		line-height:50px;
 		min-width:70px;
+	}
+	
+	#bg-im{
+		height:100%;
+		width:auto;
 	}
 	
 	

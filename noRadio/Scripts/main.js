@@ -16,7 +16,7 @@ var SW;
 
 function init(){
 	
-	//setWave();
+	setWave();
 	playAudio();
 	
 }
@@ -30,10 +30,12 @@ function playAudio(){
 	radio.addEventListener('play', function() {
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
-		//SW.start();
-		//timer = setInterval(function(){
-			NowPlaying();
-		//}, 5000);
+		SW.start();
+		timer = setInterval(function(){
+			SW.setSpeed(Math.random()*1);
+			SW.setAmplitude(Math.random()*1);
+			//NowPlaying();
+		}, 60000);
 	}, false);
 	  
 	radio.addEventListener('pause', function() {
@@ -41,13 +43,13 @@ function playAudio(){
 	  	document.getElementById('playPause').classList.remove("zeek-buttonpause");
 		document.getElementById('playPause').classList.add("zeek-buttonplay");
 		timer.clearInterval();
-		//SW.stop();
+		SW.stop();
 	}, false);
 }
 
 
-function NowPlaying(){
-    /*$.ajax({
+/*function NowPlaying(){
+    $.ajax({
         url: source, 
         type: "GET",
         success: function(result) {
@@ -55,22 +57,8 @@ function NowPlaying(){
 			document.getElementById('song-title').innerHTML = result;
 			console.log(result);
         }
-    });*/
-	
-	$.ajax({
-		url: source,
-		beforeSend: function (request) {
-			request.setRequestHeader("Authorization", "Negotiate");
-		},
-		async: true,
-		success: function (result) {
-			alert(JSON.stringify(result));
-		},
-		error: function (xhr, textStatus, errorMessage) {
-			alert(errorMessage);
-		}                
-	});
-}
+    });
+}*/
 
 
 function playPauseAudio() {
@@ -90,7 +78,7 @@ function setWave(){
 	
 	SW = new SiriWave({
 		style: 'ios',
-		speed: 0.1,
+		speed: 0.4,
 		amplitude: 1,
 		speedInterpolationSpeed: 0,
 		container: document.getElementById('waveCont'),
