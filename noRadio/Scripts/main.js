@@ -19,6 +19,10 @@ function init(){
 	setWave();
 	playAudio();
 	
+	timer = setInterval(function(){
+		document.getElementById('bg-im').src = 'https://source.unsplash.com/1600x900/?radio,music';
+	}, 60000);
+	
 }
 
 //----------------------------------- AUDIO ------------------------------------
@@ -31,18 +35,18 @@ function playAudio(){
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
 		SW.start();
-		timer = setInterval(function(){
+		/*timer = setInterval(function(){
 			SW.setSpeed(Math.random()*0.3);
 			SW.setAmplitude(Math.random()*1);
 			//NowPlaying();
-		}, 60000);
+		}, 60000);*/
 	}, false);
 	  
 	radio.addEventListener('pause', function() {
 	  	// Change the button to be a play button
 	  	document.getElementById('playPause').classList.remove("zeek-buttonpause");
 		document.getElementById('playPause').classList.add("zeek-buttonplay");
-		timer.clearInterval();
+		//timer.clearInterval();
 		SW.stop();
 	}, false);
 }
@@ -78,8 +82,8 @@ function setWave(){
 	
 	SW = new SiriWave({
 		style: 'ios',
-		speed: 0.4,
-		amplitude: 1,
+		speed: 1,
+		amplitude: 0.3,
 		speedInterpolationSpeed: 0,
 		container: document.getElementById('waveCont'),
 		color:'#FFFFFF',
