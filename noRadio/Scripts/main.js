@@ -47,7 +47,7 @@ function playAudio(){
 
 
 function NowPlaying(){
-    $.ajax({
+    /*$.ajax({
         url: source, 
         type: "GET",
         success: function(result) {
@@ -55,7 +55,24 @@ function NowPlaying(){
 			document.getElementById('song-title').innerHTML = result;
 			console.log(result);
         }
-    });
+    });*/
+	
+	$.ajax({
+		url: source,
+		beforeSend: function (request) {
+			request.setRequestHeader("Authorization", "Negotiate");
+		},
+		async: true,
+		type: "GET",
+		success: function (result) {
+			$("#playing").html(result);
+			document.getElementById('song-title').innerHTML = result;
+			console.log(result);
+		},
+		error: function (xhr, textStatus, errorMessage) {
+			alert(errorMessage);
+		}                
+	});
 }
 
 
