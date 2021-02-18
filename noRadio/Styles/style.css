@@ -53,7 +53,7 @@ section{
 
 #menu-cont{
 	position:absolute;
-	width:415px;
+	width:calc(110% - 200px);
 	height:100%;
 	text-align:center;
 }
@@ -460,7 +460,7 @@ iframe{
 
 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 720px){
 	
 	#logo{
 		top:10px;

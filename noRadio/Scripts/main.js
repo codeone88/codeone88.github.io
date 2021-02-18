@@ -6,14 +6,18 @@ window.addEventListener("load", function() {
 
 
 var radio = new Audio();
-var source = ['http://stream.zeno.fm/db5hy4tr7k8uv', 'http://stream.zeno.fm/hfpsf54p8k8uv', '', 'http://stream.syntheticfm.com:8040/live'];
-var names = ['Prog-Rock[CO88]','Alternative One','','Synthetic FM'];
+var source = ['http://stream.zeno.fm/db5hy4tr7k8uv', 
+			'http://stream.zeno.fm/hfpsf54p8k8uv', 
+			'', 
+			'http://stream.zeno.fm/uudyz6aq8k8uv', 
+			'http://stream.syntheticfm.com:8040/live'];
+			
+var names = ['Prog-Rock[CO88]','Alternative One','','Lo-Fi-U','Synthetic FM'];
+
 var btnPlayPause = document.getElementById('playPause');
 
 var currSt = 0;
-
 var timer;
-	
 var SW;
 
 
@@ -37,7 +41,7 @@ function playSt(num){
 
 //----------------------------------- AUDIO ------------------------------------
 function playAudio(){
-	radio.src = source[currSt];//source; 
+	radio.src = source[currSt];
 	radio.volume = 1;
 	//radio.play();
 	
@@ -92,7 +96,7 @@ function setWave(){
 	
 	SW = new SiriWave({
 		style: 'ios',
-		speed: 0.1,
+		speed: 0.05,
 		amplitude: 0.3,
 		speedInterpolationSpeed: 0,
 		container: document.getElementById('waveCont'),
