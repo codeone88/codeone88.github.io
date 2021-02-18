@@ -19,6 +19,7 @@ var btnPlayPause = document.getElementById('playPause');
 var currSt = 0;
 var timer;
 var SW;
+var waveStarted = false;
 
 
 function init(){
@@ -27,7 +28,7 @@ function init(){
 	playAudio();
 	
 	timer = setInterval(function(){
-		document.getElementById('bg-im').src = 'https://source.unsplash.com/1600x900/?radio,music';
+		document.getElementById('bg-im').src = 'https://source.unsplash.com/1600x900/?radio,music,wallpaper,background';
 	}, 60000);
 	
 }
@@ -48,7 +49,10 @@ function playAudio(){
 	radio.addEventListener('play', function() {
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
-		SW.start();
+		if(!waveStarted){
+			waveStarted = true;
+			SW.start();
+		}
 		/*timer = setInterval(function(){
 			SW.setSpeed(Math.random()*0.3);
 			SW.setAmplitude(Math.random()*1);
@@ -62,6 +66,7 @@ function playAudio(){
 		document.getElementById('playPause').classList.add("zeek-buttonplay");
 		//timer.clearInterval();
 		SW.stop();
+		waveStarted = false;
 	}, false);
 }
 

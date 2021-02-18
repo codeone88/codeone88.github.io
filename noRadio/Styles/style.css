@@ -463,7 +463,7 @@ iframe{
 @media screen and (max-width: 720px){
 	
 	#logo{
-		top:10px;
+		top:5px;
 		left:50%;
 		transform:translate(-50%,0%);
 	}
