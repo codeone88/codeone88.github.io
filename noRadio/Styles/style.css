@@ -485,6 +485,11 @@ iframe{
 		width:auto;
 	}
 	
+	#_title{
+		font-size:1.5rem;
+		top:30%;
+	}
+	
 	
 }
 

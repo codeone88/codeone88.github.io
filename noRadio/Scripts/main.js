@@ -82,7 +82,7 @@ function setWave(){
 	
 	SW = new SiriWave({
 		style: 'ios',
-		speed: 1,
+		speed: 0.1,
 		amplitude: 0.3,
 		speedInterpolationSpeed: 0,
 		container: document.getElementById('waveCont'),
