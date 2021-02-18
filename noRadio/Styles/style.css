@@ -87,6 +87,16 @@ iframe{
 	top:20px;
 }
 
+#song-title{
+	position:absolute;
+	width:100%;
+	bottom:70px;
+	text-align:center;
+	color:#ffffff;
+	font-size:1rem;
+	font-family: 'rob';
+}
+
 #waveCont{
 	position:absolute;
 	width:300px;

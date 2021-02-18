@@ -8,6 +8,8 @@ window.addEventListener("load", function() {
 var radio = new Audio();
 var source = 'http://stream.zeno.fm/db5hy4tr7k8uv';
 var btnPlayPause = document.getElementById('playPause');
+
+var timer;
 	
 var SW;
 
@@ -29,30 +31,40 @@ function playAudio(){
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
 		//SW.start();
+		timer = setInterval(function(){
+			NowPlaying();
+		}, 5000);
 	}, false);
 	  
 	radio.addEventListener('pause', function() {
 	  	// Change the button to be a play button
 	  	document.getElementById('playPause').classList.remove("zeek-buttonpause");
 		document.getElementById('playPause').classList.add("zeek-buttonplay");
+		timer.clearInterval();
 		//SW.stop();
 	}, false);
 }
 
 
+function NowPlaying(){
+    $.ajax({
+        url: source, 
+        type: "GET",
+        success: function(result) {
+            $("#playing").html(result);
+			document.getElementById('song-title').innerHTML = result;
+			console.log(result);
+        }
+    });
+}
+
 
 function playPauseAudio() {
   	if (radio.src) {
 		if (radio.paused || radio.ended) {
-			// Change the button to a pause button
-			//document.getElementById('playPause').classList.remove("zeek-buttonplay");
-			//document.getElementById('playPause').classList.add("zeek-buttonpause");
 			radio.play();
 		}
 		else {
-			// Change the button to a play button
-			//document.getElementById('playPause').classList.remove("zeek-buttonpause");
-			//document.getElementById('playPause').classList.add("zeek-buttonplay");
 			radio.pause();
 		}
   	}
