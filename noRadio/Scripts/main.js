@@ -6,8 +6,8 @@ window.addEventListener("load", function() {
 
 
 var radio = new Audio();
-var source = ['http://stream.zeno.fm/db5hy4tr7k8uv', '', '', 'http://stream.syntheticfm.com:8040/live'];
-var names = ['Prog-Rock[CO88]','','','Synthetic FM'];
+var source = ['http://stream.zeno.fm/db5hy4tr7k8uv', 'http://stream.zeno.fm/hfpsf54p8k8uv', '', 'http://stream.syntheticfm.com:8040/live'];
+var names = ['Prog-Rock[CO88]','Alternative One','','Synthetic FM'];
 var btnPlayPause = document.getElementById('playPause');
 
 var currSt = 0;
