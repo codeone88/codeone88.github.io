@@ -31,9 +31,9 @@ function playAudio(){
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
 		//SW.start();
-		timer = setInterval(function(){
+		//timer = setInterval(function(){
 			NowPlaying();
-		}, 5000);
+		//}, 5000);
 	}, false);
 	  
 	radio.addEventListener('pause', function() {
@@ -63,11 +63,8 @@ function NowPlaying(){
 			request.setRequestHeader("Authorization", "Negotiate");
 		},
 		async: true,
-		type: "GET",
 		success: function (result) {
-			$("#playing").html(result);
-			document.getElementById('song-title').innerHTML = result;
-			console.log(result);
+			alert(JSON.stringify(result));
 		},
 		error: function (xhr, textStatus, errorMessage) {
 			alert(errorMessage);
