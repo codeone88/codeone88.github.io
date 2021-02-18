@@ -32,7 +32,7 @@ function playAudio(){
 		document.getElementById('playPause').classList.add("zeek-buttonpause");
 		SW.start();
 		timer = setInterval(function(){
-			SW.setSpeed(Math.random()*1);
+			SW.setSpeed(Math.random()*0.3);
 			SW.setAmplitude(Math.random()*1);
 			//NowPlaying();
 		}, 60000);

@@ -34,7 +34,7 @@ section{
 
 
 /*--------------- HEAD ------------------*/
-header{
+#header{
 	position:fixed;
 	width:100vw;
 	height:100px;
@@ -81,6 +81,7 @@ iframe{
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
+	filter:blur(5px);
 }
 
 #_title{
