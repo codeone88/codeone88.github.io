@@ -89,9 +89,11 @@ iframe{
 #_title{
 	position:absolute;
 	background:rgba(0,0,0,.30);
+	min-width:120px;
 	color:#FFFFFF;
 	font-size:2rem;
 	letter-spacing:1px;
+	text-align:center;
 	border:1px solid rgba(255,255,255,.50);
 	padding:10px 20px;
 	border-radius:35px;
@@ -411,6 +413,7 @@ iframe{
 	font-size:0.8rem;
 	text-align:center;
 	transition:background 1s;
+	cursor:pointer;
 	/*box-shadow:inset 0 -35px 30px -40px rgba(39,227,245,.50),inset 0px -25px 30px -40px rgba(255,255,255,.50);*/
 }
 
@@ -486,7 +489,7 @@ iframe{
 	}
 	
 	#_title{
-		font-size:1.5rem;
+		font-size:1rem;
 		top:30%;
 	}
 	
