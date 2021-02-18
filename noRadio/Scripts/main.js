@@ -23,7 +23,7 @@ function init(){
 function playAudio(){
 	radio.src = source; 
 	radio.volume = 1;
-	radio.play();
+	//radio.play();
 	
 	radio.addEventListener('play', function() {
 	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
