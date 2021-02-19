@@ -374,5 +374,13 @@ iframe{
 }
 
 
+@media screen and (max-width: 360px){
+	.txt-head{
+		min-width:60px;
+		font-size:0.6rem;
+	}
+}
+
+
 
 
