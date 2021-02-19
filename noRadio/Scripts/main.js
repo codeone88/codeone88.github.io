@@ -107,3 +107,18 @@ function setWave(){
 		autostart: false,
 	});
 }
+
+
+function move(){
+	if(document.getElementById('chat').classList.contains('closed')){
+		document.getElementById('chat').classList.remove('closed');
+		document.getElementById('chat').classList.add('open');
+		
+		return;
+	}else{
+		document.getElementById('chat').classList.add('closed');
+		document.getElementById('chat').classList.remove('open');
+		
+		return;
+	}
+}

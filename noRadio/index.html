@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="Styles/style.css" type="text/css" media="screen"/>
+    <script type="text/javascript" src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
     <title>noRadio</title>
     
 </head>
@@ -20,6 +21,20 @@
     	<div id="playPause" class="zeek zeek-buttonplay morph-dark-out" onClick="playPauseAudio()"></div>
         
         <div id="disc">All rights reserved to their respective owners.</div>
+        
+        <div id="chat" class="closed">
+        
+        	<div class="members-count">-</div>
+            <div class="members-list">-</div>
+            <div class="messages"></div>
+            <form class="message-form" onsubmit="return false;">
+            	<input class="message-form__input" placeholder="Type a message.." type="text"/>
+                <input class="message-form__button" value="Send" type="submit"/>
+            </form>
+            
+        </div>
+        
+        <img src="img/chat.png" class="morph-dark-out" id="chat-btn" onClick="move()">
     </div>
 	
     <div id="header">
@@ -47,6 +62,7 @@
     
     
 	<script type="text/javascript" charset="utf-8" src="Scripts/siriwave.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Scripts/chat.js"></script>
     <script type="text/javascript" charset="utf-8" src="Scripts/main.js"></script>
     
     
