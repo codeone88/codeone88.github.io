@@ -2,6 +2,8 @@
 
 
 const CLIENT_ID = 'shlFe8K1AePNf2C7';
+var msg_count = 0;
+var canSend = true, run = false;
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
@@ -95,11 +97,33 @@ function sendMessage() {
   if (value === '') {
     return;
   }
-  DOM.input.value = '';
-  drone.publish({
-    room: 'observable-room',
-    message: value,
-  });
+  
+  if(canSend){
+	  if(!run){
+			run = true;
+			setTimeout(function(){
+				run = false;
+				if(msg_count > 10){
+					canSend = false;
+					msg_count = 0;
+					setTimeout(function(){
+						document.getElementById('warn').innerHTML = '';
+						canSend = true;
+					}, 30000);
+				}
+			}, 10000);  
+	  }
+	  
+	  DOM.input.value = '';
+	  drone.publish({
+		room: 'observable-room',
+		message: value,
+	  });
+	  msg_count++;
+  }else{
+	  document.getElementById('warn').innerHTML = 'Easy!! too many messages, wait for cooldown...';
+  }
+  
 }
 
 function createMemberElement(member) {

@@ -188,10 +188,19 @@ iframe{
 
 #u-name{
 	position:absolute;
-	color:#ffffff;
 	font-size:1rem;
 	left:5%;
 	top:20px;
+}
+
+#warn{
+	position:absolute;
+	width:80%;
+	top:40px;
+	font-size:0.6rem;
+	text-align:center;
+	left:10%;
+	color:red;
 }
 
 #chat-cont{
