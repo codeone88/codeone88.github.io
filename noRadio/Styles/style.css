@@ -173,7 +173,7 @@ iframe{
 
 #chat{
 	position:absolute;
-	background:rgba(0,0,0,.30);
+	background:rgba(255,255,255,.50);
 	width:100%;
 	height:calc(100% - 50px);
 	left:100%;
@@ -199,6 +199,9 @@ iframe{
 	width:100%;
 	height:calc(100% - 50px);
 	top:50px;
+	margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -239,7 +242,8 @@ iframe{
       flex-grow: 1;
       border: 1px solid #dfdfdf;
 	  border-radius:10px;
-      padding: 10px 15px;
+      padding: 10px;
+	  margin:0 10px;
       font-size: 1rem;
     }
     .message-form__button {
