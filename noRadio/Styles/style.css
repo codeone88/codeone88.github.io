@@ -149,6 +149,17 @@ iframe{
 	content: "\64";
 }
 
+
+#disc{
+	position:absolute;
+	color:#ffffff;
+	font-size:0.4rem;
+    font-family: 'rob';
+	left:-70px;
+	bottom:140px;
+	transform:rotate(-90deg);
+}
+
 /*--------------- setup --------------
 #subBtn{
 	position:absolute;

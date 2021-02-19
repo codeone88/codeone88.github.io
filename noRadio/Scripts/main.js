@@ -8,11 +8,11 @@ window.addEventListener("load", function() {
 var radio = new Audio();
 var source = ['http://stream.zeno.fm/db5hy4tr7k8uv', 
 			'http://stream.zeno.fm/hfpsf54p8k8uv', 
-			'', 
+			'http://stream.zeno.fm/p4b7mfuh9k8uv', 
 			'http://stream.zeno.fm/uudyz6aq8k8uv', 
 			'http://stream.syntheticfm.com:8040/live'];
 			
-var names = ['Prog-Rock[CO88]','Alternative One','','Lo-Fi-U','Synthetic FM'];
+var names = ['Prog-Rock[CO88]','Alternative One','Chill-Hill','Lo-Fi-U','Synthetic FM'];
 
 var btnPlayPause = document.getElementById('playPause');
 
@@ -47,8 +47,8 @@ function playAudio(){
 	//radio.play();
 	
 	radio.addEventListener('play', function() {
-	  	document.getElementById('playPause').classList.remove("zeek-buttonplay");
-		document.getElementById('playPause').classList.add("zeek-buttonpause");
+	  	btnPlayPause.classList.remove("zeek-buttonplay");
+		btnPlayPause.classList.add("zeek-buttonpause");
 		if(!waveStarted){
 			waveStarted = true;
 			SW.start();
@@ -62,8 +62,8 @@ function playAudio(){
 	  
 	radio.addEventListener('pause', function() {
 	  	// Change the button to be a play button
-	  	document.getElementById('playPause').classList.remove("zeek-buttonpause");
-		document.getElementById('playPause').classList.add("zeek-buttonplay");
+	  	btnPlayPause.classList.remove("zeek-buttonpause");
+		btnPlayPause.classList.add("zeek-buttonplay");
 		//timer.clearInterval();
 		SW.stop();
 		waveStarted = false;
