@@ -23,17 +23,27 @@
         <div id="disc">All rights reserved to their respective owners.</div>
         
         <div id="chat" class="closed">
-        	<div id="u-name">Welcome</div>
+        	
+        	<div id="chat-window">
+                <div id="u-name">Welcome</div>
+                
+                <div id="warn"></div>
             
-            <div id="warn"></div>
-        
-        	<div id="chat-cont">
-        		<div class="members-count">-</div>
-                <div class="members-list">-</div>
-                <div class="messages"></div>
-                <form class="message-form" onsubmit="return false;">
-                    <input class="message-form__input" placeholder="Type a message.." type="text"/>
-                    <input class="message-form__button" value="Send" type="submit"/>
+                <div id="chat-cont">
+                    <div class="members-count">-</div>
+                    <div class="members-list">-</div>
+                    <div class="messages"></div>
+                    <form class="message-form" onsubmit="return false;">
+                        <input class="message-form__input" placeholder="Type a message.." type="text"/>
+                        <input class="message-form__button" value="Send" type="submit"/>
+                    </form>
+                </div>
+            </div>
+            
+            <div id="name-window">
+            	<form class="message-form" onsubmit="">
+                	<input id="nick" placeholder="Set your username.." type="text"/>
+                    <div id="send-btn" value="Send" type="submit" onClick="enterChat()">Go</div>
                 </form>
             </div>
             

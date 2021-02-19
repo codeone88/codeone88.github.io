@@ -31,6 +31,8 @@ function init(){
 		document.getElementById('bg-im').src = 'https://source.unsplash.com/1600x900/?radio,music,wallpaper,background';
 	}, 60000);
 	
+	addOpen('name-window');
+	
 }
 
 function playSt(num){
@@ -109,6 +111,7 @@ function setWave(){
 }
 
 
+//----------------------------------- HELPER FUNCTIONS ------------------------------------
 function move(){
 	if(document.getElementById('chat').classList.contains('closed')){
 		document.getElementById('chat').classList.remove('closed');
@@ -121,4 +124,19 @@ function move(){
 		
 		return;
 	}
+}
+
+
+function addOpen(el){
+	document.getElementById(el).style.display = 'block';
+	setTimeout(function(){
+		document.getElementById(el).classList.add('open');
+	}, 100);
+}
+
+function removeOpen(el){
+	document.getElementById(el).classList.remove('open');
+	setTimeout(function(){
+		document.getElementById(el).style.display = 'none';
+	}, 300);
 }

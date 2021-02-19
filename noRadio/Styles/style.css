@@ -171,6 +171,19 @@ iframe{
 	bottom:75px;
 }
 
+#chat-window{
+	position:absolute;
+	width:100%;
+	height:100%;
+	transition:opacity 0.3s ease-in-out;
+	opacity:0;
+	display:none;
+}
+
+#chat-window.open{
+	opacity:1;
+}
+
 #chat{
 	position:absolute;
 	background:rgba(255,255,255,.50);
@@ -247,7 +260,7 @@ iframe{
 	  width:95%;
 	  margin:0 auto;
     }
-    .message-form__input {
+    .message-form__input, #nick {
       flex-grow: 1;
       border: 1px solid #dfdfdf;
 	  border-radius:10px;
@@ -255,12 +268,33 @@ iframe{
 	  margin:0 10px;
       font-size: 1rem;
     }
-    .message-form__button {
+    .message-form__button, #send-btn {
 		background:rgba(0,0,0,.30);
 		color:#ffffff;
       	margin: auto;
 		border-radius:10px;
     }
+	
+#name-window{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	transition:opacity 0.3s ease-in-out;
+	opacity:0;
+	display:none;
+}
+
+#name-window.open{
+	opacity:1;
+}
+
+#send-btn {
+	background:rgba(0,0,0,.30);
+	color:#ffffff;
+	padding:5px 10px;
+    margin: auto;
+	border-radius:10px;
+}
 
 
 
