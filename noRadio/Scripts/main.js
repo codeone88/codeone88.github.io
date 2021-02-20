@@ -17,9 +17,12 @@ var names = ['Prog-Rock[CO88]','Alternative One','Chill-Hill','Lo-Fi-U','Synthet
 var btnPlayPause = document.getElementById('playPause');
 
 var currSt = 0;
-var timer;
+var timer, tim;
 var SW;
-var waveStarted = false;
+var waveStarted = false, drunk = false;
+
+var beers = 1, myBeers = 0, adCount = 0;
+
 
 
 function init(){
@@ -140,3 +143,53 @@ function removeOpen(el){
 		document.getElementById(el).style.display = 'none';
 	}, 300);
 }
+
+
+//------------------------------ BEERS -----------------------------------------
+function beerMe(){
+	
+	if(beers > 0){
+		if(myBeers < 50){
+			beers--;
+			document.getElementById('bc').innerHTML = beers;
+			
+			myBeers++;
+			updateMybeers();
+		}else{
+			return;
+		}
+	}
+	
+}
+
+function updateMybeers(){
+	document.getElementById('lvl-mask').style.height = myBeers * 100 / 50 + '%';
+	
+	if(myBeers > 25){	
+		var bl = myBeers * 2 / 50;
+		document.documentElement.style.setProperty('--bl', bl + 'px');
+		if(!drunk){
+			drunk = true;
+			tim = setInterval(function(){
+				myBeers--;
+				updateMybeers();
+			},10000);
+		}
+	}else{
+		drunk = false;
+		clearInterval(tim);
+		document.documentElement.style.setProperty('--bl', '0px');
+	}
+}
+
+function getBeers(){
+	beers += 5;
+	document.getElementById('bc').innerHTML = beers;
+	adCount++;
+	if(adCount > 2){
+		adCount = 0;
+		window.open('https://www.gatetotrustednetwork.com/duvw7fj9e?key=5a49b868ecd4aaf9f109fee0c60bf812', '_blank');
+	}
+}
+
+

@@ -1,3 +1,10 @@
+:root {
+  
+  --bl:0px;
+  
+}
+
+
 html, body {
     padding:0;
     margin:0;
@@ -171,19 +178,6 @@ iframe{
 	bottom:75px;
 }
 
-#chat-window{
-	position:absolute;
-	width:100%;
-	height:100%;
-	transition:opacity 0.3s ease-in-out;
-	opacity:0;
-	display:none;
-}
-
-#chat-window.open{
-	opacity:1;
-}
-
 #chat{
 	position:absolute;
 	background:rgba(255,255,255,.50);
@@ -197,6 +191,19 @@ iframe{
 
 #chat.open{
 	left:0%;
+}
+
+#chat-window{
+	position:absolute;
+	width:100%;
+	height:100%;
+	transition:opacity 0.3s ease-in-out;
+	opacity:0;
+	display:none;
+}
+
+#chat-window.open{
+	opacity:1;
 }
 
 #u-name{
@@ -218,12 +225,15 @@ iframe{
 
 #chat-cont{
 	position:absolute;
-	width:100%;
-	height:calc(100% - 50px);
-	top:50px;
+	width:calc(100% - 50px);
+	height:calc(100% - 80px);
+	top:80px;
 	margin: 0;
+	padding-bottom:50px;
     display: flex;
     flex-direction: column;
+	filter:blur(var(--bl));
+	font-size:0.8rem;
 }
 
 
@@ -294,6 +304,89 @@ iframe{
 	padding:5px 10px;
     margin: auto;
 	border-radius:10px;
+}
+
+#sorry{
+	position:absolute;
+	width:80%;
+	top:50px;
+	left:10%;
+	font-size:0.6rem;
+}
+
+
+/*BEERS*/
+#beers{
+	position:absolute;
+	width:25%;
+	top:60px;
+	right:5%;
+	font-size:0.6rem;
+	font-family: 'go';
+	display:flex;
+	justify-content:space-around;
+}
+
+#beers-count, #more-beers{
+	display:inline-block;
+	padding:5px;
+	cursor:pointer;
+}
+
+#more-beers{
+	color:#118FF1;
+	background:#000000;
+	border-radius:5px;
+}
+
+#wast-o-meter{
+	position:absolute;
+	width:50px;
+	height:215px;
+	right:0;
+	top:95px;
+}
+
+#wast-o-meter > p{
+	position:absolute;
+	width:100%;
+	font-size:0.5rem;
+	bottom:0;
+	text-align:center;
+}
+
+#lvl{
+	position:absolute;
+	background:rgba(0,0,0,.30);
+	width:15px;
+	height:180px;
+	border-radius:15px;
+	left:50%;
+	transform:translateX(-50%);
+	overflow:hidden;
+}
+
+#lvl-mask{
+	position:absolute;
+	width:100%;
+	height:0%;
+	bottom:0;
+	overflow:hidden;
+}
+
+#lvl-in{
+	position:absolute;
+	background-image:
+    linear-gradient(
+	  to bottom,
+      #EB2C2F,
+	  #E79B46,
+      #6DC738,
+	  #14AF6A
+    );
+	height:180px;
+	width:100%;
+	bottom:0;
 }
 
 
@@ -402,6 +495,10 @@ iframe{
 	#_title{
 		font-size:1rem;
 		top:30%;
+	}
+	
+	#beers{
+		width:75%;
 	}
 	
 	

@@ -3,7 +3,7 @@
 
 const CLIENT_ID = 'shlFe8K1AePNf2C7';
 var msg_count = 0;
-var canSend = true, run = false;
+var canSend = true, run = false, isDrinking = false;
 
 var UserName = '';
 
@@ -18,14 +18,19 @@ function enterChat(){
 	UserName = input;
 	console.log('Enter the chat as ' + UserName);
 	
+	document.getElementById('u-name').innerHTML = 'Welcome ' + UserName;
+	
 	removeOpen('name-window');
 	addOpen('chat-window');
+	
+	window.open('https://www.gatetotrustednetwork.com/duvw7fj9e?key=5a49b868ecd4aaf9f109fee0c60bf812', '_blank');
 	
 	startDrone();
 }
 
 
 function startDrone(){
+	
 	const drone = new ScaleDrone(CLIENT_ID, {
 	  data: { // Will be sent out as clientData via events
 		name: UserName,//getRandomName(),
@@ -100,8 +105,9 @@ function startDrone(){
 	function getRandomColor() {
 	  return '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
 	}
-	
-	//----------------------------- DOM STUFF -------------------------------------
+
+
+//----------------------------- DOM STUFF -------------------------------------
 	
 	const DOM = {
 	  membersCount: document.querySelector('.members-count'),
@@ -112,6 +118,20 @@ function startDrone(){
 	};
 	
 	DOM.form.addEventListener('submit', sendMessage);
+	document.getElementById('beers-count').addEventListener('click',sendCustomMsg,true);
+	
+	function sendCustomMsg(){
+		if(!isDrinking){
+			isDrinking = true;
+			drone.publish({
+				room: 'observable-room',
+				message: "[is having a beer!! Who's in?]",
+			});
+			setTimeout(function(){
+				isDrinking = false;
+			},5000);
+		}
+	}
 	
 	function sendMessage() {
 	  const value = DOM.input.value;
@@ -180,4 +200,13 @@ function startDrone(){
 		el.scrollTop = el.scrollHeight - el.clientHeight;
 	  }
 	}
+	
+	
 }
+
+
+	
+
+
+
+

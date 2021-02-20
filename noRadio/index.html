@@ -28,6 +28,20 @@
                 <div id="u-name">Welcome</div>
                 
                 <div id="warn"></div>
+                
+                <div id="beers">
+                	<div id="beers-count" onClick="beerMe()">Beers: <span id="bc">1 </span> (Tap here to drink)</div>
+                    <div id="more-beers" onClick="getBeers()">Get 5 More</div>
+                </div>
+                
+                <div id="wast-o-meter">
+                	<div id="lvl">
+                    	<div id="lvl-mask">
+                        	<div id="lvl-in"></div>
+                        </div>
+                    </div>
+                    <p>drunk-o-meter</p>
+                </div>
             
                 <div id="chat-cont">
                     <div class="members-count">-</div>
@@ -41,6 +55,7 @@
             </div>
             
             <div id="name-window">
+            	<div id="sorry">Sorry for the ads I hate them too but are needed to keep the chat alive :(</div>
             	<form class="message-form" onsubmit="">
                 	<input id="nick" placeholder="Set your username.." type="text"/>
                     <div id="send-btn" value="Send" type="submit" onClick="enterChat()">Go</div>
