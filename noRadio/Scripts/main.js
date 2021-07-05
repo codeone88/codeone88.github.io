@@ -47,7 +47,7 @@ function playSt(num){
 	currSt = num;
 	document.getElementById('_title').innerHTML = names[num];
 	document.getElementById('player').src = source[currSt];
-	document.getElementById('player').contentWindow.location.reload();
+	//document.getElementById('player').contentWindow.location.reload();
 	//playAudio();
 	//radio.play();
 }
