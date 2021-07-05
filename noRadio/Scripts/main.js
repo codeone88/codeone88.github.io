@@ -27,7 +27,7 @@ var beers = 1, myBeers = 0, adCount = 0;
 
 function init(){
 	
-	setWave();
+	//setWave();
 	playAudio();
 	
 	timer = setInterval(function(){

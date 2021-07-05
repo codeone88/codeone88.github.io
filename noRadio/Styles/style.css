@@ -118,7 +118,7 @@ iframe{
 	opacity:0.3;
 }
 
-#playPause{
+/*#playPause{
 	position:absolute;
 	width:4.3rem;
 	bottom:70px;
@@ -154,6 +154,12 @@ iframe{
 }
 .zeek-buttonprev:before {
 	content: "\64";
+}*/
+
+#player{
+	position:absolute;
+	width:100%;
+	height:290px;
 }
 
 
