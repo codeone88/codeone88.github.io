@@ -6,11 +6,16 @@ window.addEventListener("load", function() {
 
 
 var radio = new Audio();
-var source = ['http://stream.zeno.fm/db5hy4tr7k8uv', 
+/*var source = ['http://stream.zeno.fm/db5hy4tr7k8uv', 
 			'http://stream.zeno.fm/hfpsf54p8k8uv', 
 			'http://stream.zeno.fm/p4b7mfuh9k8uv', 
 			'http://stream.zeno.fm/uudyz6aq8k8uv', 
-			'http://stream.syntheticfm.com:8040/live'];
+			'http://stream.syntheticfm.com:8040/live'];*/
+			
+var source = ['//www.zeno.fm/player/noradio', 
+			'//www.zeno.fm/player/alternative-one', 
+			'//www.zeno.fm/player/chill-hill', 
+			'//www.zeno.fm/player/lo-fi-u'];			
 			
 var names = ['Prog-Rock[CO88]','Alternative One','Chill-Hill','Lo-Fi-U','Synthetic FM'];
 
@@ -28,7 +33,7 @@ var beers = 1, myBeers = 0, adCount = 0;
 function init(){
 	
 	//setWave();
-	playAudio();
+	//playAudio();
 	
 	timer = setInterval(function(){
 		document.getElementById('bg-im').src = 'https://source.unsplash.com/1600x900/?radio,music,wallpaper,background';
@@ -41,12 +46,13 @@ function init(){
 function playSt(num){
 	currSt = num;
 	document.getElementById('_title').innerHTML = names[num];
-	playAudio();
-	radio.play();
+	document.getElementById('player').src = source[currSt];
+	//playAudio();
+	//radio.play();
 }
 
 //----------------------------------- AUDIO ------------------------------------
-function playAudio(){
+/*function playAudio(){
 	radio.src = source[currSt];
 	radio.volume = 1;
 	//radio.play();
@@ -58,9 +64,6 @@ function playAudio(){
 			waveStarted = true;
 			SW.start();
 		}
-		/*timer = setInterval(function(){
-			//NowPlaying();
-		}, 60000);*/
 	}, false);
 	  
 	radio.addEventListener('pause', function() {
@@ -87,7 +90,7 @@ function playAudio(){
 }*/
 
 
-function playPauseAudio() {
+/*function playPauseAudio() {
   	if (radio.src) {
 		if (radio.paused || radio.ended) {
 			radio.play();
@@ -96,10 +99,10 @@ function playPauseAudio() {
 			radio.pause();
 		}
   	}
-}
+}*/
 
 //----------------------------------- WAVE ------------------------------------
-function setWave(){
+/*function setWave(){
 	document.getElementById('waveCont').style.width = window.innerWidth + 'px';
 	
 	SW = new SiriWave({
@@ -111,7 +114,7 @@ function setWave(){
 		color:'#FFFFFF',
 		autostart: false,
 	});
-}
+}*/
 
 
 //----------------------------------- HELPER FUNCTIONS ------------------------------------
