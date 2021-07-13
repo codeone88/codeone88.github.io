@@ -7,6 +7,10 @@ window.addEventListener("load", function() {
 
 
 function init(){
+	DZ.init({
+		appId  : '491882',
+		channelUrl : 'https://codeone88.github.io/Meta/channel.html'
+	});
 	/*const menuItems = document.querySelectorAll('.txt-head');
 	menuItems.forEach(item => item.addEventListener('click', openWindow));
 	
