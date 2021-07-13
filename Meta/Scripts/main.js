@@ -16,7 +16,7 @@ function init(){
 	
 	loadWidgets();*/
 	
-	fetch('http://developers.deezer.com/api/artist/top');
+	fetch('https://cors-anywhere.herokuapp.com/http://developers.deezer.com/api/artist/top');
 }
 
 function goHome(){
