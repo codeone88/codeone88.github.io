@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
 
 
 function init(){
-	DZ.init({
+	/*DZ.init({
 		appId  : '491882',
 		channelUrl : 'https://codeone88.github.io/Meta/channel.html'
 	});
@@ -15,6 +15,8 @@ function init(){
 	menuItems.forEach(item => item.addEventListener('click', openWindow));
 	
 	loadWidgets();*/
+	
+	fetch('http://developers.deezer.com/api/artist/top');
 }
 
 function goHome(){
