@@ -3,6 +3,8 @@
   --secondary:#212026;
   --third:#E1274F;
   --tbg:rgba(255, 255, 255,0.1);
+  
+  --br:12px;
 }
 
 @font-face{
@@ -158,6 +160,7 @@ textarea:focus, input:focus{
 
 /*GENERAL CLASSES*/
 .addBlur{
+	backdrop-filter:blur(35px);
 	-webkit-backdrop-filter:blur(35px);
 }
 

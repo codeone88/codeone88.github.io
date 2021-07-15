@@ -30,10 +30,24 @@
                 
                 <div id="player">
                 	<audio id="audio"></audio>
+                    
+                    <div id="openwith-container" class="addBlur closed">
+                    	<div id="openwith-title">Open Full Song With</div>
+                    	<div id="spotify" class="service-btn"></div>
+                    	<div id="deezer" class="service-btn"></div>
+                    	<div id="youtube" class="service-btn"></div>
+                    	<div id="youtubemusic" class="service-btn"></div>
+                    </div>
+                    
                 	<div id="btn-container" onclick="playPause()">
                     	<div id="playPause" class="zeek zeek-buttonplay"></div>
                     </div>
-                	<div id="player_title">Preview</div>
+                	
+                    <div id="player_title">Preview</div>
+                    
+                    <div id="openwith-btn-container" onClick="addOpen('openwith-container')">
+                    	<div id="arrow">&#10094;</div>
+                    </div>
                 </div>
             </div>
             

@@ -212,7 +212,7 @@ document.getElementById('albums-container').addEventListener('scroll', function(
 
 //---------------------------------- HELPER FUNCTIONS --------------------------------------
 function addOpen(el){
-	if(el !== cs){
+	if(el !== cs && el !== 'openwith-container'){
 		if(cs !== ''){
 			removeOpen(cs);
 		}
@@ -246,6 +246,21 @@ function addOpen(el){
 			document.getElementById(el).classList.remove('closed');
 			cs = el;
 		}, 100);
+	}
+	
+	if(el === 'openwith-container'){
+		if(document.getElementById(el).classList.contains('closed')){
+			document.getElementById(el).style.display = 'block';
+			setTimeout(function(){
+				document.getElementById(el).classList.add('open');
+				document.getElementById(el).classList.remove('closed');
+			}, 100);
+			
+			document.getElementById('arrow').classList.add('open');
+		}else{
+			document.getElementById('arrow').classList.remove('open');
+			removeOpen(el);
+		}
 	}
 }
 
