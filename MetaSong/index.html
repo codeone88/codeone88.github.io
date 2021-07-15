@@ -8,10 +8,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch-jsonp/1.1.1/fetch-jsonp.js"></script>
+    
     <!--<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.3.min.js"></script>
     <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>-->
     
-    <title>Meta | One Link Everywhere</title>
+    <title>MetaSong | One Link Everywhere</title>
 </head>
 
 <body onLoad="init()">
@@ -29,17 +31,26 @@
         </div>
     </header>
     
+    <section id="section1">
+    	<div id="top-container" class="section-in">
+        	<div class="title">Top</div>
+            <div id="it-tc" class="items-container">
+            	<div id="top-items-container"></div>
+            </div>
+        </div>
+        
+        <div id="genres-container" class="section-in">
+        	<div class="title">Genres</div>
+            <div id="it-gc" class="items-container">
+            	<div id="genres-items-container"></div>
+            </div>
+        </div>
+    </section>
+    
     <!--<div id="image-viewer">
         <img alt="" id="full-wid" class="center">
     	<div class="closeBtn" onClick="closeWindow('image-viewer')">Close</div>
     </div>
-    
-    <section id="section1">
-        <div id="title-cont" class="midY">
-            <div id="_title">CodeOne88</div>
-            <div id="_sub-title">Widget Developer<br><span>&amp;</span><br>Theme Designer</div>
-        </div>
-    </section>
     
     <section id="section2">
     	<div id="cir" class="center"></div>

@@ -4,21 +4,154 @@ window.addEventListener("load", function() {
    document.body.style.height='100%';
 }, false);
 
-
+//http://api.deezer.com/2.0/artist/2276/top?output=xml&limit=20
 
 function init(){
-	/*DZ.init({
-		appId  : '491882',
-		channelUrl : 'https://codeone88.github.io/Meta/channel.html'
-	});
-	/*const menuItems = document.querySelectorAll('.txt-head');
-	menuItems.forEach(item => item.addEventListener('click', openWindow));
 	
-	loadWidgets();*/
-	
-	fetch('https://cors-anywhere.herokuapp.com/http://developers.deezer.com/api/artist/top');
+	getJson('https://api.deezer.com/chart/0?output=jsonp', false);
+	getJson('https://api.deezer.com/genre?output=jsonp', true);
 }
 
+function getJson(url, t){
+	
+	fetchJsonp(url)
+	.then(function(response) {
+    	return response.json();
+  	})
+  	.then(json => {
+		var arr; 
+		if(!t){
+			arr = json.tracks.data;
+			placeTop(arr);
+		}else{
+			arr = json.data;
+			placeGenres(arr);
+			//console.log(arr);
+		}
+	})
+  	.catch(function(error) { console.log(error); });
+}
+
+function placeTop(arr){
+	
+	const drawerEntries = [];
+	const idsArray = [];
+	
+	for(var i=0; i<arr.length; i++){
+		
+		var _box = document.createElement('div'),
+			_name = document.createElement('div'),
+			_img = document.createElement('img');
+			
+		idsArray.push(arr[i].id);
+		
+		_box.className = 'box';
+		_box.style.left = i * 160 + 'px';
+		
+		_img.src = arr[i].album.cover_medium;
+		_box.appendChild(_img);
+		
+		_name.innerHTML = arr[i].title;
+		_name.className = 'box-name';
+		_box.appendChild(_name);
+		
+		drawerEntries.push(_box);
+		
+		//document.getElementById('top-items-container').appendChild(_box); 
+	}
+	
+	var container = document.getElementById('top-items-container');
+	container.innerHTML = '';
+	
+	drawerEntries.forEach(function(element, index) {
+		container.appendChild(element);
+		
+		element.addEventListener('mousedown', function(e){
+			if(timer3 !== null) {
+				clearTimeout(timer3);        
+			}
+			timer3 = setTimeout(function(){
+				if(disable_click_flag){
+					e.preventDefault();
+				}else{
+					timer = setTimeout(function(){
+						longPress = true;
+						//showAlert(idsArray[index],'add');
+					}, 800);
+				}
+			}, 200);
+		}, true);
+		
+		element.addEventListener('mouseup',function(e){
+			if(disable_click_flag){
+				e.preventDefault();
+			}else{
+				clearTimeout(timer);
+				clearTimeout(timer3);
+				if(!longPress){
+					var params = new URLSearchParams();
+  					params.append("id", idsArray[index]);
+					location.href = 'song.html?' + idsArray[index];
+				}
+				longPress = false;
+			}
+		});
+	});
+}
+
+function placeGenres(arr){
+	document.getElementById('genres-items-container').innerHTML = '';
+	
+	for(var i=1; i<arr.length; i++){
+		var _box = document.createElement('div'),
+			_name = document.createElement('div'),
+			_img = document.createElement('img');
+			
+		_box.className = 'box';
+		_box.style.left = (i - 1) * 160 + 'px';
+		
+		_img.src = arr[i].picture_medium;
+		_box.appendChild(_img);
+		
+		_name.innerHTML = arr[i].name;
+		_name.className = 'box-name';
+		_box.appendChild(_name);
+		
+		document.getElementById('genres-items-container').appendChild(_box); 
+	}
+}
+
+
+//--------------------------- LIMITERS ---------------------------------------
+var disable_click_flag = false, timer2, timer3, timer, longPress = false;
+document.getElementById('it-tc').addEventListener('scroll', function(){
+	if(timer2 !== null) {
+		clearTimeout(timer2);        
+	}
+		
+	disable_click_flag = true;
+		
+	timer2 = setTimeout(function() {
+		disable_click_flag = false;
+	}, 200);
+},true);
+
+document.getElementById('it-gc').addEventListener('scroll', function(){
+	if(timer2 !== null) {
+		clearTimeout(timer2);        
+	}
+		
+	disable_click_flag = true;
+		
+	timer2 = setTimeout(function() {
+		disable_click_flag = false;
+	}, 200);
+},true);
+
+
+
+
+/*
 function goHome(){
 	$('html, body').animate({
 		scrollTop: $('#section1').offset().top
@@ -148,9 +281,12 @@ function openSetup(){
 }
 
 
+
 function get_data_from_url(url){
     var http_req = new XMLHttpRequest();
     http_req.open("GET",url,false);
     http_req.send(null);
     return http_req.responseText;          
 }
+
+*/
