@@ -5,13 +5,23 @@ window.addEventListener("load", function() {
 }, false);
 
 //http://api.deezer.com/2.0/artist/2276/top?output=xml&limit=20
-var arr = [], alarr = [], cs = '', myAudio, isAudio = false;
+var arr = [], alarr = [], cs = '', myAudio = document.getElementById("audio"), isAudio = false;
+var option, id;
 
 function init(){
 	
-	var id = window.location.href.split('?').pop();
+	//var id = window.location.href.split('?').pop();
 	
-	getJson('https://api.deezer.com/track/' + id + '?output=jsonp');
+	var li = window.location.href;
+	var url = new URL(li);
+	option = url.searchParams.get("option[]");
+	id = url.searchParams.get("id[]");
+	
+	if(option === 'song'){
+		getJson('https://api.deezer.com/track/' + id + '?output=jsonp');
+	}else{
+		getJson('https://api.deezer.com/artist/' + id + '?output=jsonp', 'artist');
+	}
 }
 
 function getJson(url, a = 'track'){
@@ -27,8 +37,12 @@ function getJson(url, a = 'track'){
 		}else if(a === 'disc'){
 			alarr = json.data;
 			placeAlbums();
-		}else{
+		}else if(a === 'album'){
 			placeAlbumInfo(json);
+		}else if(a === 'artist'){
+			placeArtistInfo(json);
+		}else if(a === 'artist-related'){
+			placeRelatedInfo(json.data);
 		}
 	})
   	.catch(function(error) { console.log(error); });
@@ -36,12 +50,13 @@ function getJson(url, a = 'track'){
 
 function placeItems(){
 	document.getElementById('musicArt').src = arr.album.cover_xl;
+	addOpenAnimation('musicArt');
 	
 	addSongInfo(arr.title, arr.album.title);
 	getAlbumInfo(arr.album.id);
-	addAlbums();
+	getArtistInfo(arr.artist.id);
+	addAlbums(arr.artist.id);
 	
-	myAudio = document.getElementById("audio");
 	myAudio.src = arr.preview;
 	currSong = arr.preview;
 	
@@ -110,7 +125,8 @@ function placeAlbumInfo(data){
 					addSongInfo(tracks[index].title, data.title);
 					myAudio.src = tracks[index].preview;
 					addOpen('song');
-					playPause();
+					myAudio.pause();
+					isAudio = false;
 					playPause();
 				}
 				longPress = false;
@@ -122,9 +138,7 @@ function placeAlbumInfo(data){
 
 
 //--------------------------- DISCOGRAPHY ---------------------------------------
-function addAlbums(){
-	var aid = arr.artist.id;
-	
+function addAlbums(aid){
 	getJson('https://api.deezer.com/artist/' + aid + '/albums?output=jsonp', 'disc');
 }
 
@@ -192,22 +206,103 @@ function placeAlbums(){
 }
 
 
+//--------------------------- ARTIST ---------------------------------------
+function getArtistInfo(id){
+	getJson('https://api.deezer.com/artist/' + id + '?output=jsonp', 'artist');
+}
 
-//--------------------------- LIMITERS ---------------------------------------
-var disable_click_flag = false, timer2, timer3, timer, longPress = false;
-document.getElementById('albums-container').addEventListener('scroll', function(){
-	if(timer2 !== null) {
-		clearTimeout(timer2);        
+function placeArtistInfo(data){
+	document.getElementById('artist-title').innerHTML = data.name;
+	document.getElementById('musicArtistArt').src = data.picture_xl;
+	
+	if(option === 'artist'){
+		option = '';
+		placeArtistItems(id);
+		addOpen('artist');
 	}
-		
-	disable_click_flag = true;
-		
-	timer2 = setTimeout(function() {
-		disable_click_flag = false;
-	}, 200);
-},true);
+	
+	getJson('https://api.deezer.com/artist/' + data.id + '/related?output=jsonp', 'artist-related');
+}
 
+function placeRelatedInfo(data){
+	
+	const drawerEntries = [];
+	const idsArray = [];
+	
+	for(var i=0; i<data.length; i++){
+		
+		var _box = document.createElement('div'),
+			_name = document.createElement('div'),
+			_img = document.createElement('img');
+			
+		idsArray.push(data[i].id);
+		
+		_box.className = 'box';
+		_box.style.left = i * 130 + 'px';
+		
+		_img.src = data[i].picture_medium;
+		_box.appendChild(_img);
+		
+		_name.innerHTML = data[i].name;
+		_name.className = 'box-name';
+		_box.appendChild(_name);
+		
+		drawerEntries.push(_box);
+	}
+	
+	var container = document.getElementById('related-container');
+	container.innerHTML = '';
+	
+	drawerEntries.forEach(function(element, index) {
+		container.appendChild(element);
+		
+		element.addEventListener('mousedown', function(e){
+			if(timer3 !== null) {
+				clearTimeout(timer3);        
+			}
+			timer3 = setTimeout(function(){
+				if(disable_click_flag){
+					e.preventDefault();
+				}else{
+					timer = setTimeout(function(){
+						longPress = true;
+					}, 800);
+				}
+			}, 200);
+		}, true);
+		
+		element.addEventListener('mouseup',function(e){
+			if(disable_click_flag){
+				e.preventDefault();
+			}else{
+				clearTimeout(timer);
+				clearTimeout(timer3);
+				if(!longPress){
+					location.href = 'song.html?id[]=' + idsArray[index] + "&option[]=artist";
+					//placeArtistItems(idsArray[index]);
+					/*var params = new URLSearchParams();
+					var song = [idsArray[index], 'song'];
+					location.href = 'song.html?option[]=' + idsArray[index] + "&option[]=song";*/
+				}
+				longPress = false;
+			}
+		});
+	});
+}
 
+function placeArtistItems(id){
+	document.getElementById('musicArt').src = '';
+	getArtistInfo(id);
+	addAlbums(id);
+	
+	document.getElementById('songs-container').innerHTML = '';
+	document.getElementById('album-title').innerHTML = '';
+	
+	document.getElementById('_title').innerHTML = '';
+	document.getElementById('_album').innerHTML = '';
+	
+	myAudio.src = '';
+}
 
 
 //---------------------------------- HELPER FUNCTIONS --------------------------------------
@@ -221,20 +316,43 @@ function addOpen(el){
 			document.getElementById('song-btn').classList.add('selected');
 			document.getElementById('album-btn').classList.remove('selected');
 			document.getElementById('albums-btn').classList.remove('selected');
+			document.getElementById('artist-btn').classList.remove('selected');
+			
+			addOpenAnimation('musicArt');
+			removeOpen('musicArtistArt');
 			
 			document.getElementById('cover').classList.remove('addBlur');
 			document.getElementById('head-container').classList.remove('addBlur');
 		}else if(el === 'albums'){
 			document.getElementById('song-btn').classList.remove('selected');
+			document.getElementById('artist-btn').classList.remove('selected');
 			document.getElementById('album-btn').classList.remove('selected');
 			document.getElementById('albums-btn').classList.add('selected');
 			
+			addOpenAnimation('musicArt');
+			removeOpen('musicArtistArt');
+			
 			document.getElementById('cover').classList.add('addBlur');
 			document.getElementById('head-container').classList.add('addBlur');
-		}else{
+		}else if(el === 'artist'){
 			document.getElementById('song-btn').classList.remove('selected');
 			document.getElementById('albums-btn').classList.remove('selected');
+			document.getElementById('album-btn').classList.remove('selected');
+			document.getElementById('artist-btn').classList.add('selected');
+			
+			addOpenAnimation('musicArtistArt');
+			removeOpen('musicArt');
+			
+			document.getElementById('cover').classList.remove('addBlur');
+			document.getElementById('head-container').classList.remove('addBlur');
+		}else{
+			document.getElementById('song-btn').classList.remove('selected');
+			document.getElementById('artist-btn').classList.remove('selected');
+			document.getElementById('albums-btn').classList.remove('selected');
 			document.getElementById('album-btn').classList.add('selected');
+			
+			addOpenAnimation('musicArt');
+			removeOpen('musicArtistArt');
 			
 			document.getElementById('cover').classList.remove('addBlur');
 			document.getElementById('head-container').classList.remove('addBlur');
@@ -250,11 +368,7 @@ function addOpen(el){
 	
 	if(el === 'openwith-container'){
 		if(document.getElementById(el).classList.contains('closed')){
-			document.getElementById(el).style.display = 'block';
-			setTimeout(function(){
-				document.getElementById(el).classList.add('open');
-				document.getElementById(el).classList.remove('closed');
-			}, 100);
+			addOpenAnimation(el);
 			
 			document.getElementById('arrow').classList.add('open');
 		}else{
@@ -262,6 +376,14 @@ function addOpen(el){
 			removeOpen(el);
 		}
 	}
+}
+
+function addOpenAnimation(el){
+	document.getElementById(el).style.display = 'block';
+	setTimeout(function(){
+		document.getElementById(el).classList.add('open');
+		document.getElementById(el).classList.remove('closed');
+	}, 100);
 }
 
 function removeOpen(el){
@@ -274,25 +396,41 @@ function removeOpen(el){
 
 
 function playPause(){
-	
-	myAudio.addEventListener("ended", function() {
-	  	document.getElementById('playPause').classList.remove("zeek-buttonpause");
-		document.getElementById('playPause').classList.add("zeek-buttonplay");
-		isAudio = false;
-	});
-	
-	if(!isAudio){
-		myAudio.play();
-		document.getElementById('playPause').classList.remove("zeek-buttonplay");
-		document.getElementById('playPause').classList.add("zeek-buttonpause");
-		isAudio = true;
-	}else{
-		myAudio.pause();
-		document.getElementById('playPause').classList.remove("zeek-buttonpause");
-		document.getElementById('playPause').classList.add("zeek-buttonplay");
-		isAudio = false;
-	}
+	//if(myAudio.src !== ''){
+		myAudio.addEventListener("ended", function() {
+			document.getElementById('playPause').classList.remove("zeek-buttonpause");
+			document.getElementById('playPause').classList.add("zeek-buttonplay");
+			isAudio = false;
+		});
+		
+		if(!isAudio){
+			myAudio.play();
+			document.getElementById('playPause').classList.remove("zeek-buttonplay");
+			document.getElementById('playPause').classList.add("zeek-buttonpause");
+			isAudio = true;
+		}else{
+			myAudio.pause();
+			document.getElementById('playPause').classList.remove("zeek-buttonpause");
+			document.getElementById('playPause').classList.add("zeek-buttonplay");
+			isAudio = false;
+		}
+	//}
 }
+
+
+//--------------------------- LIMITERS ---------------------------------------
+var disable_click_flag = false, timer2, timer3, timer, longPress = false;
+document.getElementById('albums-container').addEventListener('scroll', function(){
+	if(timer2 !== null) {
+		clearTimeout(timer2);        
+	}
+		
+	disable_click_flag = true;
+		
+	timer2 = setTimeout(function() {
+		disable_click_flag = false;
+	}, 200);
+},true);
 
 
 

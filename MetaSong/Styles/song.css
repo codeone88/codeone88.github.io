@@ -6,13 +6,20 @@
 	overflow:hidden;
 }
 
-#musicArt{
+.art{
 	position:absolute;
 	width:100%;
 	height:auto;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
+	transition:opacity 0.3s ease-in-out;
+	display:none;
+	opacity:0;
+}
+
+.art.open{
+	opacity:1;
 }
 
 #cover{
@@ -251,7 +258,7 @@
 
 
 /*ALBUM*/
-#album-title{
+#album-title, #artist-title{
 	position:absolute;
 	top:180px;
 	color:var(--primary);
@@ -294,6 +301,17 @@
    	display: -webkit-box;
    	-webkit-line-clamp: 1; 
    	-webkit-box-orient: vertical;
+}
+
+
+/*ARTIST*/
+#related-container{
+	position:absolute;
+	width:100%;
+	height:150px;
+	bottom:15%;
+	transform:translateY(50%);
+	overflow-x:auto;
 }
 
 
@@ -743,7 +761,7 @@ textarea:focus, input:focus{
 
 @media screen and (max-width: 550px){
 	
-	#musicArt{
+	#musicArt, #musicArtistArt{
 		width:auto;
 		height:100%;
 	}

@@ -55,9 +55,7 @@ function placeTop(arr){
 		_name.className = 'box-name';
 		_box.appendChild(_name);
 		
-		drawerEntries.push(_box);
-		
-		//document.getElementById('top-items-container').appendChild(_box); 
+		drawerEntries.push(_box); 
 	}
 	
 	var container = document.getElementById('top-items-container');
@@ -76,7 +74,6 @@ function placeTop(arr){
 				}else{
 					timer = setTimeout(function(){
 						longPress = true;
-						//showAlert(idsArray[index],'add');
 					}, 800);
 				}
 			}, 200);
@@ -89,9 +86,11 @@ function placeTop(arr){
 				clearTimeout(timer);
 				clearTimeout(timer3);
 				if(!longPress){
-					var params = new URLSearchParams();
-  					params.append("id", idsArray[index]);
-					location.href = 'song.html?' + idsArray[index];
+					//var params = new URLSearchParams();
+					//var song = [idsArray[index], 'song'];
+  					//params.append("id", idsArray[index]);
+					//location.href = 'song.html?' + idsArray[index];
+					location.href = 'song.html?id[]=' + idsArray[index] + "&option[]=song";
 				}
 				longPress = false;
 			}

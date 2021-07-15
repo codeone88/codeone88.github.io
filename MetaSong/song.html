@@ -18,7 +18,8 @@
 <body onLoad="init()">
     
     <div id="container">
-    	<img id="musicArt">
+    	<img id="musicArt" class="art">
+        <img id="musicArtistArt" class="art">
         <div id="cover"></div>
         
         <div id="pages-container">
@@ -51,6 +52,11 @@
                 </div>
             </div>
             
+            <div id="artist" class="container">
+            	<div id="artist-title"></div>
+            	<div id="related-container"></div>
+            </div>
+            
             <div id="album" class="container">
             	<div id="album-title"></div>
                 <div id="songs-container" class="addBlur"></div>
@@ -63,6 +69,7 @@
         
     	<div id="head-container">
         	<div id="song-btn" class="btn" onClick="addOpen('song')">Song</div>
+        	<div id="artist-btn" class="btn" onClick="addOpen('artist')">Artist</div>
         	<div id="album-btn" class="btn" onClick="addOpen('album')">Album</div>
         	<div id="albums-btn" class="btn" onClick="addOpen('albums')">Discography</div>
         </div>
