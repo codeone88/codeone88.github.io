@@ -250,7 +250,7 @@ function placeRelatedInfo(data){
 		idsArray.push(data[i].id);
 		
 		_box.className = 'box';
-		_box.style.left = i * 130 + 'px';
+		_box.style.left = i * 120 + 'px';
 		
 		_img.src = data[i].picture_medium;
 		_box.appendChild(_img);

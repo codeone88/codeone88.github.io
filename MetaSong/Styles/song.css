@@ -333,8 +333,24 @@
 	overflow-x:auto;
 }
 
+#related-container > .box{
+	width:120px;
+}
+
+#abg{
+	position:absolute;
+	background:rgba(33,32,38,0.50);
+	width:120%;
+	height:230px;
+	border-radius:var(--br) var(--br) 0 0;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+}
+
 #artist > .title{
-	top:calc(100% - 220px);	
+	top:calc(100% - 220px);
+	left:10px;
 }
 
 
@@ -430,7 +446,7 @@ textarea:focus, input:focus{
 	height:100%;
 }
 
-/*HOME ITEMS*/
+/*HOME ITEMS
 .box{
 	position:absolute;
 	width:150px;
