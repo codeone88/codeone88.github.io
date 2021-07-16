@@ -34,10 +34,22 @@
                     
                     <div id="openwith-container" class="addBlur closed">
                     	<div id="openwith-title">Open Full Song With</div>
-                    	<div id="spotify" class="service-btn"></div>
-                    	<div id="deezer" class="service-btn"></div>
-                    	<div id="youtube" class="service-btn"></div>
-                    	<div id="youtubemusic" class="service-btn"></div>
+                    	<div id="spotify" class="service-btn" onClick="openService(s_sp)">
+                        	<img class="slogo" src="img/spotify.png">
+                            <div class="sname">Spotify</div>
+                        </div>
+                    	<div id="deezer" class="service-btn" onClick="openService(s_de)">
+                        	<img class="slogo" src="img/deezer.png">
+                            <div class="sname">Deezer</div>
+                        </div>
+                    	<div id="youtube" class="service-btn" onClick="openService(s_yo)">
+                        	<img class="slogo" src="img/you.png">
+                            <div class="sname">Youtube</div>
+                        </div>
+                    	<div id="youtubemusic" class="service-btn" onClick="openService(s_ym)">
+                        	<img class="slogo" src="img/youm.png">
+                            <div class="sname">Youtube Music</div>
+                        </div>
                     </div>
                     
                 	<div id="btn-container" onclick="playPause()">
@@ -54,6 +66,7 @@
             
             <div id="artist" class="container">
             	<div id="artist-title"></div>
+                <div class="title">You may also like</div>
             	<div id="related-container"></div>
             </div>
             

@@ -8,6 +8,8 @@ window.addEventListener("load", function() {
 var arr = [], alarr = [], cs = '', myAudio = document.getElementById("audio"), isAudio = false;
 var option, id;
 
+var s_sp, s_de, s_yo, s_ym;
+
 function init(){
 	
 	//var id = window.location.href.split('?').pop();
@@ -59,6 +61,11 @@ function placeItems(){
 	
 	myAudio.src = arr.preview;
 	currSong = arr.preview;
+	
+	s_sp = 'https://open.spotify.com/search/' + arr.title + ' ' + arr.artist.name;
+	s_de = arr.album.link;
+	s_yo = 'https://www.youtube.com/results?search_query=' + arr.title + ' ' + arr.artist.name;
+	s_ym = '';
 	
 	addOpen('song');
 }
@@ -415,6 +422,10 @@ function playPause(){
 			isAudio = false;
 		}
 	//}
+}
+
+function openService(url) {
+ 	window.open(url, '_blank').focus();
 }
 
 

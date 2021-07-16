@@ -238,6 +238,25 @@
 	cursor:pointer;
 }
 
+.slogo{
+	position:absolute;
+	width:30px;
+	border-radius:30px;
+	left:20px;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.sname{
+	position:absolute;
+	color:var(--primary);
+	font-size:0.7rem;
+	font-weight:300;
+	left:70px;
+	top:50%;
+	transform:translateY(-50%);
+}
+
 
 /*ALBUMS*/
 #albums-container{
@@ -312,6 +331,10 @@
 	bottom:15%;
 	transform:translateY(50%);
 	overflow-x:auto;
+}
+
+#artist > .title{
+	top:calc(100% - 220px);	
 }
 
 
