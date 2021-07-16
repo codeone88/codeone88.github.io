@@ -60,12 +60,11 @@ function placeItems(){
 	addAlbums(arr.artist.id);
 	
 	myAudio.src = arr.preview;
-	currSong = arr.preview;
 	
 	s_sp = 'https://open.spotify.com/search/' + arr.title + ' ' + arr.artist.name;
 	s_de = arr.album.link;
 	s_yo = 'https://www.youtube.com/results?search_query=' + arr.title + ' ' + arr.artist.name;
-	s_ym = '';
+	s_ym = 'https://api.music.apple.com/v1/catalog/us/search?term=' + arr.title + '+' + arr.artist.name + '&types=songs';
 	
 	addOpen('song');
 }
@@ -130,6 +129,12 @@ function placeAlbumInfo(data){
 				clearTimeout(timer3);
 				if(!longPress){
 					addSongInfo(tracks[index].title, data.title);
+					
+					s_sp = 'https://open.spotify.com/search/' + tracks[index].title + ' ' + tracks[index].artist.name;
+					s_de = data.link;
+					s_yo = 'https://www.youtube.com/results?search_query=' + tracks[index].title + ' ' + tracks[index].artist.name;
+					s_ym = 'https://api.music.apple.com/v1/catalog/us/search?term=' + tracks[index].title + '+' + tracks[index].artist.name + '&types=songs';
+					
 					myAudio.src = tracks[index].preview;
 					addOpen('song');
 					myAudio.pause();
