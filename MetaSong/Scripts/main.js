@@ -6,10 +6,24 @@ window.addEventListener("load", function() {
 
 //http://api.deezer.com/2.0/artist/2276/top?output=xml&limit=20
 
+var input = document.getElementById("in");
+
 function init(){
 	
-	getJson('https://api.deezer.com/chart/0?output=jsonp', false);
-	getJson('https://api.deezer.com/genre?output=jsonp', true);
+	getJson('https://api.deezer.com/chart/0?output=jsonp', 'top');
+	getJson('https://api.deezer.com/radio?output=jsonp', 'radio');
+	
+	input.addEventListener("keyup", function(event) {
+		if (event.keyCode === 13) {
+			startSearch();
+		}
+	});
+}
+
+function startSearch(){
+	if(input.value.trim() !== ''){
+		getJson('https://api.deezer.com/search?q=' + input.value, 'search');
+	}
 }
 
 function getJson(url, t){
@@ -20,13 +34,14 @@ function getJson(url, t){
   	})
   	.then(json => {
 		var arr; 
-		if(!t){
+		if(t === 'top'){
 			arr = json.tracks.data;
 			placeTop(arr);
-		}else{
+		}else if(t === 'radio'){
 			arr = json.data;
-			placeGenres(arr);
-			//console.log(arr);
+			placeRadios(arr);
+		}else if(t === 'search'){
+			console.log(json)
 		}
 	})
   	.catch(function(error) { console.log(error); });
@@ -98,21 +113,21 @@ function placeTop(arr){
 	});
 }
 
-function placeGenres(arr){
+function placeRadios(arr){
 	document.getElementById('genres-items-container').innerHTML = '';
 	
-	for(var i=1; i<arr.length; i++){
+	for(var i=0; i<arr.length; i++){
 		var _box = document.createElement('div'),
 			_name = document.createElement('div'),
 			_img = document.createElement('img');
 			
 		_box.className = 'box';
-		_box.style.left = (i - 1) * 160 + 'px';
+		_box.style.left = i * 160 + 'px';
 		
 		_img.src = arr[i].picture_medium;
 		_box.appendChild(_img);
 		
-		_name.innerHTML = arr[i].name;
+		_name.innerHTML = arr[i].title;
 		_name.className = 'box-name';
 		_box.appendChild(_name);
 		

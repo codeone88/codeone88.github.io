@@ -429,8 +429,12 @@ function playPause(){
 	//}
 }
 
-function openService(url) {
- 	window.open(url, '_blank').focus();
+function openService(url, _new = true) {
+	if(_new){
+ 		window.open(url, '_blank').focus();
+	}else{
+		location.href = url;
+	}
 }
 
 
