@@ -106,9 +106,16 @@ textarea:focus, input:focus{
 .section-in{
 	position:relative;
 	width:100%;
-	height:50%;
 	padding:0;
 	margin:0;
+}
+
+#top-container{
+	height:35%;
+}
+
+#genres-container{
+	height:65%;
 }
 
 .items-container{
@@ -154,6 +161,21 @@ textarea:focus, input:focus{
    	display: -webkit-box;
    	-webkit-line-clamp: 2; 
    	-webkit-box-orient: vertical;
+}
+
+
+/*RADIO*/
+#genres-items-container{
+	text-align:center;
+}
+
+#genres-items-container > .box{
+	width:40%;
+	max-width:150px;
+	height:150px;
+	position:relative;
+	display:inline-block;
+	margin:10px;
 }
 
 

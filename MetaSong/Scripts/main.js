@@ -114,7 +114,8 @@ function placeTop(arr){
 }
 
 function placeRadios(arr){
-	document.getElementById('genres-items-container').innerHTML = '';
+	const drawerEntries = [];
+	const trArray = [];
 	
 	for(var i=0; i<arr.length; i++){
 		var _box = document.createElement('div'),
@@ -122,7 +123,7 @@ function placeRadios(arr){
 			_img = document.createElement('img');
 			
 		_box.className = 'box';
-		_box.style.left = i * 160 + 'px';
+		//_box.style.left = i * 160 + 'px';
 		
 		_img.src = arr[i].picture_medium;
 		_box.appendChild(_img);
@@ -131,8 +132,46 @@ function placeRadios(arr){
 		_name.className = 'box-name';
 		_box.appendChild(_name);
 		
-		document.getElementById('genres-items-container').appendChild(_box); 
+		trArray.push(arr[i].tracklist);
+		
+		drawerEntries.push(_box); 
 	}
+	
+	var container = document.getElementById('genres-items-container');
+	container.innerHTML = '';
+	
+	drawerEntries.forEach(function(element, index) {
+		container.appendChild(element);
+		
+		element.addEventListener('mousedown', function(e){
+			if(timer3 !== null) {
+				clearTimeout(timer3);        
+			}
+			timer3 = setTimeout(function(){
+				if(disable_click_flag){
+					e.preventDefault();
+				}else{
+					timer = setTimeout(function(){
+						longPress = true;
+					}, 800);
+				}
+			}, 200);
+		}, true);
+		
+		element.addEventListener('mouseup',function(e){
+			if(disable_click_flag){
+				e.preventDefault();
+			}else{
+				clearTimeout(timer);
+				clearTimeout(timer3);
+				if(!longPress){
+					//location.href = 'song.html?id[]=' + idsArray[index] + "&option[]=song";
+					location.href = 'radio.html?' + trArray[index];
+				}
+				longPress = false;
+			}
+		});
+	});
 }
 
 

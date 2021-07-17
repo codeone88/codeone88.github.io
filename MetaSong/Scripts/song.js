@@ -67,6 +67,7 @@ function placeItems(){
 	s_ym = 'https://api.music.apple.com/v1/catalog/us/search?term=' + arr.title + '+' + arr.artist.name + '&types=songs';
 	
 	addOpen('song');
+	playPause();
 }
 
 function addSongInfo(title, album){
