@@ -13,36 +13,31 @@ function init(){
 	getJson('https://api.deezer.com/chart/0?output=jsonp', 'top');
 	getJson('https://api.deezer.com/radio?output=jsonp', 'radio');
 	
-	//getJson('https://api.deezer.com/search?q=eminem?output=jsonp', 'search');
+	//getJson('https://api.deezer.com/search/autocomplete&q=eminem&output=jsonp', 'search');
 	
-	$.ajax({
-        url:'https://api.deezer.com/search?q=eminem?output=json'        
-    }).done(function(data){
-        console.log('json ', data);
-    });
-	
-	/*$.ajax({
-		type: "GET",
-		contentType: "application/json",
-		url: 'https://api.deezer.com/search?q=eminem',
-		dataType: "json",
-		complete: function (data) {
-            console.log(data);
-            //wait = false;
+	/*fetch("https://api.deezer.com/search?q=eminem", {
+		"method": "GET",
+		"mode": "no-cors",
+		'headers': {
+            'Access-Control-Allow-Origin': '*'
         }
+	})
+	.then(response => {
+		console.log(response.json());
+	})
+	.then(function(data) {
+		console.log(data);
+    })
+	.catch(err => {
+		console.error(err);
 	});*/
+	
 	
 	input.addEventListener("keyup", function(event) {
 		if (event.keyCode === 13) {
 			startSearch();
 		}
 	});
-}
-
-function startSearch(){
-	if(input.value.trim() !== ''){
-		getJson('https://api.deezer.com/search?q=' + input.value, 'search');
-	}
 }
 
 function getJson(url, t){
@@ -60,12 +55,176 @@ function getJson(url, t){
 			arr = json.data;
 			placeRadios(arr);
 		}else if(t === 'search'){
-			console.log(json)
+			placeSearchItems(json);
 		}
 	})
   	.catch(function(error) { console.log(error); });
 }
 
+
+
+//--------------------------- SEARCH ---------------------------------------
+function startSearch(){
+	if(input.value.trim() !== ''){
+		getJson('https://api.deezer.com/search/autocomplete&q=' + input.value + '&output=jsonp', 'search');
+		addOpenAnimation('search-container');
+	}
+}
+
+function placeSearchItems(data){
+	
+	placeArtistsItems(data);
+	placeTracksItems(data);
+	
+}
+
+function placeArtistsItems(data){
+	var artists = data.artists.data;
+	const drawerEntries = [];
+	const idsArray = [];
+	
+	for(var i=0; i<artists.length; i++){
+		
+		var _box = document.createElement('div'),
+			_name = document.createElement('div'),
+			_img = document.createElement('img');
+			
+		idsArray.push(artists[i].id);
+		
+		_box.className = 'box';
+		_box.style.left = i * 120 + 'px';
+		
+		_img.src = artists[i].picture_medium;
+		_box.appendChild(_img);
+		
+		_name.innerHTML = artists[i].name;
+		_name.className = 'box-name';
+		_box.appendChild(_name);
+		
+		drawerEntries.push(_box); 
+	}
+	
+	var container = document.getElementById('sa-items-container');
+	container.innerHTML = '';
+	
+	drawerEntries.forEach(function(element, index) {
+		container.appendChild(element);
+		
+		element.addEventListener('mousedown', function(e){
+			if(timer3 !== null) {
+				clearTimeout(timer3);        
+			}
+			timer3 = setTimeout(function(){
+				if(disable_click_flag){
+					e.preventDefault();
+				}else{
+					timer = setTimeout(function(){
+						longPress = true;
+					}, 800);
+				}
+			}, 200);
+		}, true);
+		
+		element.addEventListener('mouseup',function(e){
+			if(disable_click_flag){
+				e.preventDefault();
+			}else{
+				clearTimeout(timer);
+				clearTimeout(timer3);
+				if(!longPress){
+					location.href = 'song.html?id[]=' + idsArray[index] + "&option[]=artist";
+				}
+				longPress = false;
+			}
+		});
+	});
+}
+
+function placeTracksItems(data){
+	var tracks = data.tracks.data;
+	const drawerEntries = [];
+	const idsArray = [];
+	
+	for(var i=0; i<tracks.length; i++){
+		
+		var _box = document.createElement('div'),
+			_name = document.createElement('div'),
+			_artist = document.createElement('div'),
+			_img = document.createElement('img');
+			
+		idsArray.push(tracks[i].id);
+		
+		_box.className = 'r-song';
+		
+		_img.src = tracks[i].album.cover_medium;
+		_box.appendChild(_img);
+		
+		_name.innerHTML = tracks[i].title;
+		_name.className = 'r-name';
+		_box.appendChild(_name);
+		
+		_artist.innerHTML = tracks[i].artist.name;
+		_artist.className = 'r-artist';
+		_box.appendChild(_artist);
+		
+		drawerEntries.push(_box); 
+	}
+	
+	var container = document.getElementById('st-items-container');
+	container.innerHTML = '';
+	
+	drawerEntries.forEach(function(element, index) {
+		container.appendChild(element);
+		
+		element.addEventListener('mousedown', function(e){
+			if(timer3 !== null) {
+				clearTimeout(timer3);        
+			}
+			timer3 = setTimeout(function(){
+				if(disable_click_flag){
+					e.preventDefault();
+				}else{
+					timer = setTimeout(function(){
+						longPress = true;
+					}, 800);
+				}
+			}, 200);
+		}, true);
+		
+		element.addEventListener('mouseup',function(e){
+			if(disable_click_flag){
+				e.preventDefault();
+			}else{
+				clearTimeout(timer);
+				clearTimeout(timer3);
+				if(!longPress){
+					location.href = 'song.html?id[]=' + idsArray[index] + "&option[]=song";
+				}
+				longPress = false;
+			}
+		});
+	});
+}
+
+function addOpenAnimation(el){
+	document.getElementById(el).style.display = 'block';
+	setTimeout(function(){
+		document.getElementById(el).classList.add('open');
+		document.getElementById(el).classList.remove('closed');
+	}, 100);
+}
+
+function removeOpen(el){
+	document.getElementById(el).classList.remove('open');
+	document.getElementById(el).classList.add('closed');
+	setTimeout(function(){
+		document.getElementById(el).style.display = 'none';
+	}, 300);
+}
+
+
+
+//--------------------------- HOME ITEMS ---------------------------------------
 function placeTop(arr){
 	
 	const drawerEntries = [];
@@ -221,144 +380,3 @@ document.getElementById('it-gc').addEventListener('scroll', function(){
 },true);
 
 
-
-
-/*
-function goHome(){
-	$('html, body').animate({
-		scrollTop: $('#section1').offset().top
-	}, 200);
-}
-
-function openWindow(e){
-	
-	if(this.id === 'repoBtn'){
-		$('html, body').animate({
-			scrollTop: $('#section2').offset().top
-		}, 200);
-	}
-	
-	if(this.id === 'widBtn'){
-		$('html, body').animate({
-			scrollTop: $('#section3').offset().top
-		}, 200);
-	}
-	
-	if(this.id === 'soBtn'){
-		$('html, body').animate({
-			scrollTop: $('#section4').offset().top
-		}, 200);
-	}
-}
-
-
-function loadWidgets(){
-	var data_url = "widgets.json";
-	var data_obj = JSON.parse(get_data_from_url(data_url));
-	var arrWid = data_obj.data;
-	
-	for(var i=0; i<arrWid.length; i++){
-		var _box = document.createElement('div'),
-			_name = document.createElement('div'),
-			_img = document.createElement('img');
-			
-		_box.classList.add('wid-box');
-		_box.classList.add('midX');
-		
-		_img.src = 'img/widgets/' + arrWid[i].img;
-		_img.classList.add('im-wid');
-		_box.appendChild(_img);
-		
-		_name.innerHTML = arrWid[i].name;
-		_name.classList.add('midY');
-		_name.classList.add('nameW');
-		_box.appendChild(_name);
-		
-		_box.classList.add('wid-item');
-		_box.setAttribute("id", arrWid[i].img);
-		
-		document.getElementById('wid-cont').appendChild(_box);
-	}
-	
-	const locItems = document.querySelectorAll('.wid-item');
-	const imItems = document.querySelectorAll('.im-wid');
-	locItems.forEach(item => item.addEventListener('click', openWidget));
-	
-	imItems.forEach(item => item.addEventListener('load', function(){
-		this.style.opacity = 1;
-	}));
-}
-
-
-function openWidget(){
-	document.getElementById('image-viewer').style.display = 'block';
-	document.getElementById('full-wid').src = 'img/widgets/' + this.id;
-}
-
-function closeWindow(str){
-	document.getElementById(str).style.display = 'none';
-}
-
-
-function openSubmit(){
-	document.getElementById('submit-view').style.display = 'block';
-}
-
-
-//--------------------- LOAD SETUPS ---------------------------
-var arrSet = [];
-function loadSetups(){
-	var data_url = "setups.json";
-	var data_obj = JSON.parse(get_data_from_url(data_url));
-	arrSet = data_obj.data;
-	
-	for(var i=0; i<arrSet.length; i++){
-		var _box = document.createElement('div'),
-			_name = document.createElement('div'),
-			_img = document.createElement('img');
-			
-		_box.classList.add('set-box');
-		//_box.classList.add('midX');
-		
-		_img.src = 'img/setups/' + arrSet[i].img;
-		_img.classList.add('im-set');
-		_box.appendChild(_img);
-		
-		_name.innerHTML = arrSet[i].name;
-		_name.classList.add('center');
-		_name.classList.add('nameS');
-		_box.appendChild(_name);
-		
-		_box.classList.add('set-item');
-		_box.setAttribute("id", i);
-		
-		document.getElementById('set-cont').appendChild(_box);
-	}
-	
-	const locItems = document.querySelectorAll('.set-item');
-	const imItems = document.querySelectorAll('.im-set');
-	locItems.forEach(item => item.addEventListener('click', openSetup));
-	
-	imItems.forEach(item => item.addEventListener('load', function(){
-		this.style.opacity = 1;
-	}));
-}
-
-function openSetup(){
-	document.getElementById('setup-viewer').style.display = 'block';
-	document.getElementById('full-set').src = 'img/setups/' + arrSet[this.id].img;
-	document.getElementById('_desc').innerHTML = '<b>' + arrSet[this.id].name + '</b><br><br>' +
-									arrSet[this.id].list + '<br><br>' +
-									"by <a href='" + arrSet[this.id].user + "' target='_blank'>" + arrSet[this.id].username + '</a>';
-}
-
-
-
-function get_data_from_url(url){
-    var http_req = new XMLHttpRequest();
-    http_req.open("GET",url,false);
-    http_req.send(null);
-    return http_req.responseText;          
-}
-
-*/

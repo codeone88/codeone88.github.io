@@ -4,11 +4,10 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="Styles/style.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="Styles/radio.css" type="text/css" media="screen"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch-jsonp/1.1.1/fetch-jsonp.js"></script>
     
     <!--<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.3.min.js"></script>
     <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>-->
@@ -45,6 +44,24 @@
             	<div id="genres-items-container"></div>
             </div>
         </div>
+        
+        <div id="search-container" class="addBlur">
+        	<div id="search-artist-container" class="section-in">
+                <div class="title">Artists</div>
+                <div id="it-sa" class="items-container">
+                    <div id="sa-items-container"></div>
+                </div>
+            </div>
+            
+            <div id="search-track-container" class="section-in">
+                <div class="title">Songs</div>
+                <div id="it-st" class="items-container">
+                    <div id="st-items-container"></div>
+                </div>
+            </div>
+            
+            <div id="close-search-btn" onClick="removeOpen('search-container')">+</div>
+        </div>
     </section>
     
     <!--<div id="image-viewer">
@@ -72,7 +89,8 @@
     
     
     
-    <script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch-jsonp/1.1.1/fetch-jsonp.js"></script>
     <script type="application/x-javascript" charset="utf-8" src="Scripts/main.js"></script>
     
     
