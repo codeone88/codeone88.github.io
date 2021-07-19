@@ -13,6 +13,25 @@ function init(){
 	getJson('https://api.deezer.com/chart/0?output=jsonp', 'top');
 	getJson('https://api.deezer.com/radio?output=jsonp', 'radio');
 	
+	//getJson('https://api.deezer.com/search?q=eminem?output=jsonp', 'search');
+	
+	$.ajax({
+        url:'https://api.deezer.com/search?q=eminem?output=json'        
+    }).done(function(data){
+        console.log('json ', data);
+    });
+	
+	/*$.ajax({
+		type: "GET",
+		contentType: "application/json",
+		url: 'https://api.deezer.com/search?q=eminem',
+		dataType: "json",
+		complete: function (data) {
+            console.log(data);
+            //wait = false;
+        }
+	});*/
+	
 	input.addEventListener("keyup", function(event) {
 		if (event.keyCode === 13) {
 			startSearch();
