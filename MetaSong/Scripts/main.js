@@ -382,3 +382,9 @@ document.getElementById('it-gc').addEventListener('scroll', function(){
 },true);
 
 
+
+function openURL(url) {
+	window.open(url, '_blank').focus();
+}
+
+

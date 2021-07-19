@@ -12,7 +12,7 @@
     <!--<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.3.min.js"></script>
     <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>-->
     
-    <title>Soli | One Link Everywhere</title>
+    <title>Songlet | One Link Everywhere</title>
 </head>
 
 <body onLoad="init()">
@@ -22,7 +22,7 @@
 	
     <header>
     	<div id="search-bar">
-        	<img id="logo" src="img/logo.png" alt="">
+        	<img class="logo" src="img/logo.png" alt="" onClick="addOpenAnimation('web-info-container')">
         	<div id="sIcon" onClick="startSearch()">
             	<svg data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.5 42.5">
 				<circle class="cls-I" cx="132.91" cy="738.11" r="16" transform="translate(-597.4 -409.44) rotate(-45)"/><line class="cls-I2" x1="29.81" y1="29.81" x2="40" y2="40"/></svg>
@@ -64,6 +64,18 @@
             <div id="close-search-btn" onClick="removeOpen('search-container')">+</div>
         </div>
     </section>
+    
+    <div id="web-info-container" class="addBlur" onClick="removeOpen('web-info-container')">
+    	<div id="web-info">
+        	<img class="shadow-dark-out" src="img/logo.png" alt="">
+            <div id="info">
+            	All artists information such as images, names, songs and discography is provided by Deezer.<br><br>
+                <img class="shadow-dark-out" src="img/deezer.png" alt=""><br><br><br>
+            	Developed by EnterApps.<br><br>
+                <img class="shadow-dark-out" src="img/twitter.png" alt="" onClick="openURL('https://twitter.com/Enter_Apps')">
+            </div>
+        </div>
+    </div>
     
     <!--<div id="image-viewer">
         <img alt="" id="full-wid" class="center">

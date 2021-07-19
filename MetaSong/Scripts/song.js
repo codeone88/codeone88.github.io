@@ -54,7 +54,7 @@ function placeItems(){
 	document.getElementById('musicArt').src = arr.album.cover_xl;
 	addOpenAnimation('musicArt');
 	
-	document.title = arr.title + ' | MetaSong';
+	document.title = arr.title + ' | Songlet';
 	
 	addSongInfo(arr.title, arr.album.title);
 	getAlbumInfo(arr.album.id);
@@ -133,7 +133,7 @@ function placeAlbumInfo(data){
 				if(!longPress){
 					addSongInfo(tracks[index].title, data.title);
 					
-					document.title = tracks[index].title + ' | MetaSong';
+					document.title = tracks[index].title + ' | Songlet';
 					
 					s_sp = 'https://open.spotify.com/search/' + tracks[index].title + ' ' + tracks[index].artist.name;
 					s_de = data.link;
@@ -234,7 +234,7 @@ function placeArtistInfo(data){
 	
 	if(option === 'artist'){
 		option = '';
-		document.title = data.name + ' | MetaSong';
+		document.title = data.name + ' | Songlet';
 		placeArtistItems(id);
 		addOpen('artist');
 	}
