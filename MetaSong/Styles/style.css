@@ -58,6 +58,15 @@ header{
 	transform:translate(-50%,-50%);
 }
 
+#logo{
+	position:absolute;
+	width:20px;
+	height:20px;
+	border-radius:20px;
+	left:5px;
+	top:5px;
+}
+
 #sIcon{
 	position:absolute;
 	width:15px;
@@ -75,8 +84,8 @@ input[type=text]{
 	position:absolute;
 	background:none;
 	border:none;
-	width:calc(100% - 70px);
-	left:10px;
+	width:calc(100% - 100px);
+	left:30px;
 	top:42.5%;
 	transform:translateY(-50%);
 	color:var(--primary);
@@ -123,7 +132,7 @@ textarea:focus, input:focus{
 	width:100%;
 	height:calc(100% - 1.2rem - 30px);
 	bottom:0;
-	overflow-x:auto;
+	overflow:auto;
 }
 
 #top-items-container, #genres-items-container{

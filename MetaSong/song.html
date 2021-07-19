@@ -12,7 +12,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch-jsonp/1.1.1/fetch-jsonp.js"></script>
     
-    <title>MetaSong | One Link Everywhere</title>
+    <title>Mali | One Link Everywhere</title>
 </head>
 
 <body onLoad="init()">
@@ -62,6 +62,9 @@
                     	<div id="arrow">&#10094;</div>
                     </div>
                 </div>
+                
+                <div class="share addBlur">&#10094; Share</div>
+                
             </div>
             
             <div id="artist" class="container">
@@ -87,7 +90,9 @@
         	<div id="album-btn" class="btn" onClick="addOpen('album')">Album</div>
         	<div id="albums-btn" class="btn" onClick="addOpen('albums')">Discography</div>
             
-            <div id="home" onClick="openService('index.html',false)">&#10094;</div>
+            <div id="home" class="addBlur" onClick="openService('index.html',false)">
+            	<div id="close-song-btn">+</div>
+            </div>
         </div>
     </div>
     

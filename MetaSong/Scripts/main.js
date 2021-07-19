@@ -68,6 +68,8 @@ function startSearch(){
 	if(input.value.trim() !== ''){
 		getJson('https://api.deezer.com/search/autocomplete&q=' + input.value + '&output=jsonp', 'search');
 		addOpenAnimation('search-container');
+		document.getElementById('it-sa').scrollLeft;
+		document.getElementById('it-st').scrollTop;
 	}
 }
 

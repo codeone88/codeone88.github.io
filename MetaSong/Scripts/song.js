@@ -18,15 +18,15 @@ function init(){
 	var url = new URL(li);
 	option = url.searchParams.get("option[]");
 	id = url.searchParams.get("id[]");
-	
+	console.log(li);
 	if(option === 'song'){
-		getJson('https://api.deezer.com/track/' + id + '?output=jsonp');
+		getJson('https://api.deezer.com/track/' + id + '?output=jsonp', 'track');
 	}else{
 		getJson('https://api.deezer.com/artist/' + id + '?output=jsonp', 'artist');
 	}
 }
 
-function getJson(url, a = 'track'){
+function getJson(url, a){
 	
 	fetchJsonp(url)
 	.then(function(response) {
@@ -53,6 +53,8 @@ function getJson(url, a = 'track'){
 function placeItems(){
 	document.getElementById('musicArt').src = arr.album.cover_xl;
 	addOpenAnimation('musicArt');
+	
+	document.title = arr.title + ' | MetaSong';
 	
 	addSongInfo(arr.title, arr.album.title);
 	getAlbumInfo(arr.album.id);
@@ -130,6 +132,8 @@ function placeAlbumInfo(data){
 				clearTimeout(timer3);
 				if(!longPress){
 					addSongInfo(tracks[index].title, data.title);
+					
+					document.title = tracks[index].title + ' | MetaSong';
 					
 					s_sp = 'https://open.spotify.com/search/' + tracks[index].title + ' ' + tracks[index].artist.name;
 					s_de = data.link;
@@ -230,6 +234,7 @@ function placeArtistInfo(data){
 	
 	if(option === 'artist'){
 		option = '';
+		document.title = data.name + ' | MetaSong';
 		placeArtistItems(id);
 		addOpen('artist');
 	}
