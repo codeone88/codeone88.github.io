@@ -310,7 +310,7 @@
 
 
 /*ALBUM*/
-#album-title, #artist-title{
+#album-title{
 	position:absolute;
 	top:180px;
 	color:var(--primary);
@@ -357,12 +357,52 @@
 
 
 /*ARTIST*/
+#artist-title{
+	position:absolute;
+	top:140px;
+	color:var(--primary);
+	font-size:1.2rem;
+	font-weight:400;
+	width:100%;
+	text-align:center;
+}
+
+#top-songs-container{
+	position:absolute;
+	background:rgba(33,32,38,0.50);
+	width:100%;
+	max-width:350px;
+	height:200px;
+	border-radius:var(--br);
+	bottom:230px;
+	left:50%;
+	transform:translateX(-50%);
+	overflow:hidden;
+}
+
+#top-songs-container > .title{
+	top:10px;
+	left:15px;
+}
+
+#top-songs{
+	position:absolute;
+	width:100%;
+	height:calc(100% - 2.1rem);
+	top:2.1rem;
+	overflow:auto;
+}
+
+#top-songs > .r-song > .r-name{
+	top:50%;
+	transform:translateY(-50%);
+}
+
 #related-container{
 	position:absolute;
 	width:100%;
 	height:150px;
-	bottom:15%;
-	transform:translateY(50%);
+	bottom:15px;
 	overflow-x:auto;
 }
 
@@ -373,8 +413,8 @@
 #abg{
 	position:absolute;
 	background:rgba(33,32,38,0.50);
-	width:120%;
-	height:230px;
+	width:110%;
+	height:210px;
 	border-radius:var(--br) var(--br) 0 0;
 	bottom:0;
 	left:50%;
@@ -382,7 +422,7 @@
 }
 
 #artist > .title{
-	top:calc(100% - 220px);
+	top:calc(100% - 195px);
 	left:10px;
 }
 

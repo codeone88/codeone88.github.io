@@ -58,6 +58,8 @@ function getJson(url, a){
 			placeArtistInfo(json);
 		}else if(a === 'artist-related'){
 			placeRelatedInfo(json.data);
+		}else if(a === 'artist-top'){
+			placeTopInfo(json.data);
 		}
 	})
   	.catch(function(error) { console.log(error); });
@@ -257,6 +259,7 @@ function placeArtistInfo(data){
 	}
 	
 	getJson('https://api.deezer.com/artist/' + data.id + '/related?output=jsonp', 'artist-related');
+	getJson('https://api.deezer.com/artist/' + data.id + '/top?output=jsonp&limit=20', 'artist-top');
 }
 
 function placeRelatedInfo(data){
@@ -318,6 +321,70 @@ function placeRelatedInfo(data){
 					/*var params = new URLSearchParams();
 					var song = [idsArray[index], 'song'];
 					location.href = 'song.html?option[]=' + idsArray[index] + "&option[]=song";*/
+				}
+				longPress = false;
+			}
+		});
+	});
+}
+
+function placeTopInfo(data){
+	const drawerEntries = [];
+	const idsArray = [];
+	
+	for(var i=0; i<data.length; i++){
+		var _box = document.createElement('div'),
+			_name = document.createElement('div'),
+			//_artist = document.createElement('div'),
+			_img = document.createElement('img');
+			
+		idsArray.push(data[i].id);
+		
+		_box.className = 'r-song';
+		
+		_img.src = data[i].album.cover_medium;
+		_box.appendChild(_img);
+		
+		_name.innerHTML = data[i].title;
+		_name.className = 'r-name';
+		_box.appendChild(_name);
+		
+		/*_artist.innerHTML = data[i].artist.name;
+		_artist.className = 'r-artist';
+		_box.appendChild(_artist);*/
+		
+		drawerEntries.push(_box);
+	}
+	
+	var container = document.getElementById('top-songs');
+	container.innerHTML = '';
+	
+	drawerEntries.forEach(function(element, index) {
+		container.appendChild(element);
+		
+		element.addEventListener('mousedown', function(e){
+			if(timer3 !== null) {
+				clearTimeout(timer3);        
+			}
+			timer3 = setTimeout(function(){
+				if(disable_click_flag){
+					e.preventDefault();
+				}else{
+					timer = setTimeout(function(){
+						longPress = true;
+					}, 800);
+				}
+			}, 200);
+		}, true);
+		
+		element.addEventListener('mouseup',function(e){
+			if(disable_click_flag){
+				e.preventDefault();
+			}else{
+				clearTimeout(timer);
+				clearTimeout(timer3);
+				if(!longPress){
+					location.href = 'song.html?id[]=' + idsArray[index] + "&option[]=song";
 				}
 				longPress = false;
 			}

@@ -29,7 +29,7 @@ html, body {
 	border-left:8px solid var(--third);
 	border-right:8px solid var(--third);
 	width:50px;
-	height:50%;
+	height:40%;
 	left:50%;
 	bottom:0;
 	transform:translateX(-50%);
@@ -181,7 +181,7 @@ textarea:focus, input:focus{
 #genres-items-container > .box{
 	width:40%;
 	max-width:150px;
-	height:150px;
+	height:170px;
 	position:relative;
 	display:inline-block;
 	margin:10px;

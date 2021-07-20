@@ -241,7 +241,7 @@ function placeTop(arr){
 		idsArray.push(arr[i].id);
 		
 		_box.className = 'box';
-		_box.style.left = i * 160 + 'px';
+		_box.style.left = i * 150 + 'px';
 		
 		_img.src = arr[i].album.cover_medium;
 		_box.appendChild(_img);
