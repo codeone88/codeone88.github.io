@@ -20,7 +20,7 @@ function init(){
 	var url = new URL(li);
 	option = url.searchParams.get("option[]");
 	id = url.searchParams.get("id[]");
-	console.log(li);
+	//console.log(li);
 	if(option === 'song'){
 		getJson('https://api.deezer.com/track/' + id + '?output=jsonp', 'track');
 	}else{
@@ -31,7 +31,7 @@ function init(){
 		  try {
 			  if(shareURL !== ''){
 				document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL);
-				document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
+				//document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 				await navigator.share({ 
 					title: "Share with...", 
 					url: shareURL 
