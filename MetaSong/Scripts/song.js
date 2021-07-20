@@ -7,6 +7,7 @@ window.addEventListener("load", function() {
 
 var arr = [], alarr = [], cs = '', myAudio = document.getElementById("audio"), isAudio = false;
 var option, id;
+//var baseURL = 'https://metasong.000webhostapp.com/song.html?';//http://codeone88.github.io/MetaSong
 var baseURL = 'http://codeone88.github.io/MetaSong/song.html?';
 var shareURL = '', imgURL = '';
 
@@ -69,14 +70,14 @@ function getJson(url, a){
 }
 
 function placeItems(){
+	
+	document.title = arr.title + ' | Songlet';
 	document.getElementById('musicArt').src = arr.album.cover_xl;
 	imgURL = arr.album.cover_medium;
-	document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL.split(':').pop());
+	document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL);
 	document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 				
 	addOpenAnimation('musicArt');
-	
-	document.title = arr.title + ' | Songlet';
 	
 	addSongInfo(arr.title, arr.album.title);
 	getAlbumInfo(arr.album.id);
