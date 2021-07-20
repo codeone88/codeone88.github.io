@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
 var arr = [], alarr = [], cs = '', myAudio = document.getElementById("audio"), isAudio = false;
 var option, id;
 var baseURL = 'http://codeone88.github.io/MetaSong/song.html?';
-var shareURL = '';
+var shareURL = '', imgURL = '';
 
 var s_sp, s_de, s_yo, s_ym;
 
@@ -30,7 +30,12 @@ function init(){
 	document.getElementById("share-btn").addEventListener("click", async () => {
 		  try {
 			  if(shareURL !== ''){
-				await navigator.share({ title: "Share with...", url: shareURL });
+				document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL);
+				document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
+				await navigator.share({ 
+					title: "Share with...", 
+					url: shareURL 
+				});
 				console.log("Data was shared successfully " + shareURL);
 			  }
 		  } catch (err) {
@@ -67,6 +72,7 @@ function getJson(url, a){
 
 function placeItems(){
 	document.getElementById('musicArt').src = arr.album.cover_xl;
+	imgURL = arr.album.cover_medium;
 	addOpenAnimation('musicArt');
 	
 	document.title = arr.title + ' | Songlet';
@@ -233,6 +239,7 @@ function placeAlbums(){
 				if(!longPress){
 					getAlbumInfo(idsArray[index]);
 					document.getElementById('musicArt').src = alarr[index].cover_xl;
+					imgURL = alarr[index].cover_medium;
 					addOpen('album');
 				}
 				longPress = false;
@@ -525,10 +532,6 @@ function openService(url, _new = true) {
 	}else{
 		location.href = url;
 	}
-}
-
-function openShare(){
-	
 }
 
 
