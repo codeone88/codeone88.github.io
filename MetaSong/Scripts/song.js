@@ -30,8 +30,6 @@ function init(){
 	document.getElementById("share-btn").addEventListener("click", async () => {
 		  try {
 			  if(shareURL !== ''){
-				document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL.split(':').pop());
-				document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 				await navigator.share({ 
 					title: "Share with...", 
 					url: shareURL 
@@ -73,6 +71,9 @@ function getJson(url, a){
 function placeItems(){
 	document.getElementById('musicArt').src = arr.album.cover_xl;
 	imgURL = arr.album.cover_medium;
+	document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL.split(':').pop());
+	document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
+				
 	addOpenAnimation('musicArt');
 	
 	document.title = arr.title + ' | Songlet';
@@ -164,6 +165,8 @@ function placeAlbumInfo(data){
 					s_ym = 'https://api.music.apple.com/v1/catalog/us/search?term=' + tracks[index].title + '+' + tracks[index].artist.name + '&types=songs';
 					
 					shareURL = baseURL + 'id[]=' + tracks[index].id + '&option[]=song';
+					document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL.split(':').pop());
+					document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 					
 					myAudio.src = tracks[index].preview;
 					addOpen('song');
