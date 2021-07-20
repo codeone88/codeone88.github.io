@@ -30,7 +30,8 @@ function init(){
 	document.getElementById("share-btn").addEventListener("click", async () => {
 		  try {
 			  if(shareURL !== ''){
-				document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL);
+				  console.log(imgURL.split(':').pop());
+				document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL.split(':').pop());
 				//document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 				await navigator.share({ 
 					title: "Share with...", 
