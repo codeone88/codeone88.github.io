@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
 
 var arr = [], alarr = [], cs = '', myAudio = document.getElementById("audio"), isAudio = false;
 var option, id;
-//var baseURL = 'https://metasong.000webhostapp.com/song.html?';//http://codeone88.github.io/MetaSong
+//var baseURL = 'https://metasong.000webhostapp.com/song.html?';
 var baseURL = 'http://codeone88.github.io/MetaSong/song.html?';
 var shareURL = '', imgURL = '';
 

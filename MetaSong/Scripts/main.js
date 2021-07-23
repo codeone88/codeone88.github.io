@@ -12,6 +12,7 @@ function init(){
 	
 	getJson('https://api.deezer.com/chart/0?output=jsonp', 'top');
 	getJson('https://api.deezer.com/radio?output=jsonp', 'radio');
+	getJson('https://api.deezer.com/genre?output=jsonp', 'genre');
 	
 	//getJson('https://api.deezer.com/search/autocomplete&q=eminem&output=jsonp', 'search');
 	
@@ -54,6 +55,15 @@ function getJson(url, t){
 		}else if(t === 'radio'){
 			arr = json.data;
 			placeRadios(arr);
+		}else if(t === 'genre'){
+			arr = json.data;
+			placeGenres(arr);
+		}else if(t === 'genre-artist'){
+			arr = json.data;
+			getRandomArtist(arr);
+		}else if(t === 'artist-song'){
+			arr = json.data;
+			getRandomSong(arr);
 		}else if(t === 'search'){
 			placeSearchItems(json);
 		}
@@ -208,6 +218,9 @@ function placeTracksItems(data){
 	});
 }
 
+
+
+//--------------------------- HELPERS ---------------------------------------
 function addOpenAnimation(el){
 	document.getElementById(el).style.display = 'block';
 	setTimeout(function(){
@@ -352,6 +365,85 @@ function placeRadios(arr){
 			}
 		});
 	});
+}
+
+
+function placeGenres(arr){
+	const drawerEntries = [];
+	const idsArray = [];
+	
+	for(var i=0; i<arr.length; i++){
+		var _box = document.createElement('div'),
+			_name = document.createElement('div');
+			
+		_box.className = 'box';
+		_box.style.left = i * 160 + 'px';
+		
+		_name.innerHTML = arr[i].name;
+		_name.className = 'box-name';
+		_box.appendChild(_name);
+		
+		idsArray.push(arr[i].id);
+		
+		drawerEntries.push(_box); 
+	}
+	
+	var container = document.getElementById('ra-items-container');
+	container.innerHTML = '';
+	
+	drawerEntries.forEach(function(element, index) {
+		container.appendChild(element);
+		
+		element.addEventListener('mousedown', function(e){
+			if(timer3 !== null) {
+				clearTimeout(timer3);        
+			}
+			timer3 = setTimeout(function(){
+				if(disable_click_flag){
+					e.preventDefault();
+				}else{
+					timer = setTimeout(function(){
+						longPress = true;
+					}, 800);
+				}
+			}, 200);
+		}, true);
+		
+		element.addEventListener('mouseup',function(e){
+			if(disable_click_flag){
+				e.preventDefault();
+			}else{
+				clearTimeout(timer);
+				clearTimeout(timer3);
+				if(!longPress){
+					getJson('https://api.deezer.com/genre/' + idsArray[index] + '/artists?output=jsonp', 'genre-artist');
+					//location.href = 'song.html?id[]=' + idsArray[index] + "&option[]=song";
+					//location.href = 'radio.html?' + trArray[index];
+				}
+				longPress = false;
+			}
+		});
+	});
+}
+
+function getRandomArtist(arr){
+	var ran = Math.floor(Math.random() * arr.length);
+	//console.log(arr.length, ran);
+	for(var i=0; i<arr.length; i++){
+		if(i === ran){
+			getJson('https://api.deezer.com/artist/' + arr[i].id + '/top?output=jsonp&limit=200', 'artist-song');
+		}
+	}
+}
+
+function getRandomSong(arr){
+	var ran = Math.floor(Math.random() * arr.length);
+	console.log(arr.length, ran);
+	for(var i=0; i<arr.length; i++){
+		if(i === ran){
+			location.href = 'song.html?id[]=' + arr[i].id + "&option[]=song";
+		}
+	}
 }
 
 
