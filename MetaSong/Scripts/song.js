@@ -32,7 +32,7 @@ function init(){
 		  try {
 			  if(shareURL !== ''){
 				await navigator.share({ 
-					title: "Share with...", 
+					title: document.title, 
 					url: shareURL 
 				});
 				console.log("Data was shared successfully " + shareURL);
@@ -74,7 +74,7 @@ function placeItems(){
 	document.title = arr.title + ' | Songlet';
 	document.getElementById('musicArt').src = arr.album.cover_xl;
 	imgURL = arr.album.cover_medium;
-	document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL);
+	document.querySelector('meta[property="og:image:secure_url"]').setAttribute("content", imgURL);
 	document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 				
 	addOpenAnimation('musicArt');
@@ -166,7 +166,7 @@ function placeAlbumInfo(data){
 					s_ym = 'https://api.music.apple.com/v1/catalog/us/search?term=' + tracks[index].title + '+' + tracks[index].artist.name + '&types=songs';
 					
 					shareURL = baseURL + 'id[]=' + tracks[index].id + '&option[]=song';
-					document.querySelector('meta[property="og:image"]').setAttribute("content", imgURL.split(':').pop());
+					document.querySelector('meta[property="og:image:secure_url"]').setAttribute("content", imgURL);
 					document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 					
 					myAudio.src = tracks[index].preview;
@@ -241,9 +241,9 @@ function placeAlbums(){
 				clearTimeout(timer);
 				clearTimeout(timer3);
 				if(!longPress){
-					getAlbumInfo(idsArray[index]);
 					document.getElementById('musicArt').src = alarr[index].cover_xl;
 					imgURL = alarr[index].cover_medium;
+					getAlbumInfo(idsArray[index]);
 					addOpen('album');
 				}
 				longPress = false;
