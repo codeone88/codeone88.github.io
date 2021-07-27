@@ -9,7 +9,8 @@ var arr = [], alarr = [], cs = '', myAudio = document.getElementById("audio"), i
 var option, id;
 //var baseURL = 'https://metasong.000webhostapp.com/song.html?';
 var baseURL = 'http://codeone88.github.io/MetaSong/song.html?';
-var shareURL = '', imgURL = '';
+var shareURL = '', imgURL = '', songTitle = '';
+
 
 var s_sp, s_de, s_yo, s_ym;
 
@@ -32,8 +33,9 @@ function init(){
 		  try {
 			  if(shareURL !== ''){
 				await navigator.share({ 
-					title: document.title, 
-					url: shareURL 
+					title: 'Songlet | One Link Everywhere',
+					text: songTitle,
+					url: shareURL,
 				});
 				console.log("Data was shared successfully " + shareURL);
 			  }
@@ -72,11 +74,13 @@ function getJson(url, a){
 function placeItems(){
 	
 	document.title = arr.title + ' | Songlet';
-	document.getElementById('musicArt').src = arr.album.cover_xl;
-	imgURL = arr.album.cover_medium;
+	songTitle = arr.title;
+	imgURL = arr.album.cover_big;
 	document.querySelector('meta[property="og:image:secure_url"]').setAttribute("content", imgURL);
 	document.querySelector('meta[property="og:title"]').setAttribute("content", document.title);
 				
+	document.getElementById('musicArt').src = arr.album.cover_xl;
+	
 	addOpenAnimation('musicArt');
 	
 	addSongInfo(arr.title, arr.album.title);
@@ -156,7 +160,8 @@ function placeAlbumInfo(data){
 				clearTimeout(timer);
 				clearTimeout(timer3);
 				if(!longPress){
-					addSongInfo(tracks[index].title, data.title);
+					location.href = 'song.html?id[]=' + tracks[index].id + "&option[]=song";
+					/*addSongInfo(tracks[index].title, data.title);
 					
 					document.title = tracks[index].title + ' | Songlet';
 					
@@ -173,7 +178,7 @@ function placeAlbumInfo(data){
 					addOpen('song');
 					myAudio.pause();
 					isAudio = false;
-					playPause();
+					playPause();*/
 				}
 				longPress = false;
 			}
@@ -242,7 +247,7 @@ function placeAlbums(){
 				clearTimeout(timer3);
 				if(!longPress){
 					document.getElementById('musicArt').src = alarr[index].cover_xl;
-					imgURL = alarr[index].cover_medium;
+					imgURL = alarr[index].cover_big;
 					getAlbumInfo(idsArray[index]);
 					addOpen('album');
 				}
