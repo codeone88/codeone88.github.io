@@ -86,6 +86,28 @@ header{
 	color:#DD254D;
 }
 
+
+#priv-cont{
+	position:absolute;
+	width: 100%;
+	height: calc(100% - 160px);
+	top: 60px;
+}
+
+#priv-title{
+	width: 100%;
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 36px;
+}
+
+#priv-info{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 90%;
+	color:#FFFFFF;
+}
+
 /*----------------- PARTICLES ----------------------*/
 #partCont{
 	position:absolute;
