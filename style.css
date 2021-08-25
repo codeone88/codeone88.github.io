@@ -29,6 +29,7 @@ header{
 	overflow:hidden;
 	z-index:100;
 	-webkit-backdrop-filter:blur(20px);
+	backdrop-filter:blur(20px);
 }
 
 #logo{
@@ -92,6 +93,7 @@ header{
 	width: 100%;
 	height: calc(100% - 160px);
 	top: 60px;
+	overflow: auto;
 }
 
 #priv-title{
@@ -102,10 +104,15 @@ header{
 }
 
 #priv-info{
+	padding: 10px;
+	border-radius: 10px;
 	margin: 0 auto;
 	margin-top: 20px;
-	width: 90%;
+	width: 85%;
 	color:#FFFFFF;
+	font-family: 'rob';
+	-webkit-backdrop-filter:blur(20px);
+	backdrop-filter:blur(20px);
 }
 
 /*----------------- PARTICLES ----------------------*/
