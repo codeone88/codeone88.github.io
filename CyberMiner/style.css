@@ -118,6 +118,18 @@ section{
 }
 
 
+/*----------------- SECTION 3-------------------*/
+#freq{
+	position: absolute;
+	width: 90%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #FFFFFF;
+	font-size: 1rem;
+}
+
+
 
 /*
 #_sub-title > span{
