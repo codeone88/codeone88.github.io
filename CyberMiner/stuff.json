@@ -1,0 +1,46 @@
+{
+	"active":true,
+	"cvalue":0.00009,
+	"withdraw":false,
+	"minWithd":10,
+	"availableCoins":[
+		{
+			"name":"Doge",
+			"active":true,
+			"url":"https://api.binance.com/api/v3/ticker/price?symbol=DOGEUSDT",
+			"minWithd":100
+		},
+		{
+			"name":"BNB",
+			"active":true,
+			"url":"https://api.binance.com/api/v3/ticker/price?symbol=BNBUSDT",
+			"minWithd":0.01
+		}
+	],
+	"levelUpdate":[
+		{
+			"3":"qToJvJ3",
+			"4":"lvl4UpGrd",
+			"6":"go6Bst",
+			"7":"mstR7Up",
+			"9":"UnoTBaby"
+		}
+	],
+	"freeCoins":[
+		{
+			"1000":"CyberCoins",
+			"10000":"get10000Coins",
+			"50000":"getCyberCoins",
+			"50000":"getCoins23",
+			"75000":"getCoins25",
+			"75000":"getCoins11",
+			"100000":"get05Coins",
+			"100000":"get28Coins"
+		}
+	],
+	"season":[
+		{
+			"title":"Season One: Beginning"
+		}
+	]
+}
