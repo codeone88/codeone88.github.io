@@ -55,6 +55,18 @@ html, body {
 	top: 25%;
 }
 
+#message{
+	position: absolute;
+	width: 90%;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--primary);
+	font-size: 0.8rem;
+	text-align: center;
+	opacity: 0.6;
+}
+
 #buttons-container{
 	position: absolute;
 	left: 50%;
