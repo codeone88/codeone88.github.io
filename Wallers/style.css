@@ -55,7 +55,7 @@ html, body {
 	top: 25%;
 }
 
-#message{
+.message{
 	position: absolute;
 	width: 90%;
 	top: 10%;
