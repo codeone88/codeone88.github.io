@@ -6,114 +6,19 @@ window.addEventListener("load", function() {
 
 
 
-let appsIcons = [
-	{
-		img:'cyber',
-		name: 'CyberMiner',
-		description: 'Complete tasks and win a lot of coins.',
-		ios: 'https://apps.apple.com/us/app/cyberminer/id1598939179',
-		android: 'https://play.google.com/store/apps/details?id=air.Enter.cyberminer&hl=en_US&gl=EC'
-	},
-	{
-		img:'lofi',
-		name: 'Lo-Fi-U',
-		description: 'Music to chill, relax and study.',
-		ios: 'https://apps.apple.com/us/app/lo-fi-u/id1451719398',
-		android: 'https://play.google.com/store/apps/details?id=air.enter.LouPhai2&hl=en_US&gl=EC'
-	},
-	{
-		img:'reader',
-		name: 'The.Reader',
-		description: 'Interesting stories to read.',
-		ios: 'https://apps.apple.com/us/app/the-reader/id6444778523',
-		android: 'https://play.google.com/store/apps/details?id=air.enter.story'
-	},
-	{
-		img:'soft',
-		name: 'Soft',
-		description: 'Relax and meditate.',
-		ios: 'https://apps.apple.com/us/app/soft-meditate-and-relax/id1624303770',
-		android: 'https://play.google.com/store/apps/details?id=air.Enter.Soft'
-	},
-	{
-		img:'wallers',
-		name: 'Wallers - Gallery',
-		description: 'Need a good wallpaper?',
-		ios: 'https://apps.apple.com/us/app/wallers-gallery/id1587422624',
-		android: 'https://play.google.com/store/apps/details?id=air.Enter.wallers&hl=en_US&gl=EC'
-	}
-];
-
-
 function init(){
-	setTimeout(() => {
-		show('main-title');
-		setTimeout(() => {
-			close('main-title');
-			show('social-cont');
-			show('logo');
-			loadItems();
-		}, 3000);
-	},500);
+	/*const menuItems = document.querySelectorAll('.txt-head');
+	menuItems.forEach(item => item.addEventListener('click', openWindow));
+	
+	loadWidgets();*/
 }
 
-function loadItems(){
-	for(var i=0; i<appsIcons.length; i++){
-		document.getElementById('apps-container').appendChild(appItem(appsIcons[i]));
-	}
-	
-	show('apps-container', 500);
-}
-
-function appItem(data){
-	let cont = document.createElement('div'),
-		icon = document.createElement('img'),
-		name = document.createElement('div'),
-		desc = document.createElement('p'),
-		imcont = document.createElement('div'),
-		iconAp = document.createElement('img'),
-		iconAn = document.createElement('img');
-	
-	cont.classList.add('app-cont');
-	
-	name.classList.add('app-name');
-	name.innerHTML = data.name;
-	cont.appendChild(name);
-	
-	imcont.classList.add('app-imcont');
-	
-	iconAp.src = 'img/apple.png';
-	iconAp.onclick = () => {window.open(data.ios, '_blank');}
-	imcont.appendChild(iconAp);
-	
-	iconAn.src = 'img/android.png';
-	iconAn.onclick = () => {window.open(data.android, '_blank');}
-	imcont.appendChild(iconAn);
-	
-	cont.appendChild(imcont);
-	
-	icon.classList.add('shadow-dark-out');
-	icon.src = 'img/app_icons/icon-' + data.img + '.png';
-	cont.appendChild(icon);
-	
-	desc.classList.add('app-desc');
-	desc.innerHTML = data.description;
-	cont.appendChild(desc);
-	
-	return cont;
-}
-
-
-
-
-
-
-function show(el, delay = 100){
+function show(el){
 	document.getElementById(el).style.display = 'block';
 	setTimeout(()=>{
 		document.getElementById(el).classList.remove('close');
 		document.getElementById(el).classList.add('show');
-	}, delay);
+	}, 100);
 } 
 
 function close(el){
