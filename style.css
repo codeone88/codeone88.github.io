@@ -208,6 +208,22 @@ header{
 
 
 
+#section1-privacy{
+	position: relative;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+#priv-cont{
+	position: relative;
+	width: calc(100% - 40px);
+	margin: 20px auto;
+	color: var(--primary);
+}
+
+
+
+
 /*--------------- setup --------------
 #subBtn{
 	position:absolute;
