@@ -8,6 +8,13 @@ window.addEventListener("load", function() {
 
 let appsIcons = [
 	{
+		img:'dabloons',
+		name: 'D. Bank',
+		description: 'Keep record and store your Dabloons.',
+		ios: 'https://apps.apple.com/us/app/d-bank-store-your-dabloons/id1658163549',
+		android: 'https://play.google.com/store/apps/details?id=air.enter.dabloonsbank'
+	},
+	{
 		img:'cyber',
 		name: 'CyberMiner',
 		description: 'Complete tasks and win a lot of coins.',
