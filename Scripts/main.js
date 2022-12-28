@@ -15,6 +15,13 @@ let appsIcons = [
 		android: 'https://play.google.com/store/apps/details?id=air.enter.dabloonsbank'
 	},
 	{
+		img:'pplane',
+		name: 'Paper Plane',
+		description: 'Just say whatever you want.',
+		ios: 'https://itunes.apple.com/us/app/pplane/id1274143821?mt=8',
+		android: 'https://play.google.com/store/apps/details?id=air.Enter.FO2'
+	},
+	{
 		img:'cyber',
 		name: 'CyberMiner',
 		description: 'Complete tasks and win a lot of coins.',
