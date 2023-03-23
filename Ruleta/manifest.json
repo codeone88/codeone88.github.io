@@ -1,0 +1,16 @@
+{
+	"name": "Ruleta",
+	"short_name": "Ruleta",
+	"start_url": "index.html",
+	"display": "standalone",
+	"background_color": "#1D1F21",
+	"theme_color": "#FFFFFF",
+	"orientation": "portrait-primary",
+	"icons":[
+		{
+			"src": "img/logo.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
