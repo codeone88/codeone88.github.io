@@ -17,6 +17,6 @@
 		<outline text="World News" title="World News" description="A place for major news from around the world, excluding US-internal news." xmlUrl="https://www.reddit.com/r/worldnews/.rss" type="rss" />
 		<outline text="World News Headlines, Latest International News, World Breaking News - Times of India" title="World News Headlines, Latest International News, World Breaking News - Times of India" description="World News: TOI brings the latest world news headlines, Current International breaking news world wide. In depth analysis and top news headlines world wide." xmlUrl="https://timesofindia.indiatimes.com/rssfeeds/296589292.cms" type="rss" />
 		<outline text="World news | The Guardian" title="World news | The Guardian" description="Latest World news news, comment and analysis from the Guardian, the world's leading liberal voice" xmlUrl="https://www.theguardian.com/world/rss" type="rss" />
-		<outline text="Yahoo News - Latest News & Headlines" title="Yahoo News - Latest News & Headlines" description="The latest news and headlines from Yahoo! News. Get breaking news stories and in-depth coverage with videos and photos." xmlUrl="https://www.yahoo.com/news/rss" type="rss" />
+		<outline text="Yahoo News - Latest News and Headlines" title="Yahoo News - Latest News and Headlines" description="The latest news and headlines from Yahoo! News. Get breaking news stories and in-depth coverage with videos and photos." xmlUrl="https://www.yahoo.com/news/rss" type="rss" />
 	</body>
 </opml>
