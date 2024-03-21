@@ -8,7 +8,6 @@
 	</head>
 	<body>
 		<outline text="500px" title="500px" description="" xmlUrl="https://iso.500px.com/feed/" type="rss" />
-		<outline text="500px:" title="500px:" description="on 500px." xmlUrl="https://500px.com/editors.rss" type="rss" />
 		<outline text="Big Picture" title="Big Picture" description="News Stories in Photographs from the Boston Globe." xmlUrl="https://www.bostonglobe.com/rss/bigpicture" type="rss" />
 		<outline text="Canon Rumors – Your best source for Canon rumors, leaks and gossip" title="Canon Rumors – Your best source for Canon rumors, leaks and gossip" description="" xmlUrl="https://www.canonrumors.com/feed/" type="rss" />
 		<outline text="Digital Photography School" title="Digital Photography School" description="Digital Photography Tips and Tutorials" xmlUrl="https://feeds.feedburner.com/DigitalPhotographySchool" type="rss" />

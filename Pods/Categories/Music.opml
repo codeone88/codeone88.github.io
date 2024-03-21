@@ -7,7 +7,6 @@
 		<ownerEmail>info@spianslabs.com</ownerEmail>
 	</head>
 	<body>
-		<outline text="Billboard" title="Billboard" description="Just another WordPress site" xmlUrl="https://www.billboard.com/articles/rss.xml" type="rss" />
 		<outline text="Consequence" title="Consequence" description="Music, Film, TV and Pop Culture News for the Mainstream and Underground" xmlUrl="http://consequenceofsound.net/feed" type="rss" />
 		<outline text="EDM.com - The Latest Electronic Dance Music News, Reviews and Artists" title="EDM.com - The Latest Electronic Dance Music News, Reviews and Artists" description="The world's foremost authority on EDM : free music downloads, artist interviews, industry news, curated playlists, trending charts, and more." xmlUrl="https://edm.com/.rss/full/" type="rss" />
 		<outline text="Metal Injection" title="Metal Injection" description="Heavy metal news, metal music videos, tour dates, live footage, exclusive documentaries, funny clips and more." xmlUrl="http://feeds.feedburner.com/metalinjection" type="rss" />

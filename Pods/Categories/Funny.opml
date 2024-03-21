@@ -18,7 +18,6 @@
 		<outline text="Saturday Morning Breakfast Cereal" title="Saturday Morning Breakfast Cereal" description="Latest Saturday Morning Breakfast Cereal comics and news" xmlUrl="https://www.smbc-comics.com/comic/rss" type="rss" />
 		<outline text="The Bloggess" title="The Bloggess" description="Like Mother Teresa, only better." xmlUrl="https://thebloggess.com/feed/" type="rss" />
 		<outline text="The Daily WTF" title="The Daily WTF" description="Curious Perversions in Information Technology" xmlUrl="http://syndication.thedailywtf.com/TheDailyWtf" type="rss" />
-		<outline text="The Oatmeal - Comics by Matthew Inman" title="The Oatmeal - Comics by Matthew Inman" description="I make comics about science, cats, technology, and sometimes goats." xmlUrl="http://feeds.feedburner.com/oatmealfeed" type="rss" />
 		<outline text="The Onion" title="The Onion" description="America's Finest News Source." xmlUrl="https://www.theonion.com/rss" type="rss" />
 		<outline text="xkcd.com" title="xkcd.com" description="xkcd.com: A webcomic of romance and math humor." xmlUrl="https://xkcd.com/rss.xml" type="rss" />
 	</body>

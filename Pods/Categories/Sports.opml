@@ -8,15 +8,10 @@
 	</head>
 	<body>
 		<outline text="BBC Sport - Sport" title="BBC Sport - Sport" description="BBC Sport - Sport" xmlUrl="http://feeds.bbci.co.uk/sport/rss.xml" type="rss" />
-		<outline text="Reddit Sports" title="Reddit Sports" description="Sports News and Highlights from the NFL, NBA, NHL, MLB, MLS, and leagues around the world." xmlUrl="https://www.reddit.com/r/sports.rss" type="rss" />
 		<outline text="Sports News - Latest Sports and Football News | Sky News" title="Sports News - Latest Sports and Football News | Sky News" description="The best sports coverage from around the world, covering: Football, Cricket, Golf, Rugby, WWE, Boxing, Tennis and much more." xmlUrl="http://feeds.skynews.com/feeds/rss/sports.xml" type="rss" />
 		<outline text="Sportskeeda" title="Sportskeeda" description="Sports Writers Unite" xmlUrl="https://www.sportskeeda.com/feed" type="rss" />
 		<outline text="Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games" title="Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games" description="Yahoo! Sports - Comprehensive news, scores, standings, fantasy games, rumors, and more" xmlUrl="https://sports.yahoo.com/rss/" type="rss" />
 		<outline text="www.espn.com - TOP" title="www.espn.com - TOP" description="Latest TOP news from www.espn.com" xmlUrl="https://www.espn.com/espn/rss/news" type="rss" />
-		<outline text="EFL Championship" title="EFL Championship" description="Home of the EFL Championship on Reddit" xmlUrl="https://www.reddit.com/r/Championship/.rss?format=xml" type="rss" />
-		<outline text="Football - The People's Sport" title="Football - The People's Sport" description="Home of Football. News, Rumours, Analysis, gossip and much more." xmlUrl="https://www.reddit.com/r/football/.rss?format=xml" type="rss" />
-		<outline text="Football News, Live Scores, Results and Transfers | Goal.com" title="Football News, Live Scores, Results and Transfers | Goal.com" description="The latest football news, rumours, transfers and match reports from around the world." xmlUrl="https://www.goal.com/feeds/en/news" type="rss" />
-		<outline text="Football365" title="Football365" description="Views, Live Matches, Gossip and more | Football365.com" xmlUrl="https://www.football365.com/feed" type="rss" />
 		<outline text="Soccer News" title="Soccer News" description="The Latest Soccer News from around the globe." xmlUrl="https://www.soccernews.com/feed" type="rss" />
 	</body>
 </opml>
