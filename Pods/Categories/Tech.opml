@@ -23,6 +23,7 @@
 		<outline text="The Keyword" title="The Keyword" description="The Keyword" xmlUrl="https://www.blog.google/rss/" type="rss" />
 		<outline text="The Next Web" title="The Next Web" description="Original and proudly opinionated perspectives for Generation T" xmlUrl="https://thenextweb.com/feed/" type="rss" />
 		<outline text="The Verge -  All Posts" title="The Verge -  All Posts" description="" xmlUrl="https://www.theverge.com/rss/index.xml" type="rss" />
+		<outline text="The Vergecast" title="The Vergecast" description="Hello! This is The Vergecast, the flagship podcast of The Verge... and your life. Every Friday, Nilay Patel and Dieter Bohn make sense of the week's tech news with help from our wide-ranging staff. And on Tuesdays, Nilay hosts in-depth, one-on-one interviews with major technology leaders. Join us every week for a fun, deeply nerdy, often off-the-rails conversation about what's happening now (and next) in technology and gadgets." xmlUrl="https://feeds.megaphone.fm/vergecast" type="rss" />
 		<outline text="https://www.engadget.com/" title="https://www.engadget.com/" description="https://www.engadget.com/" xmlUrl="https://www.engadget.com/rss.xml" type="rss" />
 	</body>
 </opml>
