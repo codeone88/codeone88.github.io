@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<opml version="1.0">
+	<head>
+		<title>Pods</title>
+		<url>https://apps.apple.com/us/app/pods-minimal-rss-news-reader/id6478560203</url>
+		<ownerName>EnterApps</ownerName>
+		<ownerEmail>sant.ortega88@gmail.com</ownerEmail>
+	</head>
+	<body>
+		<outline text="Darknet Diaries" title="Darknet Diaries" description="Explore true stories of the dark side of the Internet with host Jack Rhysider as he takes you on a journey through the chilling world of hacking, data breaches, and cyber crime." xmlUrl="https://feeds.megaphone.fm/darknetdiaries" type="rss" />
+		<outline text="Revisionist History" title="Revisionist History" description="Revisionist History" xmlUrl="https://feeds.megaphone.fm/revisionisthistory" type="rss" />
+		<outline text="Mobbed Up" title="Mobbed Up" description="Mobbed Up" xmlUrl="https://feed.podbean.com/mobbedup/feed.xml" type="rss" />
+		<outline text="WorkLife with Adam Grant" title="WorkLife with Adam Grant" description="" xmlUrl="https://feeds.feedburner.com/WorklifeWithAdamGrant" type="rss" />
+		<outline text="Life is Short with Justin Long" title="Life is Short with Justin Long" description="New episodes Tuesdays and Fridays" xmlUrl="https://rss.art19.com/life-is-short-with-justin-long" type="rss" />
+		<outline text="Dead Eyes" title="Dead Eyes" description="" xmlUrl="https://rss.art19.com/dead-eyes" type="rss" />
+		<outline text="Gastropod" title="Gastropod" description="" xmlUrl="https://feeds.megaphone.fm/VMP6255701211" type="rss" />
+	</body>
+</opml>
