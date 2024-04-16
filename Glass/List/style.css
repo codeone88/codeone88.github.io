@@ -36,12 +36,12 @@ html, body {
 
 @font-face{
     font-family: 'rob';
-    src:url(Fonts/Roboto-Thin.ttf);
+    src:url("../../Fonts/Roboto-Thin.ttf");
 }
 
 @font-face{
     font-family: 'go';
-    src:url(Fonts/SFUIDisplayCondensed-Regular.otf);
+    src:url("../../Fonts/SFUIDisplayCondensed-Regular.otf");
 }
 
 section{
