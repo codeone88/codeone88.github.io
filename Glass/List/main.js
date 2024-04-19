@@ -61,7 +61,7 @@ let appsIcons = [
 	},
 	{
 		name: 'Camera',
-		alt: false
+		alt: true
 	},
 	{
 		name: 'Compass',
@@ -85,11 +85,11 @@ let appsIcons = [
 	},
 	{
 		name: 'Health',
-		alt: false
+		alt: true
 	},
 	{
 		name: 'Home',
-		alt: false
+		alt: true
 	},
 	{
 		name: 'Books',
@@ -257,7 +257,7 @@ let appsIcons = [
 	},
 	{
 		name: 'Duolingo',
-		alt: false
+		alt: true
 	},
 	{
 		name: 'Ebay',
@@ -317,11 +317,11 @@ let appsIcons = [
 	},
 	{
 		name: 'Discord',
-		alt: false
+		alt: true
 	},
 	{
 		name: 'Netflix',
-		alt: false
+		alt: true
 	},
 	{
 		name: 'Nike',
@@ -397,6 +397,370 @@ let appsIcons = [
 	},
 	{
 		name: 'Twitch',
+		alt: false
+	},
+	{
+		name: 'Unsplash',
+		alt: false
+	},
+	{
+		name: 'Uber',
+		alt: false
+	},
+	{
+		name: 'Google Maps',
+		alt: false
+	},
+	{
+		name: 'AVPlayer',
+		alt: false
+	},
+	{
+		name: '3nder',
+		alt: false
+	},
+	{
+		name: 'Wunderlist',
+		alt: false
+	},
+	{
+		name: 'Bitwarden',
+		alt: false
+	},
+	{
+		name: '115netdisk',
+		alt: false
+	},
+	{
+		name: 'Adguard',
+		alt: false
+	},
+	{
+		name: 'Adguard Pro',
+		alt: false
+	},
+	{
+		name: 'Adobe Reader',
+		alt: false
+	},
+	{
+		name: 'MLB',
+		alt: false
+	},
+	{
+		name: 'Chase Bank',
+		alt: false
+	},
+	{
+		name: '1Password',
+		alt: false
+	},
+	{
+		name: 'XVPN',
+		alt: false
+	},
+	{
+		name: 'Boomerang Mail',
+		alt: false
+	},
+	{
+		name: 'Spark Mail',
+		alt: false
+	},
+	{
+		name: 'Bible',
+		alt: false
+	},
+	{
+		name: 'Clock',
+		alt: true
+	},
+	{
+		name: 'Amazon Music',
+		alt: false
+	},
+	{
+		name: 'Google Calendar',
+		alt: false
+	},
+	{
+		name: 'One Drive',
+		alt: false
+	},
+	{
+		name: 'Prime Video',
+		alt: false
+	},
+	{
+		name: 'CBS Radio',
+		alt: false
+	},
+	{
+		name: 'Slack',
+		alt: false
+	},
+	{
+		name: 'Zalo',
+		alt: false
+	},
+	{
+		name: 'Pixelmator',
+		alt: false
+	},
+	{
+		name: 'Myk+',
+		alt: false
+	},
+	{
+		name: 'BankPlus',
+		alt: false
+	},
+	{
+		name: '24H',
+		alt: false
+	},
+	{
+		name: 'csn',
+		alt: false
+	},
+	{
+		name: '1.1.1.1',
+		alt: false
+	},
+	{
+		name: 'Kinemaster',
+		alt: false
+	},
+	{
+		name: 'My Viettel',
+		alt: false
+	},
+	{
+		name: 'Threads',
+		alt: false
+	},
+	{
+		name: 'Widgy',
+		alt: false
+	},
+	{
+		name: 'Remini',
+		alt: false
+	},
+	{
+		name: 'Snapchat',
+		alt: false
+	},
+	{
+		name: 'TikTok',
+		alt: false
+	},
+	{
+		name: 'Chat GPT',
+		alt: false
+	},
+	{
+		name: 'Leonardo Ai',
+		alt: false
+	},
+	{
+		name: 'Among Us',
+		alt: false
+	},
+	{
+		name: 'Fire Tv',
+		alt: false
+	},
+	{
+		name: 'Installer 5',
+		alt: true
+	},
+	{
+		name: 'UCBankMN',
+		alt: false
+	},
+	{
+		name: 'Sony Headphones Connect',
+		alt: false
+	},
+	{
+		name: 'Photomath',
+		alt: false
+	},
+	{
+		name: 'Moonlight Game Streaming',
+		alt: false
+	},
+	{
+		name: 'Google Wifi',
+		alt: true
+	},
+	{
+		name: 'Oculus',
+		alt: false
+	},
+	{
+		name: 'Dollar Shave Club',
+		alt: false
+	},
+	{
+		name: 'Tesla',
+		alt: true
+	},
+	{
+		name: 'AltStore',
+		alt: false
+	},
+	{
+		name: 'Google Meet',
+		alt: false
+	},
+	{
+		name: 'Documents',
+		alt: false
+	},
+	{
+		name: 'CapCut',
+		alt: false
+	},
+	{
+		name: 'GoPro',
+		alt: false
+	},
+	{
+		name: 'My Digio',
+		alt: false
+	},
+	{
+		name: 'Sony Music Center',
+		alt: false
+	},
+	{
+		name: 'VLLO, My First Video Editor',
+		alt: false
+	},
+	{
+		name: 'PS Messages',
+		alt: false
+	},
+	{
+		name: 'Microsoft Outlook',
+		alt: false
+	},
+	{
+		name: 'Xbox',
+		alt: true
+	},
+	{
+		name: 'Microsoft Authenticator',
+		alt: false
+	},
+	{
+		name: 'Poket: Stay Informed',
+		alt: false
+	},
+	{
+		name: 'Yelp',
+		alt: false
+	},
+	{
+		name: 'Nicegram',
+		alt: false
+	},
+	{
+		name: 'PUBG',
+		alt: false
+	},
+	{
+		name: 'Pokemon GO',
+		alt: false
+	},
+	{
+		name: 'IPTVizion',
+		alt: false
+	},
+	{
+		name: 'atresplayer',
+		alt: false
+	},
+	{
+		name: 'WiFiPasswords',
+		alt: false
+	},
+	{
+		name: 'Microsoft Translator',
+		alt: false
+	},
+	{
+		name: 'Zoom',
+		alt: false
+	},
+	{
+		name: 'Watched',
+		alt: false
+	},
+	{
+		name: 'Microsoft Edge',
+		alt: false
+	},
+	{
+		name: 'Super Mario Run',
+		alt: false
+	},
+	{
+		name: 'Asphalt 9',
+		alt: false
+	},
+	{
+		name: 'Fotmob',
+		alt: false
+	},
+	{
+		name: 'WeChat',
+		alt: false
+	},
+	{
+		name: 'Line',
+		alt: false
+	},
+	{
+		name: 'Skype',
+		alt: false
+	},
+	{
+		name: 'BlueSG',
+		alt: false
+	},
+	{
+		name: 'Grab',
+		alt: false
+	},
+	{
+		name: 'Ivory',
+		alt: false
+	},
+	{
+		name: 'Food Panda',
+		alt: false
+	},
+	{
+		name: 'Starbucks',
+		alt: false
+	},
+	{
+		name: 'Deco',
+		alt: false
+	},
+	{
+		name: 'Man Utd',
+		alt: false
+	},
+	{
+		name: 'Wikipedia',
+		alt: false
+	},
+	{
+		name: 'Xe Currency',
 		alt: false
 	}
 ];
