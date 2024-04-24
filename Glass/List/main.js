@@ -8,6 +8,190 @@ window.addEventListener("load", function() {
 
 let appsIcons = [
 	{
+		name: 'Disney Plus',
+		alt: false
+	},
+	{
+		name: 'GTA 3 San Andreas',
+		alt: false
+	},
+	{
+		name: 'Speed Test',
+		alt: false
+	},
+	{
+		name: 'Serist',
+		alt: false
+	},
+	{
+		name: 'IMDB',
+		alt: false
+	},
+	{
+		name: 'Bank of America',
+		alt: false
+	},
+	{
+		name: 'Microsoft Office Lens',
+		alt: false
+	},
+	{
+		name: 'Microsoft Excel',
+		alt: false
+	},
+	{
+		name: 'Microsoft PowerPoint',
+		alt: false
+	},
+	{
+		name: 'Microsoft Word',
+		alt: false
+	},
+	{
+		name: 'Microsoft Edge',
+		alt: false
+	},
+	{
+		name: 'Microsoft Authenticator',
+		alt: false
+	},
+	{
+		name: 'Microsoft Outlook',
+		alt: false
+	},
+	{
+		name: 'Microsoft Teams',
+		alt: false
+	},
+	{
+		name: 'New Term',
+		alt: false
+	},
+	{
+		name: 'Little Family Room',
+		alt: false
+	},
+	{
+		name: 'Lyft',
+		alt: false
+	},
+	{
+		name: 'Shop',
+		alt: false
+	},
+	{
+		name: 'DoorDash',
+		alt: false
+	},
+	{
+		name: 'Chick-Fill-A',
+		alt: false
+	},
+	{
+		name: 'Uber Eats',
+		alt: false
+	},
+	{
+		name: 'Subway',
+		alt: false
+	},
+	{
+		name: 'Tinder',
+		alt: false
+	},
+	{
+		name: 'Calm',
+		alt: false
+	},
+	{
+		name: 'Imgur',
+		alt: false
+	},
+	{
+		name: 'Zebra',
+		alt: false
+	},
+	{
+		name: 'Sileo',
+		alt: false
+	},
+	{
+		name: 'Soundcloud',
+		alt: false
+	},
+	{
+		name: 'Pizza Hut',
+		alt: false
+	},
+	{
+		name: 'Taco Johns',
+		alt: false
+	},
+	{
+		name: 'Dairy Queen',
+		alt: false
+	},
+	{
+		name: 'Kahoot',
+		alt: false
+	},
+	{
+		name: 'Google Sheets',
+		alt: false
+	},
+	{
+		name: 'Google Slides',
+		alt: false
+	},
+	{
+		name: 'Google Docs',
+		alt: false
+	},
+	{
+		name: 'iPrint & Scan',
+		alt: false
+	},
+	{
+		name: 'Lazada',
+		alt: false
+	},
+	{
+		name: 'Carousell',
+		alt: false
+	},
+	{
+		name: 'Qoo10',
+		alt: false
+	},
+	{
+		name: 'UOB',
+		alt: false
+	},
+	{
+		name: 'Open VPN',
+		alt: false
+	},
+	{
+		name: '64',
+		alt: false
+	},
+	{
+		name: 'Soundhound',
+		alt: false
+	},
+	{
+		name: 'Video Compress',
+		alt: false
+	},
+	{
+		name: 'Selfcare',
+		alt: false
+	},
+	{
+		name: 'Teamviewer',
+		alt: false
+	},
+	{
 		name: 'Neon',
 		alt: false
 	},
