@@ -1,12 +1,174 @@
 
-window.addEventListener("load", function() { 
-   document.body.style.width='100%';
-   document.body.style.height='100%';
-}, false);
-
-
 
 let appsIcons = [
+	{
+		name: '斗鱼',
+		alt: false
+	},
+	{
+		name: '威锋',
+		alt: false
+	},
+	{
+		name: '淘宝',
+		alt: false
+	},
+	{
+		name: 'AirSpeed',
+		alt: false
+	},
+	{
+		name: 'QQ',
+		alt: false
+	},
+	{
+		name: 'Jimmy Johns',
+		alt: false
+	},
+	{
+		name: 'USPS',
+		alt: false
+	},
+	{
+		name: 'Yahoo',
+		alt: false
+	},
+	{
+		name: 'B612',
+		alt: false
+	},
+	{
+		name: 'ACB ONE',
+		alt: false
+	},
+	{
+		name: 'Airpay',
+		alt: false
+	},
+	{
+		name: 'MB Bank',
+		alt: false
+	},
+	{
+		name: 'NCT - NhacCuaTui',
+		alt: false
+	},
+	{
+		name: 'BIDV',
+		alt: false
+	},
+	{
+		name: 'MOMO',
+		alt: false
+	},
+	{
+		name: 'Mazii: Dict. to learn Japanese',
+		alt: false
+	},
+	{
+		name: 'VCB DigiBank',
+		alt: false
+	},
+	{
+		name: 'The Weather Channel',
+		alt: false
+	},
+	{
+		name: 'BBVA',
+		alt: false
+	},
+	{
+		name: 'Samsung Galaxy Watch',
+		alt: false
+	},
+	{
+		name: 'NFL',
+		alt: false
+	},
+	{
+		name: 'All Goals',
+		alt: false
+	},
+	{
+		name: 'MyAT&T',
+		alt: false
+	},
+	{
+		name: 'Old Navy',
+		alt: false
+	},
+	{
+		name: 'Capital One',
+		alt: false
+	},
+	{
+		name: 'Crunch Fitness',
+		alt: false
+	},
+	{
+		name: 'AAA Mobile',
+		alt: false
+	},
+	{
+		name: 'SDGE',
+		alt: false
+	},
+	{
+		name: 'Citi Mobile',
+		alt: false
+	},
+	{
+		name: 'T-Mobile',
+		alt: false
+	},
+	{
+		name: 'MyFitnessPal',
+		alt: false
+	},
+	{
+		name: 'PopCorn Time',
+		alt: false
+	},
+	{
+		name: 'Signal',
+		alt: false
+	},
+	{
+		name: 'Shopee',
+		alt: false
+	},
+	{
+		name: 'PowerApp',
+		alt: false
+	},
+	{
+		name: 'PS Remote PLay',
+		alt: false
+	},
+	{
+		name: 'Clash of Clans',
+		alt: false
+	},
+	{
+		name: '365 Scores',
+		alt: false
+	},
+	{
+		name: 'Kodi',
+		alt: false
+	},
+	{
+		name: 'Flipboard',
+		alt: false
+	},
+	{
+		name: 'Fiverr',
+		alt: false
+	},
+	{
+		name: 'DC Comics',
+		alt: false
+	},
 	{
 		name: 'Disney Plus',
 		alt: false
