@@ -1,0 +1,356 @@
+:root {
+  --primary: #DADADA;/*#1E1E1E*/
+  --secondary: #242424;/*#1C1C1E*/
+  --third:#FF3A5C;
+  --trC:rgba(255,255,255,0.1);
+  --fontC: #DADADA;/*#1E1E1E*/
+	
+  --mY: 10px;
+	
+  --hY: 120px;
+  --hYo: 80%;
+  --hYm: 240px;
+  --sF: 0.9rem;
+  --bF: 3rem;
+  --tA: left;
+	
+  --wY: 50px;
+  --wD: 50px;
+  
+  --br:15px;
+  --bl:35px;
+ 
+}
+
+
+html, body {
+    padding:0;
+    margin:0;
+	background: #000000;
+	font-family: 'go';
+}
+
+body{
+	background: linear-gradient(
+	    175deg,
+		#292929 20%,
+		var(--secondary)
+	);
+}
+
+@font-face{
+    font-family: 'rob';
+    src:url("../Fonts/Roboto-Thin.ttf");
+}
+
+@font-face{
+    font-family: 'go';
+    src:url("../Fonts/SFUIDisplayCondensed-Regular.otf");
+}
+
+section{
+	position:relative;
+	width:100vw;
+	height:100vh;
+	overflow:hidden;
+}
+
+/*--------------- HEAD ------------------*/
+header{
+	position:fixed;
+	width:100vw;
+	height:60px;
+	overflow:hidden;
+	z-index:100;
+}
+
+#logo{
+	position:absolute;
+	width:75px;
+	transition: opacity 0.3s;
+	cursor: pointer;
+}
+
+/*----------------- FOOT-------------------*/
+
+#social-cont{
+	position:fixed;
+	width:350px;
+	text-align:center;
+	bottom:30px;
+	transition: opacity 0.5s 0.2s;
+}
+
+#social-cont img{
+	display:inline-block;
+	border-radius:8px;
+	width:35px;
+	margin:0 7.5px;
+	cursor:pointer;
+}
+
+/*----------------- SECTIONS -------------------*/
+#section1{
+	height: auto;
+	padding-top: 60px;
+}
+
+.main-title{
+	position:absolute;
+	color: var(--primary);
+	width: 100%;
+	text-align: center;
+	transition: opacity 0.3s;
+}
+
+.title{
+	position: relative;
+	color: var(--primary);
+	font-size: 2rem;
+	margin: 20px auto;
+	margin-bottom: 10px;
+}
+
+.title.mar{
+	margin: 20px auto;
+}
+
+.sub-title{
+	position: relative;
+	color: var(--primary);
+	font-size: 0.9rem;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	padding: 0 20px;
+	opacity: 0.8;
+}
+
+.section-container{
+	position: relative;
+	width: calc(100% - 40px);
+	height: auto;
+	margin: 0 auto;
+	padding: 0 20px;
+	padding-bottom: 50px;
+	transition: opacity 0.3s;
+	text-align: center;
+}
+
+.img-container{
+	position: relative;
+	text-align: center;
+}
+
+.img-land{
+	position: relative;
+	width: calc(100% - 100px);
+	max-width: 300px;
+	height: auto;
+	border-radius: 25px;
+	margin: 10px;
+}
+
+#section2{
+	height: 75vh;
+}
+
+.alt-container{
+	position: relative;
+	background: var(--trC);
+	max-width: 800px;
+	border-radius: 15px;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img-alt{
+	position: relative;
+	width: 100%;
+}
+
+#section3{
+	height: 120vh;
+}
+
+.tier-container{
+	position: relative;
+	background: var(--trC);
+	width: calc(100% - 60px);
+	max-width: 400px;
+	padding: 20px;
+	margin: 10px auto;
+	border-radius: 25px;
+}
+
+.tier-btn{
+	position: relative;
+	background: var(--trC);
+	padding: 10px;
+	border-radius: 20px;
+	color: var(--primary);
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+
+
+/*GENERAL CLASES*/
+
+.close{
+	display: none;
+	opacity: 0;
+}
+
+.show{
+	opacity: 1;
+}
+
+.midX{
+	left:50%;
+	transform:translateX(-50%);
+}
+
+.midY{
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.center{
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.addBlur{
+	-webkit-backdrop-filter:blur(var(--bl));
+	backdrop-filter:blur(var(--bl));
+}
+
+.shadow-dark-out{
+	box-shadow:0px 2.3px 3.8px rgba(0, 0, 0, 0.15),
+  0px 6.3px 10.6px rgba(0, 0, 0, 0.25),
+  0px 15.1px 25.6px rgba(0, 0, 0, 0.35),
+  0px 50px 85px rgba(0, 0, 0, 0.07);
+}
+
+
+
+
+#section1-privacy{
+	position: relative;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+#priv-cont{
+	position: relative;
+	width: calc(100% - 40px);
+	margin: 20px auto;
+	color: var(--primary);
+}
+
+
+/*----------------------------------------------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  max-height: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides > img{
+	border-radius: 15px;
+	height: 100%;
+    min-height: 300px;
+	object-fit: cover;
+	background: #212224;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
