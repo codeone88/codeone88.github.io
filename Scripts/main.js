@@ -8,25 +8,39 @@ window.addEventListener("load", function() {
 
 let appsIcons = [
 	{
+		img:'wallers',
+		name: 'Wallers - Gallery',
+		description: 'Need a good wallpaper? You will find the best creators with hundreds of images.',
+		ios: 'https://apps.apple.com/us/app/wallers-gallery/id1587422624',
+		android: 'https://play.google.com/store/apps/details?id=air.Enter.wallers&hl=en_US&gl=EC'
+	},
+	{
 		img:'dabloons',
 		name: 'D. Bank',
-		description: 'Keep record and store your Dabloons.',
+		description: 'Keep record and store your Dabloons. Use our chat to meet new people.',
 		ios: 'https://apps.apple.com/us/app/d-bank-store-your-dabloons/id1658163549',
 		android: 'https://play.google.com/store/apps/details?id=air.enter.dabloonsbank'
 	},
 	{
-		img:'pplane',
-		name: 'Paper Plane',
-		description: 'Just say whatever you want.',
-		ios: 'https://itunes.apple.com/us/app/pplane/id1274143821?mt=8',
-		android: 'https://play.google.com/store/apps/details?id=air.Enter.FO2'
+		img:'pods',
+		name: 'Pods - Minimal RSS News Reader',
+		description: 'Stay in touch with the latest news with our AI powered app.',
+		ios: 'https://apps.apple.com/us/app/pods-minimal-rss-news-reader/id6478560203',
+		android: 'https://play.google.com/store/apps/details?id=air.enter.pods'
 	},
 	{
-		img:'cyber',
-		name: 'CyberMiner',
-		description: 'Complete tasks and win a lot of coins.',
-		ios: 'https://apps.apple.com/us/app/cyberminer/id1598939179',
-		android: 'https://play.google.com/store/apps/details?id=air.Enter.cyberminer&hl=en_US&gl=EC'
+		img:'coin',
+		name: 'CoinKeeper',
+		description: 'Keep track of your money.',
+		ios: 'https://apps.apple.com/us/app/coinkeeper-track-your-money/id6448895132',
+		android: 'https://play.google.com/store/apps/details?id=air.enter.coinkeeper'
+	},
+	{
+		img:'walltastik',
+		name: 'WalltastiK',
+		description: 'Collections of free wallpapers for you.',
+		ios: 'https://apps.apple.com/us/app/walltastik/id6470945073',
+		android: 'https://play.google.com/store/apps/details?id=air.enter.walltastik'
 	},
 	{
 		img:'lofi',
@@ -38,7 +52,7 @@ let appsIcons = [
 	{
 		img:'reader',
 		name: 'The.Reader',
-		description: 'Interesting stories to read.',
+		description: 'Interesting stories from around the globe.',
 		ios: 'https://apps.apple.com/us/app/the-reader/id6444778523',
 		android: 'https://play.google.com/store/apps/details?id=air.enter.story'
 	},
@@ -48,13 +62,6 @@ let appsIcons = [
 		description: 'Relax and meditate.',
 		ios: 'https://apps.apple.com/us/app/soft-meditate-and-relax/id1624303770',
 		android: 'https://play.google.com/store/apps/details?id=air.Enter.Soft'
-	},
-	{
-		img:'wallers',
-		name: 'Wallers - Gallery',
-		description: 'Need a good wallpaper?',
-		ios: 'https://apps.apple.com/us/app/wallers-gallery/id1587422624',
-		android: 'https://play.google.com/store/apps/details?id=air.Enter.wallers&hl=en_US&gl=EC'
 	}
 ];
 
@@ -81,10 +88,11 @@ function loadItems(){
 
 function appItem(data){
 	let cont = document.createElement('div'),
-		icon = document.createElement('img'),
 		name = document.createElement('div'),
+		icon = document.createElement('img'),
+		incont = document.createElement('div'),
 		desc = document.createElement('p'),
-		imcont = document.createElement('div'),
+		incont2 = document.createElement('div'),
 		iconAp = document.createElement('img'),
 		iconAn = document.createElement('img');
 	
@@ -94,25 +102,31 @@ function appItem(data){
 	name.innerHTML = data.name;
 	cont.appendChild(name);
 	
-	imcont.classList.add('app-imcont');
-	
-	iconAp.src = 'img/apple.png';
-	iconAp.onclick = () => {window.open(data.ios, '_blank');}
-	imcont.appendChild(iconAp);
-	
-	iconAn.src = 'img/android.png';
-	iconAn.onclick = () => {window.open(data.android, '_blank');}
-	imcont.appendChild(iconAn);
-	
-	cont.appendChild(imcont);
+	incont.classList.add('app-incont');
 	
 	icon.classList.add('shadow-dark-out');
 	icon.src = 'img/app_icons/icon-' + data.img + '.png';
-	cont.appendChild(icon);
+	incont.appendChild(icon);
 	
 	desc.classList.add('app-desc');
 	desc.innerHTML = data.description;
-	cont.appendChild(desc);
+	incont.appendChild(desc);
+	
+	cont.appendChild(incont);
+	
+	incont2.classList.add('app-incont');
+	
+	iconAp.classList.add('img');
+	iconAp.src = 'img/apple.png';
+	iconAp.onclick = () => {window.open(data.ios, '_blank');}
+	incont2.appendChild(iconAp);
+	
+	iconAn.classList.add('img');
+	iconAn.src = 'img/android.png';
+	iconAn.onclick = () => {window.open(data.android, '_blank');}
+	incont2.appendChild(iconAn);
+	
+	cont.appendChild(incont2);
 	
 	return cont;
 }

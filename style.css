@@ -61,7 +61,7 @@ section{
 header{
 	position:fixed;
 	width:100vw;
-	height:100px;
+	height:70px;
 	overflow:hidden;
 	z-index:100;
 }
@@ -111,10 +111,11 @@ header{
 .app-cont{
 	position: relative;
 	background: var(--trC);
-	min-height: calc(50% - 10px);
-	width: calc(100% - 40px);
+	width: calc(100% - 80px);
 	max-width: 450px;
 	border-radius: var(--br);
+	padding: 15px;
+	padding-bottom: 0;
 	margin: 20px auto;
 	text-align: center;
 }
@@ -125,43 +126,50 @@ header{
 	width: calc(100% - 40px);
 	color: var(--primary);
 	font-size: 1.5rem;
-	text-align: left;
+	text-align: center;
 	margin: 20px auto;
 }
 
 .app-desc{
 	position: relative;
 	display: inline-block;
-	width: calc(100% - 40px);
+	width: calc(75% - 30px);
 	color: var(--primary);
 	font-size: 1rem;
-	margin: 20px auto;
-	margin-bottom: 70px;
+	text-align: left;
+	margin: 0px auto;
 }
 
-.app-cont > img{
+/*.app-cont > img{
 	position: relative;
 	display: inline-block;
-	width: 50%;
+	width: 25%;
+	max-width: 200px;
+	border-radius: 15px;
+	margin: 10px auto;
+}*/
+
+.app-incont{
+	position: relative;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.app-incont > img{
+	position: relative;
+	display: inline-block;
+	width: 25%;
 	max-width: 200px;
 	border-radius: 15px;
 	margin: 10px auto;
 }
 
-.app-imcont{
-	position: absolute;
-	background: var(--trC);
-	padding:5px 10px;
-	border-radius: 10px 10px 0 0;
-	left: 50%;
-	bottom: 0;
-	transform: translateX(-50%);
-}
-
-.app-imcont > img{
-	position: relative;
-	height: 30px;
-	margin: 0px 10px;
+.app-incont > .img{
+	width: 40%;
+	max-width: 150px;
+	border-radius: 0;
 }
 
 
