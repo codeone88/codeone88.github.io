@@ -7,6 +7,7 @@
 			"anime": "Demon Slayer",
 			"types": ["Endurance", "Strength", "Ability"],
 			"trainingDays": 5,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.JPG",
 			"training": [
 				{
 					"name": "Beginners",
