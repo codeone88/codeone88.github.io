@@ -1,0 +1,432 @@
+{
+	"data": [
+		{
+			"name": "Tanjiro Kamado",
+			"anime": "Demon Slayer",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 5,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.JPG",
+			"training": [
+				{
+					"name": "Beginners",
+					"type": "free",
+					"days": [
+						{
+							"name": "Monday",
+							"description": "Chest & Triceps",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 50",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Incline Dumbbell Bench Press",
+									"on": "3 x 12",
+									"img": "Incline-Dumbbell-Bench-Press.png"
+								},
+								{
+									"name": "Incline Dumbbell Chest Flyes",
+									"on": "3 x 12",
+									"img": "Incline-Dumbbell-Fly.png"
+								},
+								{
+									"name": "Cable Tricep Pushdowns with Rope",
+									"on": "3 x 12",
+									"img": "Cable-Rope-Pushdown.png"
+								},
+								{
+									"name": "Dumbbell Overhead Triceps Extension",
+									"on": "3 x 12",
+									"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								}
+							]
+						},
+						{
+							"name": "Tuesday",
+							"description": "Legs & Core",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 50",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Front Squats",
+									"on": "3 x 12",
+									"img": "Front-Squat.png"
+								},
+								{
+									"name": "Weighted Lunges",
+									"on": "3 x 12",
+									"img": "Lunge.png"
+								},
+								{
+									"name": "Straight Leg Deadlift with Dumbbells",
+									"on": "3 x 15",
+									"img": "Dumbbell-Deadlift.png"
+								},
+								{
+									"name": "Plank Hold",
+									"on": "3 x 60 Seconds",
+									"img": "Plank.png"
+								},
+								{
+									"name": "Hanging Knee Raises with Twist",
+									"on": "3 x 30",
+									"img": "Hanging-Leg-Raise.png"
+								}
+							]
+						},
+						{
+							"name": "Wednesday",
+							"description": "Endurance: You can try any of these options.",
+							"workout":[
+								{
+									"name": "Option 1: Run",
+									"on": "1 - 3 Miles (2 - 4 Km)",
+									"img": ""
+								},
+								{
+									"name": "Option 2: Varied Cardio",
+									"on": "45 - 60+ minutes. Split your cardio with bike, swim, elliptical, treadmill walk/run or more.",
+									"img": ""
+								}
+							]
+						},
+						{
+							"name": "Thursday",
+							"description": "Shoulders & Traps",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 50",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Seated Dumbbell Front Raises",
+									"on": "3 x 12",
+									"img": "Seated-dumbell-front.png"
+								},
+								{
+									"name": "Seated Lateral Raises",
+									"on": "3 x 15",
+									"img": "Seated-dumbell-lateral.png"
+								},
+								{
+									"name": "Barbell Shrugs",
+									"on": "3 x 12",
+									"img": "Barbell-Shrug.png"
+								},
+								{
+									"name": "Upright Rows",
+									"on": "3 x 12",
+									"img": "Barbell-Upright-Row.png"
+								},
+								{
+									"name": "Kettlebell Swings",
+									"on": "3 x 15",
+									"img": "Kettlebell-Swing.png"
+								}
+							]
+						},
+						{
+							"name": "Friday",
+							"description": "Back & Biceps",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 50",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Deadlift",
+									"on": "3 x 12",
+									"img": "Barbell-Deadlift.png"
+								},
+								{
+									"name": "Bent Over Row",
+									"on": "3 x 12",
+									"img": "Dumbbell-Bent-Over-Row-_Single-Arm.png"
+								},
+								{
+									"name": "Preacher Curls",
+									"on": "3 x 12",
+									"img": "EZ-Barbell-Preacher-Curl.png"
+								},
+								{
+									"name": "Hammer Curls",
+									"on": "3 x 12",
+									"img": "Hammer-Curl.png"
+								},
+								{
+									"name": "Chin Ups",
+									"on": "3 x 12",
+									"img": "Chin-up.jpg"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Advanced",
+					"type": "paid",
+					"days": [
+						{
+							"name": "Monday",
+							"description": "Chest, Triceps, Circuit",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 100",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Incline Dumbbell Bench Press",
+									"on": "3 x 12",
+									"img": "Incline-Dumbbell-Bench-Press.png"
+								},
+								{
+									"name": "Incline Dumbbell Chest Flyes",
+									"on": "3 x 12",
+									"img": "Incline-Dumbbell-Fly.png"
+								},
+								{
+									"name": "Dips",
+									"on": "3 x 15",
+									"img": "Bench-Dips.png"
+								},
+								{
+									"name": "Cable Tricep Pushdowns with Rope",
+									"on": "3 x 12",
+									"img": "Cable-Rope-Pushdown.png"
+								},
+								{
+									"name": "Dumbbell Overhead Triceps Extension",
+									"on": "3 x 12",
+									"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								},
+								{
+									"name": "Tricep Kickbacks",
+									"on": "3 x 12 each arm",
+									"img": "Kickback.png"
+								},
+								{
+									"name": "Circuit: IMPORTANT! Try each exercise progressively over the upcoming weeks. Do not attempt all exercises in a single week if you are not ready. Remember to monitor your health with each workout.",
+									"on": "20 Push Ups<br>20 Sit Ups<br>20 Plank to Push Ups<br>15 Push Ups<br>15 Chest Flyes<br>15 Sit Ups<br>10 Push Ups<br>10 Sit Ups<br>10 Plank to Push Ups",
+									"img": ""
+								}
+							]
+						},
+						{
+							"name": "Tuesday",
+							"description": "Legs, Calves & Core",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 100",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Front Squats",
+									"on": "3 x 12",
+									"img": "Front-Squat.png"
+								},
+								{
+									"name": "Weighted Lunges",
+									"on": "3 x 12",
+									"img": "Lunge.png"
+								},
+								{
+									"name": "Straight Leg Deadlift with Dumbbells",
+									"on": "3 x 15",
+									"img": "Dumbbell-Deadlift.png"
+								},
+								{
+									"name": "Leg Press",
+									"on": "3 x 12",
+									"img": "Leg-Press.png"
+								},
+								{
+									"name": "Standing Calf Raise",
+									"on": "3 x 12",
+									"img": "Standing-Calf-Raise.png"
+								},
+								{
+									"name": "Seated Calf Raise",
+									"on": "3 x 12 each",
+									"img": "Seated-Calf-Raise.png"
+								},
+								{
+									"name": "Plank Hold",
+									"on": "3 x 60 Seconds",
+									"img": "Plank.png"
+								},
+								{
+									"name": "Bent Knee Reverse Crunch",
+									"on": "3 x 30",
+									"img": "Bent-Knee-Reverse-Crunch.png"
+								},
+								{
+									"name": "Hanging Knee Raises with Twist",
+									"on": "3 x 30",
+									"img": "Hanging-Leg-Raise.png"
+								}
+							]
+						},
+						{
+							"name": "Wednesday",
+							"description": "Endurance: You can try any of these options.",
+							"workout":[
+								{
+									"name": "Option 1: Run",
+									"on": "1 - 3 Miles (2 - 4 Km)",
+									"img": ""
+								},
+								{
+									"name": "Option 2: Varied Cardio",
+									"on": "45 - 60+ minutes. Split your cardio with bike, swim, elliptical, treadmill walk/run or more.",
+									"img": ""
+								}
+							]
+						},
+						{
+							"name": "Thursday",
+							"description": "Shoulders, Traps & Core",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 100",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Seated Arnold Press",
+									"on": "3 x 12",
+									"img": "seated-arnold-press.jpg"
+								},
+								{
+									"name": "Seated Dumbbell Front Raises",
+									"on": "3 x 12",
+									"img": "Seated-dumbell-front.png"
+								},
+								{
+									"name": "Seated Lateral Raises",
+									"on": "3 x 15",
+									"img": "Seated-dumbell-lateral.png"
+								},
+								{
+									"name": "Barbell Shrugs",
+									"on": "3 x 12",
+									"img": "Barbell-Shrug.png"
+								},
+								{
+									"name": "Upright Rows",
+									"on": "3 x 12",
+									"img": "Barbell-Upright-Row.png"
+								},
+								{
+									"name": "Kettlebell Swings",
+									"on": "3 x 15",
+									"img": "Kettlebell-Swing.png"
+								},
+								{
+									"name": "L-Sit Hold",
+									"on": "3 x 30 seconds",
+									"img": "Wall-Sit.png"
+								},
+								{
+									"name": "Weighted Sit Ups",
+									"on": "3 x 30",
+									"img": "Wighted-situp.jpg"
+								},
+								{
+									"name": "Hanging Leg Raises",
+									"on": "3 x 30",
+									"img": "Hanging-Leg-Raise.png"
+								}
+							]
+						},
+						{
+							"name": "Friday",
+							"description": "Back & Biceps",
+							"workout": [
+								{
+									"name": "Jump Rope",
+									"on": "3 x 100",
+									"img": "JumpRope.png"
+								},
+								{
+									"name": "Deadlift",
+									"on": "3 x 12",
+									"img": "Barbell-Deadlift.png"
+								},
+								{
+									"name": "Bent Over Row",
+									"on": "3 x 12 each",
+									"img": "Dumbbell-Bent-Over-Row-_Single-Arm.png"
+								},
+								{
+									"name": "Wide Grip Pulldowns",
+									"on": "3 x 15",
+									"img": "Wide-Grip-Pulldown.png"
+								},
+								{
+									"name": "Preacher Curls",
+									"on": "3 x 12",
+									"img": "EZ-Barbell-Preacher-Curl.png"
+								},
+								{
+									"name": "Hammer Curls",
+									"on": "3 x 12",
+									"img": "Hammer-Curl.png"
+								},
+								{
+									"name": "Chin Ups",
+									"on": "3 x 12",
+									"img": "Chin-up.jpg"
+								},
+								{
+									"name": "Circuit: IMPORTANT! Try each exercise progressively over the upcoming weeks. Do not attempt all exercises in a single week if you are not ready. Remember to monitor your health with each workout.",
+									"on": "20 Wide to Close Push Ups<br>20 Box Jumps<br>15 Wide to Close Push Ups<br>15 Box Jumps<br>10 Wide to Close Push Ups<br>10 Box Jumps",
+									"img": ""
+								}
+							]
+						}
+					]
+				}
+			],
+			"trainingCal": [
+				{
+					"name": "Beginners",
+					"type": "free",
+					"days": [
+
+					]
+				},
+				{
+					"name": "Advanced",
+					"type": "paid",
+					"days": [
+						{
+							"name": "Monday",
+							"description": "",
+							"workout": [
+								{
+									"name": "Warm Up",
+									"on": "5-15 Minute Walk/Jog",
+									"img": "jog.jpg"
+								},
+								{
+									"name": "Push Ups",
+									"on": "3 x 20",
+									"img": "jog.jpg"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
+
