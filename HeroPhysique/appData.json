@@ -4,11 +4,19 @@
 	"heroes": [
 		{
 			"name": "Tanjiro Kamado",
-			"anime": "Demon Slayer",
+			"anime": "Demon Slayer: Kimetsu no Yaiba",
 			"types": ["Endurance", "Strength", "Ability"],
 			"trainingDays": 5,
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.JPG",
 			"id": "TanjiroKamado-DS"
+		},
+		{
+			"name": "Zenitsu Agatsuma",
+			"anime": "Demon Slayer",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 4,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/zenitsu.jpg",
+			"id": "ZenitsuAgatsuma-DS"
 		}
 	]
 }

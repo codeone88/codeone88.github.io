@@ -1,0 +1,427 @@
+{
+	"data": {
+		"name": "Zenitsu Agatsuma",
+		"anime": "Demon Slayer: Kimetsu no Yaiba",
+		"types": [
+			"Endurance",
+			"Strength",
+			"Ability"
+		],
+		"trainingDays": 4,
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/zenitsu.jpg",
+		"id": "ZenitsuAgatsuma-DS",
+		"training": [],
+		"trainingCal": [
+			{
+				"name": "Beginners",
+				"type": "free",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "Sit Ups",
+								"on": "3 x 30",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Air Squats",
+								"on": "3 x 25",
+								"img": "squat.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "3 x 20",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Lying Leg Raises",
+								"on": "3 x 15",
+								"img": "laying-leg-raise.png"
+							},
+							{
+								"name": "Dips",
+								"on": "3 x 10",
+								"img": "arnold-dips.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "3 x 5",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "V-Ups",
+								"on": "3 x 30",
+								"img": "v-ups.jpg"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "3 x 25",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Decline Push Ups",
+								"on": "3 x 20",
+								"img": "decline-push-up.jpg"
+							},
+							{
+								"name": "Hanging Leg Raises",
+								"on": "3 x 15",
+								"img": "Hanging-Leg-Raise.png"
+							},
+							{
+								"name": "Tricep Extensions",
+								"on": "3 x 10",
+								"img": "kneeling-triceps-extension.jpg"
+							},
+							{
+								"name": "Chin Ups",
+								"on": "3 x 5",
+								"img": "Chin-up.jpg"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "Optional rest day that can be transferred to Friday",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "Slow Crunches",
+								"on": "3 x 30",
+								"img": "crunch.jpg"
+							},
+							{
+								"name": "Lunges",
+								"on": "3 x 20",
+								"img": "Lunges.jpeg"
+							},
+							{
+								"name": "Wide Push Ups",
+								"on": "3 x 20",
+								"img": "wide-push-up.png"
+							},
+							{
+								"name": "Lying Leg Raises with Hip Thrust",
+								"on": "3 x 15",
+								"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg"
+							},
+							{
+								"name": "Plank to Push Ups",
+								"on": "3 x 10",
+								"img": "plank-get-ups.svg"
+							},
+							{
+								"name": "Wide Grip Pull Ups",
+								"on": "3 x 5",
+								"img": "wide-grip-pull-down.png"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "Sit Ups",
+								"on": "3 x 30",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Glute Bridges",
+								"on": "3 x 25",
+								"img": "Glute-Bridge.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "3 x 20",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Knee Tucks Jump",
+								"on": "3 x 15",
+								"img": "Knee-Tuck-Jumps.png"
+							},
+							{
+								"name": "Dips",
+								"on": "3 x 10",
+								"img": "arnold-dips.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "3 x 5",
+								"img": "Pull-Up.png"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Advanced",
+				"type": "paid",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "Sit Ups",
+								"on": "3 x 30",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Air Squats",
+								"on": "3 x 25",
+								"img": "squat.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "3 x 20",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Lying Leg Raises",
+								"on": "3 x 15",
+								"img": "laying-leg-raise.png"
+							},
+							{
+								"name": "Dips",
+								"on": "3 x 10",
+								"img": "arnold-dips.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "3 x 5",
+								"img": "Pull-Up.png"
+							},
+							{
+								"name": "Plank to Push Ups",
+								"on": "10 (2 - 3 rounds)",
+								"img": "plank-get-ups.svg"
+							},
+							{
+								"name": "Jumping Jacks",
+								"on": "10 (2 - 3 rounds)",
+								"img": "Jumping-Jacks.png"
+							},
+							{
+								"name": "Mountain Climbers",
+								"on": "10 (2 - 3 rounds)",
+								"img": "mountain-climbers.png"
+							},
+							{
+								"name": "Glute Bridges",
+								"on": "10 (2 - 3 rounds)",
+								"img": "Glute-Bridge.png"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "V-Ups",
+								"on": "3 x 30",
+								"img": "v-ups.jpg"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "3 x 25",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Decline Push Ups",
+								"on": "3 x 20",
+								"img": "decline-push-up.jpg"
+							},
+							{
+								"name": "Hanging Leg Raises",
+								"on": "3 x 15",
+								"img": "Hanging-Leg-Raise.png"
+							},
+							{
+								"name": "Tricep Extensions",
+								"on": "3 x 10",
+								"img": "kneeling-triceps-extension.jpg"
+							},
+							{
+								"name": "Chin Ups",
+								"on": "3 x 5",
+								"img": "Chin-up.jpg"
+							},
+							{
+								"name": "Skater Lunges",
+								"on": "20 (2 - 3 rounds)",
+								"img": "skater-lunges.jpg"
+							},
+							{
+								"name": "Air Squats",
+								"on": "15 (2 - 3 rounds)",
+								"img": "squat.png"
+							},
+							{
+								"name": "Inch Worms",
+								"on": "10 (2 - 3 rounds)",
+								"img": "Inchworm-exercise.jpg"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "Optional rest day that can be transferred to Friday",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "Slow Crunches",
+								"on": "3 x 30",
+								"img": "crunch.jpg"
+							},
+							{
+								"name": "Lunges",
+								"on": "3 x 20",
+								"img": "Lunges.jpeg"
+							},
+							{
+								"name": "Wide Push Ups",
+								"on": "3 x 20",
+								"img": "wide-push-up.png"
+							},
+							{
+								"name": "Lying Leg Raises with Hip Thrust",
+								"on": "3 x 15",
+								"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg"
+							},
+							{
+								"name": "Plank to Push Ups",
+								"on": "3 x 10",
+								"img": "plank-get-ups.svg"
+							},
+							{
+								"name": "Wide Grip Pull Ups",
+								"on": "3 x 5",
+								"img": "wide-grip-pull-down.png"
+							},
+							{
+								"name": "Explosive Push Ups",
+								"on": "10 (2 - 3 rounds)",
+								"img": "explosive-push-up.jpg"
+							},
+							{
+								"name": "Half Burpees",
+								"on": "10 (2 - 3 rounds)",
+								"img": "half-burpee.jpg"
+							},
+							{
+								"name": "Wall Climbs",
+								"on": "10 (2 - 3 rounds)",
+								"img": "wall-walk.jpg"
+							},
+							{
+								"name": "Planking Shoulder Taps",
+								"on": "10 (2 - 3 rounds)",
+								"img": "plank-shoulder-tap.png"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Warm Up",
+								"on": "0.5 - 1 Mile Run (800-1600m)",
+								"img": ""
+							},
+							{
+								"name": "Sit Ups",
+								"on": "3 x 30",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Glute Bridges",
+								"on": "3 x 25",
+								"img": "Glute-Bridge.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "3 x 20",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Knee Tucks Jump",
+								"on": "3 x 15",
+								"img": "Knee-Tuck-Jumps.png"
+							},
+							{
+								"name": "Dips",
+								"on": "3 x 10",
+								"img": "arnold-dips.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "3 x 5",
+								"img": "Pull-Up.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "20 (2 - 3 rounds)",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Alternating Pistol Squats",
+								"on": "15 (2 - 3 rounds)",
+								"img": "pistol-squat-alternatives.jpg"
+							},
+							{
+								"name": "Half Burpees",
+								"on": "10 (2 - 3 rounds)",
+								"img": "half-burpee.jpg"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

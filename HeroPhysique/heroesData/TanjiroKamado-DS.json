@@ -1,7 +1,7 @@
 {
 	"data": {
 		"name": "Tanjiro Kamado",
-		"anime": "Demon Slayer",
+		"anime": "Demon Slayer: Kimetsu no Yaiba",
 		"types": [
 			"Endurance",
 			"Strength",
@@ -9,6 +9,7 @@
 		],
 		"trainingDays": 5,
 		"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.JPG",
+		"id": "TanjiroKamado-DS",
 		"training": [
 			{
 				"name": "Beginners",
@@ -569,7 +570,7 @@
 							{
 								"name": "Tricep Extensions",
 								"on": "3 x 15",
-								"img": "kneeling-triceps-extension.webp"
+								"img": "kneeling-triceps-extension.jpg"
 							},
 							{
 								"name": "Bicycle Crunches",
@@ -785,7 +786,7 @@
 							{
 								"name": "Tricep Extensions",
 								"on": "3 x 15",
-								"img": "kneeling-triceps-extension.webp"
+								"img": "kneeling-triceps-extension.jpg"
 							},
 							{
 								"name": "Bicycle Crunches",
