@@ -415,27 +415,27 @@
 							},
 							{
 								"name": "Push Ups",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Push-Ups.png"
 							},
 							{
 								"name": "Jumping Lunges",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Jump-lunge.jpg"
 							},
 							{
 								"name": "Superman Hold",
-								"on": "3 x 30 Seconds",
+								"on": "3 x 20 Seconds",
 								"img": "superman-hold.jpg"
 							},
 							{
 								"name": "Plank to Push Ups",
-								"on": "3 x 15",
+								"on": "3 x 10",
 								"img": "plank-get-ups.svg"
 							},
 							{
 								"name": "Hanging Knee Raises",
-								"on": "3 x 15",
+								"on": "3 x 10",
 								"img": "Hanging-Leg-Raise.png"
 							},
 							{
@@ -447,7 +447,7 @@
 					},
 					{
 						"name": "Tuesday",
-						"description": "",
+						"description": "4 Rounds",
 						"workout": [
 							{
 								"name": "Run",
@@ -456,7 +456,7 @@
 							},
 							{
 								"name": "Push Ups",
-								"on": "40",
+								"on": "20",
 								"img": "Push-Ups.png"
 							},
 							{
@@ -466,17 +466,17 @@
 							},
 							{
 								"name": "Jump Squats",
-								"on": "25",
+								"on": "15",
 								"img": "Jump-Squat.png"
 							},
 							{
 								"name": "Sit Ups",
-								"on": "20",
+								"on": "10",
 								"img": "Sit-up.png"
 							},
 							{
 								"name": "Dips",
-								"on": "15",
+								"on": "10",
 								"img": "arnold-dips.png"
 							},
 							{
@@ -497,12 +497,12 @@
 							},
 							{
 								"name": "Push Ups",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Push-Ups.png"
 							},
 							{
 								"name": "Squats",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "squat.png"
 							},
 							{
@@ -517,12 +517,12 @@
 							},
 							{
 								"name": "Reverse Crunches",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Reverse-Crunch.png"
 							},
 							{
 								"name": "Inch Worms",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Inchworm-exercise.jpg"
 							}
 						]
@@ -554,12 +554,12 @@
 							},
 							{
 								"name": "Decline Push Ups",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "decline-push-up.jpg"
 							},
 							{
 								"name": "Box Jumps",
-								"on": "3 x 10",
+								"on": "3 x 8",
 								"img": "jump-box.webp"
 							},
 							{
@@ -569,17 +569,17 @@
 							},
 							{
 								"name": "Tricep Extensions",
-								"on": "3 x 15",
+								"on": "3 x 10",
 								"img": "kneeling-triceps-extension.jpg"
 							},
 							{
 								"name": "Bicycle Crunches",
-								"on": "3 x 30",
+								"on": "3 x 20",
 								"img": "bicycle-crunches.png"
 							},
 							{
 								"name": "Flutter Kicks",
-								"on": "3 x 50",
+								"on": "3 x 20",
 								"img": "fluter-kicks.jpg"
 							}
 						]
@@ -648,7 +648,7 @@
 					},
 					{
 						"name": "Tuesday",
-						"description": "",
+						"description": "4 Rounds",
 						"workout": [
 							{
 								"name": "Run",

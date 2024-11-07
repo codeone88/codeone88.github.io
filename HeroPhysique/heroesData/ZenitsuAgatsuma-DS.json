@@ -27,22 +27,22 @@
 							},
 							{
 								"name": "Sit Ups",
-								"on": "3 x 30",
+								"on": "3 x 10",
 								"img": "Sit-up.png"
 							},
 							{
 								"name": "Air Squats",
-								"on": "3 x 25",
+								"on": "3 x 8",
 								"img": "squat.png"
 							},
 							{
 								"name": "Push Ups",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Push-Ups.png"
 							},
 							{
 								"name": "Lying Leg Raises",
-								"on": "3 x 15",
+								"on": "3 x 8",
 								"img": "laying-leg-raise.png"
 							},
 							{
@@ -68,27 +68,27 @@
 							},
 							{
 								"name": "V-Ups",
-								"on": "3 x 30",
+								"on": "3 x 10",
 								"img": "v-ups.jpg"
 							},
 							{
 								"name": "Box Jumps",
-								"on": "3 x 25",
+								"on": "3 x 10",
 								"img": "jump-box.webp"
 							},
 							{
 								"name": "Decline Push Ups",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "decline-push-up.jpg"
 							},
 							{
 								"name": "Hanging Leg Raises",
-								"on": "3 x 15",
+								"on": "3 x 8",
 								"img": "Hanging-Leg-Raise.png"
 							},
 							{
 								"name": "Tricep Extensions",
-								"on": "3 x 10",
+								"on": "3 x 8",
 								"img": "kneeling-triceps-extension.jpg"
 							},
 							{
@@ -109,22 +109,22 @@
 							},
 							{
 								"name": "Slow Crunches",
-								"on": "3 x 30",
+								"on": "3 x 10",
 								"img": "crunch.jpg"
 							},
 							{
 								"name": "Lunges",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Lunges.jpeg"
 							},
 							{
 								"name": "Wide Push Ups",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "wide-push-up.png"
 							},
 							{
 								"name": "Lying Leg Raises with Hip Thrust",
-								"on": "3 x 15",
+								"on": "3 x 8",
 								"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg"
 							},
 							{
@@ -150,22 +150,22 @@
 							},
 							{
 								"name": "Sit Ups",
-								"on": "3 x 30",
+								"on": "3 x 10",
 								"img": "Sit-up.png"
 							},
 							{
 								"name": "Glute Bridges",
-								"on": "3 x 25",
+								"on": "3 x 8",
 								"img": "Glute-Bridge.png"
 							},
 							{
 								"name": "Push Ups",
-								"on": "3 x 20",
+								"on": "3 x 10",
 								"img": "Push-Ups.png"
 							},
 							{
 								"name": "Knee Tucks Jump",
-								"on": "3 x 15",
+								"on": "3 x 8",
 								"img": "Knee-Tuck-Jumps.png"
 							},
 							{
