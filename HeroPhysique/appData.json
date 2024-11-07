@@ -25,6 +25,14 @@
 			"trainingDays": 5,
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/inosuke.JPG",
 			"id": "InosukeHashibira-DS"
+		},
+		{
+			"name": "Goku",
+			"anime": "Dragon Ball",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 6,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/goku.jpg",
+			"id": "Goku-DB"
 		}
 	]
 }
