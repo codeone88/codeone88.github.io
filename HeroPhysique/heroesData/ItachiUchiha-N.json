@@ -1,0 +1,722 @@
+{
+	"data": {
+		"name": "Itachi Uchiha",
+		"anime": "Naruto",
+		"types": [
+			"Endurance",
+			"Strength",
+			"Ability"
+		],
+		"trainingDays": 5,
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/itachi.jpg",
+		"id": "ItachiUchiha-N",
+		"training": [
+			{
+				"name": "Beginners",
+				"type": "free",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Jog",
+								"on": "0.5 Miles (800m)",
+								"img": ""
+							},
+							{
+								"name": "Dumbbell Incline Bench Press",
+								"on": "3 x 10",
+								"img": "Incline-Dumbbell-Bench-Press.png"
+							},
+							{
+								"name": "Dumbbell Skull Crushers",
+								"on": "3 x 10",
+								"img": "Dumbbell-Lying-Triceps-Extension.jpg"
+							},
+							{
+								"name": "Leg Press",
+								"on": "3 x 10",
+								"img": "Leg-Press.png"
+							},
+							{
+								"name": "Standing Calf Raise",
+								"on": "3 x 10",
+								"img": "Standing-Calf-Raise.png"
+							},
+							{
+								"name": "Cable Rows",
+								"on": "3 x 10",
+								"img": "Seated-Cable-Row.png"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "3 Rounds",
+						"workout": [
+							{
+								"name": "Sit Ups",
+								"on": "21, 15, 9 reps",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Thrusters",
+								"on": "21, 15, 9 reps",
+								"img": "Barbell-thruster.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "21, 15, 9 reps",
+								"img": "Push-Ups.png"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Jog",
+								"on": "0.5 Miles (800m)",
+								"img": ""
+							},
+							{
+								"name": "Chest Flyes",
+								"on": "3 x 10",
+								"img": "flat-bench-dumbbell-chest-fly.webp"
+							},
+							{
+								"name": "Cable Pushdowns",
+								"on": "3 x 10",
+								"img": "Cable-Rope-Pushdown.png"
+							},
+							{
+								"name": "Goblet Squats",
+								"on": "3 x 10",
+								"img": "Dumbbell-Goblet-Squat.png"
+							},
+							{
+								"name": "Seated Calf Raises",
+								"on": "3 x 10",
+								"img": "Seated-Calf-Raise.png"
+							},
+							{
+								"name": "Chin Ups",
+								"on": "3 x 10",
+								"img": "Chin-up.jpg"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "Split in 4-6 Rounds",
+						"workout": [
+							{
+								"name": "Option 1: Run",
+								"on": "1 - 3 Miles (2 - 4 Km)",
+								"img": ""
+							},
+							{
+								"name": "Option 2: Varied Cardio",
+								"on": "45 - 60+ minutes. Split your cardio with bike, swim, elliptical, treadmill walk/run or more.",
+								"img": ""
+							}
+						]
+					},
+					{
+						"name": "Friday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Jog",
+								"on": "0.5 Miles (800m)",
+								"img": ""
+							},
+							{
+								"name": "Chest Dips",
+								"on": "3 x 15",
+								"img": "chest-dips.jpg"
+							},
+							{
+								"name": "Seated Dumbbell Overhead Extension",
+								"on": "3 x 10",
+								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+							},
+							{
+								"name": "Quad Extensions",
+								"on": "3 x 10",
+								"img": "leg-extension.png"
+							},
+							{
+								"name": "Deadlifts",
+								"on": "3 x 10",
+								"img": "Barbell-Deadlift.png"
+							},
+							{
+								"name": "Hammer Curls",
+								"on": "3 x 10 (each arm)",
+								"img": "Hammer-Curl.png"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Advanced",
+				"type": "paid",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Jog",
+								"on": "0.5 Miles (800m)",
+								"img": ""
+							},
+							{
+								"name": "Dumbbell Incline Bench Press",
+								"on": "3 x 10",
+								"img": "Incline-Dumbbell-Bench-Press.png"
+							},
+							{
+								"name": "Dumbbell Skull Crushers",
+								"on": "3 x 10",
+								"img": "Dumbbell-Lying-Triceps-Extension.jpg"
+							},
+							{
+								"name": "Leg Press",
+								"on": "3 x 10",
+								"img": "Leg-Press.png"
+							},
+							{
+								"name": "Standing Calf Raise",
+								"on": "3 x 10",
+								"img": "Standing-Calf-Raise.png"
+							},
+							{
+								"name": "Cable Rows",
+								"on": "3 x 10",
+								"img": "Seated-Cable-Row.png"
+							},
+							{
+								"name": "Standing Alternating Dumbbell Curls",
+								"on": "3 x 10 (each arm)",
+								"img": "Alternating-Dumbbell-Curl.png"
+							},
+							{
+								"name": "Arnold Press",
+								"on": "3 x 10",
+								"img": "arnold-press.png"
+							},
+							{
+								"name": "Kettlebell Swings",
+								"on": "3 x 10",
+								"img": "Kettlebell-Swing.png"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "3 Rounds",
+						"workout": [
+							{
+								"name": "Sit Ups",
+								"on": "21, 15, 9 reps",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Thrusters",
+								"on": "21, 15, 9 reps",
+								"img": "Barbell-thruster.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "21, 15, 9 reps",
+								"img": "Push-Ups.png"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Jog",
+								"on": "0.5 Miles (800m)",
+								"img": ""
+							},
+							{
+								"name": "Chest Flyes",
+								"on": "3 x 10",
+								"img": "flat-bench-dumbbell-chest-fly.webp"
+							},
+							{
+								"name": "Cable Pushdowns",
+								"on": "3 x 10",
+								"img": "Cable-Rope-Pushdown.png"
+							},
+							{
+								"name": "Goblet Squats",
+								"on": "3 x 10",
+								"img": "Dumbbell-Goblet-Squat.png"
+							},
+							{
+								"name": "Seated Calf Raises",
+								"on": "3 x 10",
+								"img": "Seated-Calf-Raise.png"
+							},
+							{
+								"name": "Wide Grip Pulldowns",
+								"on": "3 x 10",
+								"img": "wide-grip-pull-down.png"
+							},
+							{
+								"name": "Chin Ups",
+								"on": "3 x 10",
+								"img": "Chin-up.jpg"
+							},
+							{
+								"name": "Standing Dumbbell Front Raises",
+								"on": "3 x 10",
+								"img": "Dumbbell-Front-Raise.png"
+							},
+							{
+								"name": "Hanging Leg Raises",
+								"on": "3 x 20",
+								"img": "Hanging-Leg-Raise.png"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "Split in 4-6 Rounds",
+						"workout": [
+							{
+								"name": "Option 1: Run",
+								"on": "1 - 3 Miles (2 - 4 Km)",
+								"img": ""
+							},
+							{
+								"name": "Option 2: Varied Cardio",
+								"on": "45 - 60+ minutes. Split your cardio with bike, swim, elliptical, treadmill walk/run or more.",
+								"img": ""
+							}
+						]
+					},
+					{
+						"name": "Friday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Jog",
+								"on": "0.5 Miles (800m)",
+								"img": ""
+							},
+							{
+								"name": "Chest Dips",
+								"on": "3 x 15",
+								"img": "chest-dips.jpg"
+							},
+							{
+								"name": "Seated Dumbbell Overhead Extension",
+								"on": "3 x 10",
+								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+							},
+							{
+								"name": "Hamstring Curls",
+								"on": "3 x 10",
+								"img": "hamstring-curl.png"
+							},
+							{
+								"name": "Quad Extensions",
+								"on": "3 x 10",
+								"img": "leg-extension.png"
+							},
+							{
+								"name": "Deadlifts",
+								"on": "3 x 10",
+								"img": "Barbell-Deadlift.png"
+							},
+							{
+								"name": "Hammer Curls",
+								"on": "3 x 10 (each arm)",
+								"img": "Hammer-Curl.png"
+							},
+							{
+								"name": "Upright Rows",
+								"on": "3 x 10",
+								"img": "Barbell-Upright-Row.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "3 x 20",
+								"img": "Sit-up.png"
+							}
+						]
+					}
+				]
+			}
+		],
+		"trainingCal": [
+			{
+				"name": "Beginners",
+				"type": "free",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "",
+						"workout": [
+							{
+								"name": "High Knees",
+								"on": "2 x 15",
+								"img": "high-knee-skips.png"
+							},
+							{
+								"name": "Jumping Jacks",
+								"on": "2 x 15",
+								"img": "Jumping-Jacks.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "150 (on 5-10 reps)",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Air Squats",
+								"on": "100 (on 5-10 reps)",
+								"img": "squat.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "80 (on 5-10 reps)",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Dips",
+								"on": "80 (on 5-10 reps)",
+								"img": "Bench-Dips.png"
+							},
+							{
+								"name": "Planking",
+								"on": "3 x 30 Seconds",
+								"img": "Plank.png"
+							},
+							{
+								"name": "Hollow Hold",
+								"on": "3 x 30 Seconds",
+								"img": "hollow-hold.jpg"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "5 Rounds",
+						"workout": [
+							{
+								"name": "Double Unders",
+								"on": "10",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "10",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "10",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Jump Squats",
+								"on": "10",
+								"img": "Jump-Squat.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "10",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Dips",
+								"on": "8",
+								"img": "arnold-dips.png"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "3 Rounds",
+						"workout": [
+							{
+								"name": "Jump Rope",
+								"on": "30",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "20",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "High Knee Skips",
+								"on": "20",
+								"img": "high-knee-skips.png"
+							},
+							{
+								"name": "Mountain Climbers",
+								"on": "10",
+								"img": "mountain-climbers.png"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Option 1: Run",
+								"on": "1 - 5 Miles (2 - 4 Km)",
+								"img": ""
+							},
+							{
+								"name": "Option 2: Varied Cardio",
+								"on": "45 - 60+ minutes. Split your cardio with bike, swim, elliptical, treadmill walk/run or more.",
+								"img": ""
+							}
+						]
+					},
+					{
+						"name": "Friday",
+						"description": "3 Rounds",
+						"workout": [
+							{
+								"name": "Jump Rope",
+								"on": "30",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "20",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "High Knee Skips",
+								"on": "20",
+								"img": "high-knee-skips.png"
+							},
+							{
+								"name": "Mountain Climbers",
+								"on": "10",
+								"img": "mountain-climbers.png"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Advanced",
+				"type": "paid",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "",
+						"workout": [
+							{
+								"name": "High Knees",
+								"on": "2 x 25",
+								"img": "high-knee-skips.png"
+							},
+							{
+								"name": "Jumping Jacks",
+								"on": "2 x 25",
+								"img": "Jumping-Jacks.png"
+							},
+							{
+								"name": "Butt Kickers",
+								"on": "2 x 25",
+								"img": "butt-kicks.webp"
+							},
+							{
+								"name": "Push Ups",
+								"on": "250 (on 5-10 reps)",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Air Squats",
+								"on": "200 (on 5-10 reps)",
+								"img": "squat.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "150 (on 5-10 reps)",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Dips",
+								"on": "150 (on 5-10 reps)",
+								"img": "Bench-Dips.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "100 (on 5-10 reps)",
+								"img": "Pull-Up.png"
+							},
+							{
+								"name": "Planking",
+								"on": "3 x 60 Seconds",
+								"img": "Plank.png"
+							},
+							{
+								"name": "Hollow Hold",
+								"on": "3 x 45 Seconds",
+								"img": "hollow-hold.jpg"
+							},
+							{
+								"name": "L-Sit Hold",
+								"on": "3 x 30 Seconds",
+								"img": "Wall-Sit.png"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "5 Rounds",
+						"workout": [
+							{
+								"name": "Double Unders",
+								"on": "20",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "20",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "20",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Jump Squats",
+								"on": "20",
+								"img": "Jump-Squat.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "20",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Dips",
+								"on": "15",
+								"img": "arnold-dips.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "20",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "3 Rounds",
+						"workout": [
+							{
+								"name": "Jump Rope",
+								"on": "60",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "50",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "High Knee Skips",
+								"on": "40",
+								"img": "high-knee-skips.png"
+							},
+							{
+								"name": "Mountain Climbers",
+								"on": "30",
+								"img": "mountain-climbers.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "20",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Half Burpees",
+								"on": "10",
+								"img": "half-burpee.jpg"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "",
+						"workout": [
+							{
+								"name": "Option 1: Run",
+								"on": "1 - 5 Miles (2 - 4 Km)",
+								"img": ""
+							},
+							{
+								"name": "Option 2: Varied Cardio",
+								"on": "45 - 60+ minutes. Split your cardio with bike, swim, elliptical, treadmill walk/run or more.",
+								"img": ""
+							}
+						]
+					},
+					{
+						"name": "Friday",
+						"description": "3 Rounds",
+						"workout": [
+							{
+								"name": "Jump Rope",
+								"on": "60",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "50",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "High Knee Skips",
+								"on": "40",
+								"img": "high-knee-skips.png"
+							},
+							{
+								"name": "Mountain Climbers",
+								"on": "30",
+								"img": "mountain-climbers.png"
+							},
+							{
+								"name": "Double Unders",
+								"on": "20",
+								"img": "JumpRope.png"
+							},
+							{
+								"name": "Half Burpees",
+								"on": "10",
+								"img": "half-burpee.jpg"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"data": {
+		"name": "Naruto Uzumaki",
+		"anime": "Naruto",
+		"types": [
+			"Endurance",
+			"Ability"
+		],
+		"trainingDays": 6,
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/naruto.jpg",
+		"id": "NarutoUzumaki-N",
+		"training": [],
+		"trainingCal": [
+			{
+				"name": "Beginners",
+				"type": "free",
+				"days": [
+					{
+						"name": "Daily",
+						"description": "",
+						"workout": [
+							{
+								"name": "Push Ups",
+								"on": "80",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Air Squats",
+								"on": "80",
+								"img": "squat.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "50",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Dips",
+								"on": "50",
+								"img": "arnold-dips.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "20",
+								"img": "Pull-Up.png"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Advanced",
+				"type": "paid",
+				"days": [
+					{
+						"name": "Daily",
+						"description": "",
+						"workout": [
+							{
+								"name": "Push Ups",
+								"on": "100",
+								"img": "Push-Ups.png"
+							},
+							{
+								"name": "Air Squats",
+								"on": "100",
+								"img": "squat.png"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "75",
+								"img": "Sit-up.png"
+							},
+							{
+								"name": "Dips",
+								"on": "75",
+								"img": "arnold-dips.png"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "50",
+								"img": "Pull-Up.png"
+							},
+							{
+								"name": "Lunges",
+								"on": "50",
+								"img": "Lunges.jpeg"
+							},
+							{
+								"name": "Varied Cardio",
+								"on": "30 - 60+ minutes. Split your cardio with bike, swim, elliptical, treadmill walk/run or more.",
+								"img": ""
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
