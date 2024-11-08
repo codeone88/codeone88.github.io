@@ -33,6 +33,14 @@
 			"trainingDays": 6,
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/goku.jpg",
 			"id": "Goku-DB"
+		},
+		{
+			"name": "Vegeta",
+			"anime": "Dragon Ball",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 6,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/vegeta.JPG",
+			"id": "Vegeta-DB"
 		}
 	]
 }
