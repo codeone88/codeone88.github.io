@@ -57,6 +57,14 @@
 			"trainingDays": 5,
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/itachi.jpg",
 			"id": "ItachiUchiha-N"
+		},
+		{
+			"name": "Monkey D. Luffy",
+			"anime": "One Piece",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 4,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/luffy.jpg",
+			"id": "Luffy-OP"
 		}
 	]
 }
