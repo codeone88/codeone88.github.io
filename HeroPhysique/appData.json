@@ -65,6 +65,14 @@
 			"trainingDays": 4,
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/luffy.jpg",
 			"id": "Luffy-OP"
+		},
+		{
+			"name": "Nami",
+			"anime": "One Piece",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 5,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/nami.jpg",
+			"id": "Nami-OP"
 		}
 	]
 }
