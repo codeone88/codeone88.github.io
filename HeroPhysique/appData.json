@@ -1,78 +1,88 @@
 {
 	"active": true,
 	"freeDays": false,
-	"heroes": [
+	"paths": [
 		{
-			"name": "Tanjiro Kamado",
-			"anime": "Demon Slayer: Kimetsu no Yaiba",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 5,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.JPG",
-			"id": "TanjiroKamado-DS"
+			"name": "Beast Strength",
+			"description": "Unleash your inner beast with high-intensity strength training. Build explosive power and raw strength using functional movements that challenge your entire body.",
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/beast.JPG",
+			"heroes": [
+				{
+					"data": "InosukeHashibira-DS",
+					"included": true,
+					"name": "The Wild Fighter",
+					"description": "Feral Fury: Channel your inner primal strength."
+				},
+				{
+					"data": "Goku-DB",
+					"included": true ,
+					"name": "The Cosmic Warrior",
+					"description": "Limitless Power: Push your strength beyond the ordinary."
+				},
+				{
+					"data": "Luffy-OP",
+					"included": true,
+					"name": "The Elastic Adventurer",
+					"description": "Stretch and Strike: Strength fused with agility."
+				}
+			]
 		},
 		{
-			"name": "Zenitsu Agatsuma",
-			"anime": "Demon Slayer: Kimetsu no Yaiba",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 4,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/zenitsu.jpg",
-			"id": "ZenitsuAgatsuma-DS"
+			"name": "Balanced Physique Training",
+			"description": "Achieve a lean and defined physique with workouts that focus on balance, tone, and endurance. Perfect for those seeking to sculpt their body while maintaining a regular, athletic shape.",
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
+			"heroes": [
+				{
+					"data": "NarutoUzumaki-N",
+					"included": true,
+					"name": "The Shadow Runner",
+					"description": "Endurance Unleashed: Build strength with lasting energy."
+				},
+				{
+					"data": "ZenitsuAgatsuma-DS",
+					"included": true,
+					"name": "The Thunder Striker",
+					"description": "Focused Energy: Core strength with a burst of speed."
+				}
+			]
 		},
 		{
-			"name": "Inosuke Hashibira",
-			"anime": "Demon Slayer: Kimetsu no Yaiba",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 5,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/inosuke.JPG",
-			"id": "InosukeHashibira-DS"
+			"name": "Focused Discipline",
+			"description": "Hone your focus and control with exercises designed to improve balance, precision, and inner strength. This path emphasizes breathing, core stability, and mental discipline.",
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+			"heroes": [
+				{
+					"data": "TanjiroKamado-DS",
+					"included": true,
+					"name": "The Water Warrior",
+					"description": "Flow Precision: Move with balance and control."
+				},
+				{
+					"data": "ItachiUchiha-N",
+					"included": true,
+					"name": "The Silent Master",
+					"description": "Calm Strength: Build focus and endurance with intent."
+				}
+			]
 		},
 		{
-			"name": "Goku",
-			"anime": "Dragon Ball",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 6,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/goku.jpg",
-			"id": "Goku-DB"
-		},
-		{
-			"name": "Vegeta",
-			"anime": "Dragon Ball",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 6,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/vegeta.JPG",
-			"id": "Vegeta-DB"
-		},
-		{
-			"name": "Naruto Uzumaki",
-			"anime": "Naruto",
-			"types": ["Endurance", "Ability"],
-			"trainingDays": 6,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/naruto.jpg",
-			"id": "NarutoUzumaki-N"
-		},
-		{
-			"name": "Itachi Uchiha",
-			"anime": "Naruto",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 5,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/itachi.jpg",
-			"id": "ItachiUchiha-N"
-		},
-		{
-			"name": "Monkey D. Luffy",
-			"anime": "One Piece",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 4,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/luffy.jpg",
-			"id": "Luffy-OP"
-		},
-		{
-			"name": "Nami",
-			"anime": "One Piece",
-			"types": ["Endurance", "Strength", "Ability"],
-			"trainingDays": 5,
-			"img": "https://codeone88.github.io/HeroPhysique/heroes/nami.jpg",
-			"id": "Nami-OP"
+			"name": "Adventurer's Resilience",
+			"description": "Prepare for any challenge with training that builds endurance, flexibility, and mobility. Develop the resilience of a seasoned adventurer with a focus on longevity and recovery.",
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+			"heroes": [
+				{
+					"data": "Luffy-OP",
+					"included": true,
+					"name": "The Boundless Explorer",
+					"description": "Energy Unlimited: Train for adaptability and stamina." 
+				},
+				{
+					"data": "Nami-OP",
+					"included": true,
+					"name": "The Trailblazer",
+					"description": "Grace in Motion: Strength with flexibility for every path."
+				}
+			]
 		}
 	]
 }

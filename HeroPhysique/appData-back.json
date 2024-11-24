@@ -1,0 +1,79 @@
+{
+	"active": true,
+	"freeDays": false,
+	"heroes": [
+		{
+			"name": "Tanjiro Kamado",
+			"anime": "Demon Slayer: Kimetsu no Yaiba",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 5,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.JPG",
+			"id": "TanjiroKamado-DS"
+		},
+		{
+			"name": "Zenitsu Agatsuma",
+			"anime": "Demon Slayer: Kimetsu no Yaiba",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 4,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/zenitsu.jpg",
+			"id": "ZenitsuAgatsuma-DS"
+		},
+		{
+			"name": "Inosuke Hashibira",
+			"anime": "Demon Slayer: Kimetsu no Yaiba",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 5,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/inosuke.JPG",
+			"id": "InosukeHashibira-DS"
+		},
+		{
+			"name": "Goku",
+			"anime": "Dragon Ball",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 6,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/goku.jpg",
+			"id": "Goku-DB"
+		},
+		{
+			"name": "Vegeta",
+			"anime": "Dragon Ball",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 6,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/vegeta.JPG",
+			"id": "Vegeta-DB"
+		},
+		{
+			"name": "Naruto Uzumaki",
+			"anime": "Naruto",
+			"types": ["Endurance", "Ability"],
+			"trainingDays": 6,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/naruto.jpg",
+			"id": "NarutoUzumaki-N"
+		},
+		{
+			"name": "Itachi Uchiha",
+			"anime": "Naruto",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 5,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/itachi.jpg",
+			"id": "ItachiUchiha-N"
+		},
+		{
+			"name": "Monkey D. Luffy",
+			"anime": "One Piece",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 4,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/luffy.jpg",
+			"id": "Luffy-OP"
+		},
+		{
+			"name": "Nami",
+			"anime": "One Piece",
+			"types": ["Endurance", "Strength", "Ability"],
+			"trainingDays": 5,
+			"img": "https://codeone88.github.io/HeroPhysique/heroes/nami.jpg",
+			"id": "Nami-OP"
+		}
+	]
+}
+
