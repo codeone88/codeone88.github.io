@@ -135,7 +135,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 12,10,8",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							}
 						]
 					},
@@ -193,7 +194,8 @@
 							{
 								"name": "Bench Press",
 								"on": "3 x 12,10,8",
-								"img": "Barbell-Bench-Press.png"
+								"img": "Barbell-Bench-Press.png",
+								"video": "4Y2ZdHCOXok"
 							},
 							{
 								"name": "Barbell Row",
@@ -346,7 +348,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 12,10,8",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							}
 						]
 					},
@@ -426,17 +429,20 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 10",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Sit Ups",
 								"on": "3 x 10",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Plank to Push Ups",
 								"on": "3 x 8",
-								"img": "plank-get-ups.svg"
+								"img": "plank-get-ups.svg",
+								"video": "56vUOad6Irs"
 							},
 							{
 								"name": "Pull Ups",
@@ -498,7 +504,8 @@
 							{
 								"name": "Knee Push Ups",
 								"on": "15",
-								"img": "knee-push-up.png"
+								"img": "knee-push-up.png",
+								"video": "jWxvty2KROs"
 							},
 							{
 								"name": "Mountain Climbers",
@@ -529,7 +536,8 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 15",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "V-Ups",
@@ -539,7 +547,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 8",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Chin Ups",
@@ -628,12 +637,14 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 20",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Sit Ups",
 								"on": "3 x 20",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Lying Leg Raises",
@@ -643,7 +654,8 @@
 							{
 								"name": "Plank to Push Ups",
 								"on": "3 x 15",
-								"img": "plank-get-ups.svg"
+								"img": "plank-get-ups.svg",
+								"video": "56vUOad6Irs"
 							},
 							{
 								"name": "Pull Ups",
@@ -725,12 +737,14 @@
 							{
 								"name": "Knee Push Ups",
 								"on": "25",
-								"img": "knee-push-up.png"
+								"img": "knee-push-up.png",
+								"video": "jWxvty2KROs"
 							},
 							{
 								"name": "Sit Ups",
 								"on": "20",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Mountain Climbers",
@@ -766,7 +780,8 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 30",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "V-Ups",
@@ -781,7 +796,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 15",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Chin Ups",

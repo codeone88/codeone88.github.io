@@ -22,7 +22,8 @@
 							{
 								"name": "Push Ups",
 								"on": "80",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Air Squats",
@@ -32,12 +33,14 @@
 							{
 								"name": "Sit Ups",
 								"on": "50",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Dips",
 								"on": "50",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Pull Ups",
@@ -59,7 +62,8 @@
 							{
 								"name": "Push Ups",
 								"on": "100",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Air Squats",
@@ -69,12 +73,14 @@
 							{
 								"name": "Sit Ups",
 								"on": "75",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Dips",
 								"on": "75",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Pull Ups",

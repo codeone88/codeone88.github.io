@@ -28,7 +28,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "3 x 10",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Air Squats",
@@ -38,7 +39,8 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 10",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Lying Leg Raises",
@@ -48,7 +50,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 10",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Pull Ups",
@@ -79,7 +82,8 @@
 							{
 								"name": "Decline Push Ups",
 								"on": "3 x 10",
-								"img": "decline-push-up.jpg"
+								"img": "decline-push-up.jpg",
+								"video": "aq2xZxfrQlM"
 							},
 							{
 								"name": "Hanging Leg Raises",
@@ -120,7 +124,8 @@
 							{
 								"name": "Wide Push Ups",
 								"on": "3 x 10",
-								"img": "wide-push-up.png"
+								"img": "wide-push-up.png",
+								"video": "RfTuQHDJwhw"
 							},
 							{
 								"name": "Lying Leg Raises with Hip Thrust",
@@ -130,7 +135,8 @@
 							{
 								"name": "Plank to Push Ups",
 								"on": "3 x 10",
-								"img": "plank-get-ups.svg"
+								"img": "plank-get-ups.svg",
+								"video": "56vUOad6Irs"
 							},
 							{
 								"name": "Wide Grip Pull Ups",
@@ -151,7 +157,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "3 x 10",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Glute Bridges",
@@ -161,7 +168,8 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 10",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Knee Tucks Jump",
@@ -171,7 +179,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 10",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Pull Ups",
@@ -198,7 +207,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "3 x 30",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Air Squats",
@@ -208,7 +218,8 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 20",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Lying Leg Raises",
@@ -218,7 +229,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 10",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Pull Ups",
@@ -228,7 +240,8 @@
 							{
 								"name": "Plank to Push Ups",
 								"on": "10 (2 - 3 rounds)",
-								"img": "plank-get-ups.svg"
+								"img": "plank-get-ups.svg",
+								"video": "56vUOad6Irs"
 							},
 							{
 								"name": "Jumping Jacks",
@@ -269,7 +282,8 @@
 							{
 								"name": "Decline Push Ups",
 								"on": "3 x 20",
-								"img": "decline-push-up.jpg"
+								"img": "decline-push-up.jpg",
+								"video": "aq2xZxfrQlM"
 							},
 							{
 								"name": "Hanging Leg Raises",
@@ -325,7 +339,8 @@
 							{
 								"name": "Wide Push Ups",
 								"on": "3 x 20",
-								"img": "wide-push-up.png"
+								"img": "wide-push-up.png",
+								"video": "RfTuQHDJwhw"
 							},
 							{
 								"name": "Lying Leg Raises with Hip Thrust",
@@ -335,7 +350,8 @@
 							{
 								"name": "Plank to Push Ups",
 								"on": "3 x 10",
-								"img": "plank-get-ups.svg"
+								"img": "plank-get-ups.svg",
+								"video": "56vUOad6Irs"
 							},
 							{
 								"name": "Wide Grip Pull Ups",
@@ -345,7 +361,8 @@
 							{
 								"name": "Explosive Push Ups",
 								"on": "10 (2 - 3 rounds)",
-								"img": "explosive-push-up.jpg"
+								"img": "explosive-push-up.jpg",
+								"video": "8zBEGGbArj8"
 							},
 							{
 								"name": "Half Burpees",
@@ -376,7 +393,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "3 x 30",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Glute Bridges",
@@ -386,7 +404,8 @@
 							{
 								"name": "Push Ups",
 								"on": "3 x 20",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Knee Tucks Jump",
@@ -396,7 +415,8 @@
 							{
 								"name": "Dips",
 								"on": "3 x 10",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Pull Ups",

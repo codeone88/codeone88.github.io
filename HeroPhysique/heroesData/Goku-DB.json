@@ -33,17 +33,20 @@
 							{
 								"name": "Tricep Overhead Extension",
 								"on": "3 x 12",
-								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								"img": "Dumbbell-Overhead-Triceps-Extension.png",
+								"video": "nRiJVZDpdL0"
 							},
 							{
 								"name": "Incline Bench Press",
 								"on": "3 x 12",
-								"img": "Incline-Dumbbell-Bench-Press.png"
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "ULxNmcGpzA0"
 							},
 							{
 								"name": "Tricep Pushdowns",
 								"on": "3 x 12",
-								"img": "Cable-Rope-Pushdown.png"
+								"img": "Cable-Rope-Pushdown.png",
+								"video": "8WL0m0vLAPo"
 							}
 						]
 					},
@@ -59,22 +62,26 @@
 							{
 								"name": "Jump Squats",
 								"on": "100",
-								"img": "Jump-Squat.png"
+								"img": "Jump-Squat.png",
+								"video": "72BSZupb-1I"
 							},
 							{
 								"name": "Sit Ups",
 								"on": "80",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Push Ups",
 								"on": "80",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Dips",
 								"on": "50",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Lunges",
@@ -126,22 +133,26 @@
 							{
 								"name": "Jump Squats",
 								"on": "100",
-								"img": "Jump-Squat.png"
+								"img": "Jump-Squat.png",
+								"video": "72BSZupb-1I"
 							},
 							{
 								"name": "Sit Ups",
 								"on": "80",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Push Ups",
 								"on": "80",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Dips",
 								"on": "50",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							}
 						]
 					},
@@ -220,27 +231,32 @@
 							{
 								"name": "Bench Press",
 								"on": "4 x 12",
-								"img": "Barbell-Bench-Press.png"
+								"img": "Barbell-Bench-Press.png",
+								"video": "4Y2ZdHCOXok"
 							},
 							{
 								"name": "Tricep Overhead Extension",
 								"on": "4 x 12",
-								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								"img": "Dumbbell-Overhead-Triceps-Extension.png",
+								"video": "nRiJVZDpdL0"
 							},
 							{
 								"name": "Incline Bench Press",
 								"on": "4 x 12",
-								"img": "Incline-Dumbbell-Bench-Press.png"
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "ULxNmcGpzA0"
 							},
 							{
 								"name": "Tricep Pushdowns",
 								"on": "4 x 12",
-								"img": "Cable-Rope-Pushdown.png"
+								"img": "Cable-Rope-Pushdown.png",
+								"video": "8WL0m0vLAPo"
 							},
 							{
 								"name": "Dips",
 								"on": "4 x 25",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Circuit: IMPORTANT! Try each exercise progressively over the upcoming weeks. Do not attempt all exercises in a single week if you are not ready. Remember to monitor your health with each workout.",
@@ -261,22 +277,26 @@
 							{
 								"name": "Jump Squats",
 								"on": "200",
-								"img": "Jump-Squat.png"
+								"img": "Jump-Squat.png",
+								"video": "72BSZupb-1I"
 							},
 							{
 								"name": "Sit Ups",
 								"on": "150",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Push Ups",
 								"on": "150",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Dips",
 								"on": "100",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Lunges",
@@ -348,22 +368,26 @@
 							{
 								"name": "Jump Squats",
 								"on": "200",
-								"img": "Jump-Squat.png"
+								"img": "Jump-Squat.png",
+								"video": "72BSZupb-1I"
 							},
 							{
 								"name": "Sit Ups",
 								"on": "150",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Push Ups",
 								"on": "150",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Dips",
 								"on": "100",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Lunges",
@@ -414,7 +438,8 @@
 							{
 								"name": "Push Ups",
 								"on": "4 x 25",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Circuit: IMPORTANT! Try each exercise progressively over the upcoming weeks. Do not attempt all exercises in a single week if you are not ready. Remember to monitor your health with each workout.",
@@ -484,7 +509,8 @@
 							{
 								"name": "Push Ups",
 								"on": "150 (on 5-10 reps)",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Air Squats",
@@ -494,12 +520,14 @@
 							{
 								"name": "Sit Ups",
 								"on": "80 (on 5-10 reps)",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Dips",
 								"on": "80 (on 5-10 reps)",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Planking",
@@ -525,7 +553,8 @@
 							{
 								"name": "Push Ups",
 								"on": "10",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Double Unders",
@@ -535,7 +564,8 @@
 							{
 								"name": "Jump Squats",
 								"on": "10",
-								"img": "Jump-Squat.png"
+								"img": "Jump-Squat.png",
+								"video": "72BSZupb-1I"
 							},
 							{
 								"name": "Double Unders",
@@ -545,7 +575,8 @@
 							{
 								"name": "Dips",
 								"on": "8",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							}
 						]
 					},
@@ -561,7 +592,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "20",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "High Knee Skips",
@@ -603,7 +635,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "20",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "High Knee Skips",
@@ -645,7 +678,8 @@
 							{
 								"name": "Push Ups",
 								"on": "250 (on 5-10 reps)",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Air Squats",
@@ -655,12 +689,14 @@
 							{
 								"name": "Sit Ups",
 								"on": "150 (on 5-10 reps)",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "Dips",
 								"on": "150 (on 5-10 reps)",
-								"img": "Bench-Dips.png"
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Pull Ups",
@@ -696,7 +732,8 @@
 							{
 								"name": "Push Ups",
 								"on": "20",
-								"img": "Push-Ups.png"
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
 							},
 							{
 								"name": "Double Unders",
@@ -706,7 +743,8 @@
 							{
 								"name": "Jump Squats",
 								"on": "20",
-								"img": "Jump-Squat.png"
+								"img": "Jump-Squat.png",
+								"video": "72BSZupb-1I"
 							},
 							{
 								"name": "Double Unders",
@@ -716,7 +754,8 @@
 							{
 								"name": "Dips",
 								"on": "15",
-								"img": "arnold-dips.png"
+								"img": "arnold-dips.png",
+								"video": "0326dy_-CzM"
 							},
 							{
 								"name": "Double Unders",
@@ -742,7 +781,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "50",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "High Knee Skips",
@@ -794,7 +834,8 @@
 							{
 								"name": "Sit Ups",
 								"on": "50",
-								"img": "Sit-up.png"
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
 							},
 							{
 								"name": "High Knee Skips",
