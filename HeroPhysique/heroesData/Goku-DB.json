@@ -86,7 +86,8 @@
 							{
 								"name": "Lunges",
 								"on": "50",
-								"img": "Lunges.jpeg"
+								"img": "Lunges.jpeg",
+								"video": "kn431INOxig"
 							}
 						]
 					},
@@ -102,7 +103,8 @@
 							{
 								"name": "Deadlift",
 								"on": "3 x 12",
-								"img": "Barbell-Deadlift.png"
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
 							},
 							{
 								"name": "Bicep Curls",
@@ -112,12 +114,14 @@
 							{
 								"name": "Lateral Pulldowns",
 								"on": "3 x 12",
-								"img": "lat-pulldown.png"
+								"img": "lat-pulldown.png",
+								"video": "jULa7guhCdM"
 							},
 							{
 								"name": "Cable Rows",
 								"on": "3 x 12",
-								"img": "Seated-Cable-Row.png"
+								"img": "Seated-Cable-Row.png",
+								"video": "IzoCF_b3cIY"
 							}
 						]
 					},
@@ -168,12 +172,14 @@
 							{
 								"name": "Military Press",
 								"on": "3 x 12",
-								"img": "Barbell-Push-Press.png"
+								"img": "Barbell-Push-Press.png",
+								"video": "3RdVYQ8l_V8"
 							},
 							{
 								"name": "Shrugs",
 								"on": "3 x 12",
-								"img": "Barbell-Shrug.png"
+								"img": "Barbell-Shrug.png",
+								"video": "JatJyKQhjX4"
 							},
 							{
 								"name": "Front Raises",
@@ -183,7 +189,8 @@
 							{
 								"name": "One Arm Dumbbell Snatches",
 								"on": "3 x 12",
-								"img": "dumbbell-one-arm-snatch.webp"
+								"img": "dumbbell-one-arm-snatch.webp",
+								"video": "f3s7oAavsAc"
 							}
 						]
 					},
@@ -301,7 +308,8 @@
 							{
 								"name": "Lunges",
 								"on": "100",
-								"img": "Lunges.jpeg"
+								"img": "Lunges.jpeg",
+								"video": "kn431INOxig"
 							},
 							{
 								"name": "Pull Ups",
@@ -327,7 +335,8 @@
 							{
 								"name": "Deadlift",
 								"on": "4 x 12",
-								"img": "Barbell-Deadlift.png"
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
 							},
 							{
 								"name": "Bicep Curls",
@@ -337,12 +346,14 @@
 							{
 								"name": "Lateral Pulldowns",
 								"on": "4 x 12",
-								"img": "lat-pulldown.png"
+								"img": "lat-pulldown.png",
+								"video": "jULa7guhCdM"
 							},
 							{
 								"name": "Cable Rows",
 								"on": "4 x 12",
-								"img": "Seated-Cable-Row.png"
+								"img": "Seated-Cable-Row.png",
+								"video": "IzoCF_b3cIY"
 							},
 							{
 								"name": "Chin Ups",
@@ -392,7 +403,8 @@
 							{
 								"name": "Lunges",
 								"on": "100",
-								"img": "Lunges.jpeg"
+								"img": "Lunges.jpeg",
+								"video": "kn431INOxig"
 							},
 							{
 								"name": "Pull Ups",
@@ -418,12 +430,14 @@
 							{
 								"name": "Military Press",
 								"on": "4 x 12",
-								"img": "Barbell-Push-Press.png"
+								"img": "Barbell-Push-Press.png",
+								"video": "3RdVYQ8l_V8"
 							},
 							{
 								"name": "Shrugs",
 								"on": "4 x 12",
-								"img": "Barbell-Shrug.png"
+								"img": "Barbell-Shrug.png",
+								"video": "JatJyKQhjX4"
 							},
 							{
 								"name": "Front Raises",
@@ -433,7 +447,8 @@
 							{
 								"name": "One Arm Dumbbell Snatches",
 								"on": "4 x 12",
-								"img": "dumbbell-one-arm-snatch.webp"
+								"img": "dumbbell-one-arm-snatch.webp",
+								"video": "f3s7oAavsAc"
 							},
 							{
 								"name": "Push Ups",
@@ -499,12 +514,14 @@
 							{
 								"name": "High Knees",
 								"on": "2 x 15",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "Jumping Jacks",
 								"on": "2 x 15",
-								"img": "Jumping-Jacks.png"
+								"img": "Jumping-Jacks.png",
+								"video": "iSSAk4XCsRA"
 							},
 							{
 								"name": "Push Ups",
@@ -532,12 +549,14 @@
 							{
 								"name": "Planking",
 								"on": "3 x 30 Seconds",
-								"img": "Plank.png"
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
 							},
 							{
 								"name": "Hollow Hold",
 								"on": "3 x 30 Seconds",
-								"img": "hollow-hold.jpg"
+								"img": "hollow-hold.jpg",
+								"video": "xD8zGmxV7BI"
 							}
 						]
 					},
@@ -548,7 +567,8 @@
 							{
 								"name": "Double Unders",
 								"on": "10",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Push Ups",
@@ -559,7 +579,8 @@
 							{
 								"name": "Double Unders",
 								"on": "10",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Jump Squats",
@@ -570,7 +591,8 @@
 							{
 								"name": "Double Unders",
 								"on": "10",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Dips",
@@ -598,12 +620,14 @@
 							{
 								"name": "High Knee Skips",
 								"on": "20",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "5uh_VZBK0Ks"
 							},
 							{
 								"name": "Mountain Climbers",
 								"on": "10",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							}
 						]
 					},
@@ -641,12 +665,14 @@
 							{
 								"name": "High Knee Skips",
 								"on": "20",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "5uh_VZBK0Ks"
 							},
 							{
 								"name": "Mountain Climbers",
 								"on": "10",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							}
 						]
 					}
@@ -663,17 +689,20 @@
 							{
 								"name": "High Knees",
 								"on": "2 x 25",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "Jumping Jacks",
 								"on": "2 x 25",
-								"img": "Jumping-Jacks.png"
+								"img": "Jumping-Jacks.png",
+								"video": "iSSAk4XCsRA"
 							},
 							{
 								"name": "Butt Kickers",
 								"on": "2 x 25",
-								"img": "butt-kicks.webp"
+								"img": "butt-kicks.webp",
+								"video": "oMW59TKZvaI"
 							},
 							{
 								"name": "Push Ups",
@@ -706,12 +735,14 @@
 							{
 								"name": "Planking",
 								"on": "3 x 60 Seconds",
-								"img": "Plank.png"
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
 							},
 							{
 								"name": "Hollow Hold",
 								"on": "3 x 45 Seconds",
-								"img": "hollow-hold.jpg"
+								"img": "hollow-hold.jpg",
+								"video": "xD8zGmxV7BI"
 							},
 							{
 								"name": "L-Sit Hold",
@@ -727,7 +758,8 @@
 							{
 								"name": "Double Unders",
 								"on": "20",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Push Ups",
@@ -738,7 +770,8 @@
 							{
 								"name": "Double Unders",
 								"on": "20",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Jump Squats",
@@ -749,7 +782,8 @@
 							{
 								"name": "Double Unders",
 								"on": "20",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Dips",
@@ -760,7 +794,8 @@
 							{
 								"name": "Double Unders",
 								"on": "20",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Pull Ups",
@@ -787,22 +822,26 @@
 							{
 								"name": "High Knee Skips",
 								"on": "40",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "5uh_VZBK0Ks"
 							},
 							{
 								"name": "Mountain Climbers",
 								"on": "30",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Double Unders",
 								"on": "20",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Half Burpees",
 								"on": "10",
-								"img": "half-burpee.jpg"
+								"img": "half-burpee.jpg",
+								"video": "om09kGWJm8w"
 							}
 						]
 					},
@@ -840,22 +879,26 @@
 							{
 								"name": "High Knee Skips",
 								"on": "40",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "5uh_VZBK0Ks"
 							},
 							{
 								"name": "Mountain Climbers",
 								"on": "30",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Double Unders",
 								"on": "20",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Half Burpees",
 								"on": "10",
-								"img": "half-burpee.jpg"
+								"img": "half-burpee.jpg",
+								"video": "om09kGWJm8w"
 							}
 						]
 					}

@@ -27,12 +27,14 @@
 							{
 								"name": "Incline Dumbbell Bench Press",
 								"on": "3 x 12",
-								"img": "Incline-Dumbbell-Bench-Press.png"
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "oZVCBM9f8Eo"
 							},
 							{
 								"name": "Incline Dumbbell Chest Flyes",
 								"on": "3 x 12",
-								"img": "Incline-Dumbbell-Fly.png"
+								"img": "Incline-Dumbbell-Fly.png",
+								"video": "JSDpq14vCZ8"
 							},
 							{
 								"name": "Cable Tricep Pushdowns with Rope",
@@ -43,7 +45,8 @@
 							{
 								"name": "Dumbbell Overhead Triceps Extension",
 								"on": "3 x 12",
-								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								"img": "Dumbbell-Overhead-Triceps-Extension.png",
+								"video": "-Vyt2QdsR7E"
 							}
 						]
 					},
@@ -64,17 +67,20 @@
 							{
 								"name": "Weighted Lunges",
 								"on": "3 x 12",
-								"img": "Lunge.png"
+								"img": "Lunge.png",
+								"video": "ZkISva8aWDI"
 							},
 							{
 								"name": "Straight Leg Deadlift with Dumbbells",
 								"on": "3 x 15",
-								"img": "Dumbbell-Deadlift.png"
+								"img": "Dumbbell-Deadlift.png",
+								"video": "KE2A7G_nDc8"
 							},
 							{
 								"name": "Plank Hold",
 								"on": "3 x 60 Seconds",
-								"img": "Plank.png"
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
 							},
 							{
 								"name": "Hanging Knee Raises with Twist",
@@ -111,27 +117,32 @@
 							{
 								"name": "Seated Dumbbell Front Raises",
 								"on": "3 x 12",
-								"img": "Seated-dumbell-front.png"
+								"img": "Seated-dumbell-front.png",
+								"video": "nCq-m4Zexxc"
 							},
 							{
 								"name": "Seated Lateral Raises",
 								"on": "3 x 15",
-								"img": "Seated-dumbell-lateral.png"
+								"img": "Seated-dumbell-lateral.png",
+								"video": "P_k_h5AIJXw"
 							},
 							{
 								"name": "Barbell Shrugs",
 								"on": "3 x 12",
-								"img": "Barbell-Shrug.png"
+								"img": "Barbell-Shrug.png",
+								"video": "JatJyKQhjX4"
 							},
 							{
 								"name": "Upright Rows",
 								"on": "3 x 12",
-								"img": "Barbell-Upright-Row.png"
+								"img": "Barbell-Upright-Row.png",
+								"video": "jaAV-rD45I0"
 							},
 							{
 								"name": "Kettlebell Swings",
 								"on": "3 x 15",
-								"img": "Kettlebell-Swing.png"
+								"img": "Kettlebell-Swing.png",
+								"video": "YSxHifyI6s8"
 							}
 						]
 					},
@@ -147,17 +158,20 @@
 							{
 								"name": "Deadlift",
 								"on": "3 x 12",
-								"img": "Barbell-Deadlift.png"
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
 							},
 							{
 								"name": "Bent Over Row",
 								"on": "3 x 12",
-								"img": "Dumbbell-Bent-Over-Row-_Single-Arm.png"
+								"img": "Dumbbell-Bent-Over-Row-_Single-Arm.png",
+								"video": "fCoelKTw8BM"
 							},
 							{
 								"name": "Preacher Curls",
 								"on": "3 x 12",
-								"img": "EZ-Barbell-Preacher-Curl.png"
+								"img": "EZ-Barbell-Preacher-Curl.png",
+								"video": "3mtXqrkbEfI"
 							},
 							{
 								"name": "Hammer Curls",
@@ -189,12 +203,14 @@
 							{
 								"name": "Incline Dumbbell Bench Press",
 								"on": "3 x 12",
-								"img": "Incline-Dumbbell-Bench-Press.png"
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "oZVCBM9f8Eo"
 							},
 							{
 								"name": "Incline Dumbbell Chest Flyes",
 								"on": "3 x 12",
-								"img": "Incline-Dumbbell-Fly.png"
+								"img": "Incline-Dumbbell-Fly.png",
+								"video": "JSDpq14vCZ8"
 							},
 							{
 								"name": "Dips",
@@ -211,12 +227,14 @@
 							{
 								"name": "Dumbbell Overhead Triceps Extension",
 								"on": "3 x 12",
-								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								"img": "Dumbbell-Overhead-Triceps-Extension.png",
+								"video": "-Vyt2QdsR7E"
 							},
 							{
 								"name": "Tricep Kickbacks",
 								"on": "3 x 12 each arm",
-								"img": "Kickback.png"
+								"img": "Kickback.png",
+								"video": "HyqTb_jE_oI"
 							},
 							{
 								"name": "Circuit: IMPORTANT! Try each exercise progressively over the upcoming weeks. Do not attempt all exercises in a single week if you are not ready. Remember to monitor your health with each workout.",
@@ -242,12 +260,14 @@
 							{
 								"name": "Weighted Lunges",
 								"on": "3 x 12",
-								"img": "Lunge.png"
+								"img": "Lunge.png",
+								"video": "ZkISva8aWDI"
 							},
 							{
 								"name": "Straight Leg Deadlift with Dumbbells",
 								"on": "3 x 15",
-								"img": "Dumbbell-Deadlift.png"
+								"img": "Dumbbell-Deadlift.png",
+								"video": "KE2A7G_nDc8"
 							},
 							{
 								"name": "Leg Press",
@@ -267,12 +287,14 @@
 							{
 								"name": "Plank Hold",
 								"on": "3 x 60 Seconds",
-								"img": "Plank.png"
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
 							},
 							{
 								"name": "Bent Knee Reverse Crunch",
 								"on": "3 x 30",
-								"img": "Bent-Knee-Reverse-Crunch.png"
+								"img": "Bent-Knee-Reverse-Crunch.png",
+								"video": "pvIjsG5Svck"
 							},
 							{
 								"name": "Hanging Knee Raises with Twist",
@@ -309,32 +331,38 @@
 							{
 								"name": "Seated Arnold Press",
 								"on": "3 x 12",
-								"img": "seated-arnold-press.jpg"
+								"img": "seated-arnold-press.jpg",
+								"video": "R-RTgOxrj88"
 							},
 							{
 								"name": "Seated Dumbbell Front Raises",
 								"on": "3 x 12",
-								"img": "Seated-dumbell-front.png"
+								"img": "Seated-dumbell-front.png",
+								"video": "nCq-m4Zexxc"
 							},
 							{
 								"name": "Seated Lateral Raises",
 								"on": "3 x 15",
-								"img": "Seated-dumbell-lateral.png"
+								"img": "Seated-dumbell-lateral.png",
+								"video": "P_k_h5AIJXw"
 							},
 							{
 								"name": "Barbell Shrugs",
 								"on": "3 x 12",
-								"img": "Barbell-Shrug.png"
+								"img": "Barbell-Shrug.png",
+								"video": "JatJyKQhjX4"
 							},
 							{
 								"name": "Upright Rows",
 								"on": "3 x 12",
-								"img": "Barbell-Upright-Row.png"
+								"img": "Barbell-Upright-Row.png",
+								"video": "jaAV-rD45I0"
 							},
 							{
 								"name": "Kettlebell Swings",
 								"on": "3 x 15",
-								"img": "Kettlebell-Swing.png"
+								"img": "Kettlebell-Swing.png",
+								"video": "YSxHifyI6s8"
 							},
 							{
 								"name": "L-Sit Hold",
@@ -366,12 +394,14 @@
 							{
 								"name": "Deadlift",
 								"on": "3 x 12",
-								"img": "Barbell-Deadlift.png"
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
 							},
 							{
 								"name": "Bent Over Row",
 								"on": "3 x 12 each",
-								"img": "Dumbbell-Bent-Over-Row-_Single-Arm.png"
+								"img": "Dumbbell-Bent-Over-Row-_Single-Arm.png",
+								"video": "fCoelKTw8BM"
 							},
 							{
 								"name": "Wide Grip Pulldowns",
@@ -381,7 +411,8 @@
 							{
 								"name": "Preacher Curls",
 								"on": "3 x 12",
-								"img": "EZ-Barbell-Preacher-Curl.png"
+								"img": "EZ-Barbell-Preacher-Curl.png",
+								"video": "3mtXqrkbEfI"
 							},
 							{
 								"name": "Hammer Curls",
@@ -426,7 +457,8 @@
 							{
 								"name": "Jumping Lunges",
 								"on": "3 x 10",
-								"img": "Jump-lunge.jpg"
+								"img": "Jump-lunge.jpg",
+								"video": "O-rntsAALBo"
 							},
 							{
 								"name": "Superman Hold",
@@ -447,7 +479,8 @@
 							{
 								"name": "Half Burpees",
 								"on": "3 x 10",
-								"img": "half-burpee.jpg"
+								"img": "half-burpee.jpg",
+								"video": "om09kGWJm8w"
 							}
 						]
 					},
@@ -469,7 +502,8 @@
 							{
 								"name": "Hollow Hold",
 								"on": "30 Second",
-								"img": "hollow-hold.jpg"
+								"img": "hollow-hold.jpg",
+								"video": "xD8zGmxV7BI"
 							},
 							{
 								"name": "Jump Squats",
@@ -535,7 +569,8 @@
 							{
 								"name": "Inch Worms",
 								"on": "3 x 10",
-								"img": "Inchworm-exercise.jpg"
+								"img": "Inchworm-exercise.jpg",
+								"video": "18AQDRxYZGs"
 							}
 						]
 					},
@@ -578,7 +613,8 @@
 							{
 								"name": "Hollow Hold",
 								"on": "3 x 30 Seconds",
-								"img": "hollow-hold.jpg"
+								"img": "hollow-hold.jpg",
+								"video": "xD8zGmxV7BI"
 							},
 							{
 								"name": "Tricep Extensions",
@@ -588,12 +624,14 @@
 							{
 								"name": "Bicycle Crunches",
 								"on": "3 x 20",
-								"img": "bicycle-crunches.png"
+								"img": "bicycle-crunches.png",
+								"video": "1we3bh9uhqY"
 							},
 							{
 								"name": "Flutter Kicks",
 								"on": "3 x 20",
-								"img": "fluter-kicks.jpg"
+								"img": "fluter-kicks.jpg",
+								"video": "K5wuM_gNWyw"
 							}
 						]
 					}
@@ -621,7 +659,8 @@
 							{
 								"name": "Jumping Lunges",
 								"on": "3 x 20",
-								"img": "Jump-lunge.jpg"
+								"img": "Jump-lunge.jpg",
+								"video": "O-rntsAALBo"
 							},
 							{
 								"name": "Superman Hold",
@@ -642,7 +681,8 @@
 							{
 								"name": "Half Burpees",
 								"on": "3 x 10",
-								"img": "half-burpee.jpg"
+								"img": "half-burpee.jpg",
+								"video": "om09kGWJm8w"
 							},
 							{
 								"name": "Pull Ups",
@@ -657,7 +697,8 @@
 							{
 								"name": "Alternating Pistol Squats",
 								"on": "3 x 10",
-								"img": "pistol-squat-alternatives.jpg"
+								"img": "pistol-squat-alternatives.jpg",
+								"video": "uqIMqZmyyH8"
 							}
 						]
 					},
@@ -679,7 +720,8 @@
 							{
 								"name": "Hollow Hold",
 								"on": "30 Second",
-								"img": "hollow-hold.jpg"
+								"img": "hollow-hold.jpg",
+								"video": "xD8zGmxV7BI"
 							},
 							{
 								"name": "Jump Squats",
@@ -745,7 +787,8 @@
 							{
 								"name": "Inch Worms",
 								"on": "3 x 20",
-								"img": "Inchworm-exercise.jpg"
+								"img": "Inchworm-exercise.jpg",
+								"video": "18AQDRxYZGs"
 							},
 							{
 								"name": "Wide Grip Pull Ups",
@@ -755,12 +798,14 @@
 							{
 								"name": "Wall Climbs",
 								"on": "3 x 20",
-								"img": "wall-walk.jpg"
+								"img": "wall-walk.jpg",
+								"video": "IacO9KoSalo"
 							},
 							{
 								"name": "Plank Hold",
 								"on": "3 x Failure",
-								"img": "Plank.png"
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
 							}
 						]
 					},
@@ -803,22 +848,26 @@
 							{
 								"name": "Hollow Hold",
 								"on": "3 x 30 Seconds",
-								"img": "hollow-hold.jpg"
+								"img": "hollow-hold.jpg",
+								"video": "xD8zGmxV7BI"
 							},
 							{
 								"name": "Tricep Extensions",
 								"on": "3 x 15",
-								"img": "kneeling-triceps-extension.jpg"
+								"img": "kneeling-triceps-extension.jpg",
+								"video": "xD8zGmxV7BI"
 							},
 							{
 								"name": "Bicycle Crunches",
 								"on": "3 x 30",
-								"img": "bicycle-crunches.png"
+								"img": "bicycle-crunches.png",
+								"video": "1we3bh9uhqY"
 							},
 							{
 								"name": "Flutter Kicks",
 								"on": "3 x 50",
-								"img": "fluter-kicks.jpg"
+								"img": "fluter-kicks.jpg",
+								"video": "K5wuM_gNWyw"
 							},
 							{
 								"name": "Chin Ups",

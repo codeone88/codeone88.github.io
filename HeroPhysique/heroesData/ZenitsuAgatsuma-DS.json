@@ -119,7 +119,8 @@
 							{
 								"name": "Lunges",
 								"on": "3 x 10",
-								"img": "Lunges.jpeg"
+								"img": "Lunges.jpeg",
+								"video": "kn431INOxig"
 							},
 							{
 								"name": "Wide Push Ups",
@@ -130,7 +131,8 @@
 							{
 								"name": "Lying Leg Raises with Hip Thrust",
 								"on": "3 x 8",
-								"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg"
+								"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg",
+								"video": "U0yVcBAeCJw"
 							},
 							{
 								"name": "Plank to Push Ups",
@@ -246,12 +248,14 @@
 							{
 								"name": "Jumping Jacks",
 								"on": "10 (2 - 3 rounds)",
-								"img": "Jumping-Jacks.png"
+								"img": "Jumping-Jacks.png",
+								"video": "iSSAk4XCsRA"
 							},
 							{
 								"name": "Mountain Climbers",
 								"on": "10 (2 - 3 rounds)",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Glute Bridges",
@@ -303,7 +307,8 @@
 							{
 								"name": "Skater Lunges",
 								"on": "20 (2 - 3 rounds)",
-								"img": "skater-lunges.jpg"
+								"img": "skater-lunges.jpg",
+								"video": "DUbAhVe0e8Q"
 							},
 							{
 								"name": "Air Squats",
@@ -313,7 +318,8 @@
 							{
 								"name": "Inch Worms",
 								"on": "10 (2 - 3 rounds)",
-								"img": "Inchworm-exercise.jpg"
+								"img": "Inchworm-exercise.jpg",
+								"video": "18AQDRxYZGs"
 							}
 						]
 					},
@@ -334,7 +340,8 @@
 							{
 								"name": "Lunges",
 								"on": "3 x 20",
-								"img": "Lunges.jpeg"
+								"img": "Lunges.jpeg",
+								"video": "kn431INOxig"
 							},
 							{
 								"name": "Wide Push Ups",
@@ -345,7 +352,8 @@
 							{
 								"name": "Lying Leg Raises with Hip Thrust",
 								"on": "3 x 15",
-								"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg"
+								"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg",
+								"video": "U0yVcBAeCJw"
 							},
 							{
 								"name": "Plank to Push Ups",
@@ -367,7 +375,8 @@
 							{
 								"name": "Half Burpees",
 								"on": "10 (2 - 3 rounds)",
-								"img": "half-burpee.jpg"
+								"img": "half-burpee.jpg",
+								"video": "om09kGWJm8w"
 							},
 							{
 								"name": "Wall Climbs",
@@ -377,7 +386,8 @@
 							{
 								"name": "Planking Shoulder Taps",
 								"on": "10 (2 - 3 rounds)",
-								"img": "plank-shoulder-tap.png"
+								"img": "plank-shoulder-tap.png",
+								"video": "QOCn3_iOAro"
 							}
 						]
 					},
@@ -426,17 +436,20 @@
 							{
 								"name": "Double Unders",
 								"on": "20 (2 - 3 rounds)",
-								"img": "JumpRope.png"
+								"img": "JumpRope.png",
+								"video": "-tF3hUsPZAI"
 							},
 							{
 								"name": "Alternating Pistol Squats",
 								"on": "15 (2 - 3 rounds)",
-								"img": "pistol-squat-alternatives.jpg"
+								"img": "pistol-squat-alternatives.jpg",
+								"video": "uqIMqZmyyH8"
 							},
 							{
 								"name": "Half Burpees",
 								"on": "10 (2 - 3 rounds)",
-								"img": "half-burpee.jpg"
+								"img": "half-burpee.jpg",
+								"video": "om09kGWJm8w"
 							}
 						]
 					}

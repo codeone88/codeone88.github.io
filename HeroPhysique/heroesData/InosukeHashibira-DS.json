@@ -27,12 +27,14 @@
 							{
 								"name": "Incline Dumbbell Bench Press",
 								"on": "4 x 12,10,8,5",
-								"img": "Incline-Dumbbell-Bench-Press.png"
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "oZVCBM9f8Eo"
 							},
 							{
 								"name": "Seated Arnold Press",
 								"on": "4 x 12,10,8,5",
-								"img": "seated-arnold-press.jpg"
+								"img": "seated-arnold-press.jpg",
+								"video": "R-RTgOxrj88"
 							},
 							{
 								"name": "Cable Tricep Pushdowns",
@@ -43,7 +45,8 @@
 							{
 								"name": "Bent Over Rows",
 								"on": "3 x 10",
-								"img": "Dumbbell-Bent-Over-Rows.png"
+								"img": "Dumbbell-Bent-Over-Rows.png",
+								"video": "sBiZvfotOrY"
 							},
 							{
 								"name": "Leg Press",
@@ -75,27 +78,32 @@
 							{
 								"name": "Deadlift",
 								"on": "4 x 12,10,8,5",
-								"img": "Barbell-Deadlift.png"
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
 							},
 							{
 								"name": "Preacher Curls",
 								"on": "4 x 12,10,8,5",
-								"img": "EZ-Barbell-Preacher-Curl.png"
+								"img": "EZ-Barbell-Preacher-Curl.png",
+								"video": "3mtXqrkbEfI"
 							},
 							{
 								"name": "Seated Overhead Extension",
 								"on": "3 x 10",
-								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								"img": "Dumbbell-Overhead-Triceps-Extension.png",
+								"video": "whmm-eStKws"
 							},
 							{
 								"name": "Chest Fly",
 								"on": "3 x 10",
-								"img": "flat-bench-dumbbell-chest-fly.webp"
+								"img": "flat-bench-dumbbell-chest-fly.webp",
+								"video": "Nhvz9EzdJ4U"
 							},
 							{
 								"name": "Bulgarian Split Squats",
 								"on": "3 x 10",
-								"img": "Bodyweight-Bulgarian-Split-Squat.png"
+								"img": "Bodyweight-Bulgarian-Split-Squat.png",
+								"video": "9p5e2BSvoLs"
 							}
 						]
 					},
@@ -127,12 +135,14 @@
 							{
 								"name": "Straight Leg Deadlift",
 								"on": "4 x 12,10,8,5",
-								"img": "Barbell-Romanian-Deadlift.png"
+								"img": "Barbell-Romanian-Deadlift.png",
+								"video": "4MBM_7PqyF0"
 							},
 							{
 								"name": "Dumbbell Kickbacks",
 								"on": "3 x 10 each arm",
-								"img": "Kickback.png"
+								"img": "Kickback.png",
+								"video": "HyqTb_jE_oI"
 							},
 							{
 								"name": "Dips",
@@ -160,12 +170,14 @@
 							{
 								"name": "Incline Dumbbell Bench Press",
 								"on": "4 x 12,10,8,5",
-								"img": "Incline-Dumbbell-Bench-Press.png"
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "oZVCBM9f8Eo"
 							},
 							{
 								"name": "Seated Arnold Press",
 								"on": "4 x 12,10,8,5",
-								"img": "seated-arnold-press.jpg"
+								"img": "seated-arnold-press.jpg",
+								"video": "R-RTgOxrj88"
 							},
 							{
 								"name": "Cable Tricep Pushdowns",
@@ -176,7 +188,8 @@
 							{
 								"name": "Bent Over Rows",
 								"on": "3 x 10",
-								"img": "Dumbbell-Bent-Over-Rows.png"
+								"img": "Dumbbell-Bent-Over-Rows.png",
+								"video": "sBiZvfotOrY"
 							},
 							{
 								"name": "Leg Press",
@@ -224,27 +237,32 @@
 							{
 								"name": "Deadlift",
 								"on": "4 x 12,10,8,5",
-								"img": "Barbell-Deadlift.png"
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
 							},
 							{
 								"name": "Preacher Curls",
 								"on": "4 x 12,10,8,5",
-								"img": "EZ-Barbell-Preacher-Curl.png"
+								"img": "EZ-Barbell-Preacher-Curl.png",
+								"video": "3mtXqrkbEfI"
 							},
 							{
 								"name": "Seated Overhead Extension",
 								"on": "3 x 10",
-								"img": "Dumbbell-Overhead-Triceps-Extension.png"
+								"img": "Dumbbell-Overhead-Triceps-Extension.png",
+								"video": "whmm-eStKws"
 							},
 							{
 								"name": "Chest Fly",
 								"on": "3 x 10",
-								"img": "flat-bench-dumbbell-chest-fly.webp"
+								"img": "flat-bench-dumbbell-chest-fly.webp",
+								"video": "Nhvz9EzdJ4U"
 							},
 							{
 								"name": "Bulgarian Split Squats",
 								"on": "3 x 10",
-								"img": "Bodyweight-Bulgarian-Split-Squat.png"
+								"img": "Bodyweight-Bulgarian-Split-Squat.png",
+								"video": "9p5e2BSvoLs"
 							},
 							{
 								"name": "Standing Front Raises",
@@ -292,12 +310,14 @@
 							{
 								"name": "Straight Leg Deadlift",
 								"on": "4 x 12,10,8,5",
-								"img": "Barbell-Romanian-Deadlift.png"
+								"img": "Barbell-Romanian-Deadlift.png",
+								"video": "4MBM_7PqyF0"
 							},
 							{
 								"name": "Dumbbell Kickbacks",
 								"on": "3 x 10 each arm",
-								"img": "Kickback.png"
+								"img": "Kickback.png",
+								"video": "HyqTb_jE_oI"
 							},
 							{
 								"name": "Dips",
@@ -313,7 +333,8 @@
 							{
 								"name": "Upright Rows",
 								"on": "3 x 10",
-								"img": "Barbell-Upright-Row.png"
+								"img": "Barbell-Upright-Row.png",
+								"video": "jaAV-rD45I0"
 							},
 							{
 								"name": "Lying Leg Raises",
@@ -323,7 +344,8 @@
 							{
 								"name": "Cable Crunches",
 								"on": "3 x 20",
-								"img": "Rope-Ab-Pulldown.png"
+								"img": "Rope-Ab-Pulldown.png",
+								"video": "ToJeyhydUxU"
 							}
 						]
 					}
@@ -347,7 +369,8 @@
 							{
 								"name": "High Knees",
 								"on": "3 x 20",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "Push Ups",
@@ -369,7 +392,8 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "3 x 10",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Jump Squats",
@@ -386,7 +410,8 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "20",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Push Ups",
@@ -397,17 +422,20 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "10",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Jumping Lunges",
 								"on": "10",
-								"img": "Jump-lunge.jpg"
+								"img": "Jump-lunge.jpg",
+								"video": "O-rntsAALBo"
 							},
 							{
 								"name": "Mountain Climbers",
 								"on": "8",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Sit Ups",
@@ -418,7 +446,8 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "5",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Pull Ups",
@@ -439,7 +468,8 @@
 							{
 								"name": "High Knees",
 								"on": "3 x 20",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "V-Ups",
@@ -465,7 +495,8 @@
 							{
 								"name": "Alternating Pistol Squats",
 								"on": "3 x 10",
-								"img": "pistol-squat-alternatives.jpg"
+								"img": "pistol-squat-alternatives.jpg",
+								"video": "uqIMqZmyyH8"
 							},
 							{
 								"name": "Explosive Push Ups",
@@ -503,7 +534,8 @@
 							{
 								"name": "High Knees",
 								"on": "3 x 20",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "Push Ups",
@@ -514,7 +546,8 @@
 							{
 								"name": "Plank",
 								"on": "3 x 30 seconds",
-								"img": "Plank.png"
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
 							},
 							{
 								"name": "Pull Ups",
@@ -524,7 +557,8 @@
 							{
 								"name": "Inch Worms",
 								"on": "3 x 10",
-								"img": "Inchworm-exercise.jpg"
+								"img": "Inchworm-exercise.jpg",
+								"video": "18AQDRxYZGs"
 							},
 							{
 								"name": "Dips",
@@ -557,7 +591,8 @@
 							{
 								"name": "High Knees",
 								"on": "3 x 50",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "Push Ups",
@@ -579,7 +614,8 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "3 x 20",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Jump Squats",
@@ -606,7 +642,8 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "30",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Push Ups",
@@ -617,17 +654,20 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "20",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Jumping Lunges",
 								"on": "20",
-								"img": "Jump-lunge.jpg"
+								"img": "Jump-lunge.jpg",
+								"video": "O-rntsAALBo"
 							},
 							{
 								"name": "Mountain Climbers",
 								"on": "15",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Sit Ups",
@@ -638,7 +678,8 @@
 							{
 								"name": "Mountain Climbers",
 								"on": "10",
-								"img": "mountain-climbers.png"
+								"img": "mountain-climbers.png",
+								"video": "hq_0YlyfqGM"
 							},
 							{
 								"name": "Pull Ups",
@@ -659,7 +700,8 @@
 							{
 								"name": "High Knees",
 								"on": "3 x 50",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "V-Ups",
@@ -685,7 +727,8 @@
 							{
 								"name": "Alternating Pistol Squats",
 								"on": "3 x 20",
-								"img": "pistol-squat-alternatives.jpg"
+								"img": "pistol-squat-alternatives.jpg",
+								"video": "uqIMqZmyyH8"
 							},
 							{
 								"name": "Explosive Push Ups",
@@ -728,7 +771,8 @@
 							{
 								"name": "High Knees",
 								"on": "3 x 50",
-								"img": "high-knee-skips.png"
+								"img": "high-knee-skips.png",
+								"video": "ZZZoCNMU48U"
 							},
 							{
 								"name": "Push Ups",
@@ -739,7 +783,8 @@
 							{
 								"name": "Plank",
 								"on": "3 x 60 seconds",
-								"img": "Plank.png"
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
 							},
 							{
 								"name": "Pull Ups",
@@ -749,7 +794,8 @@
 							{
 								"name": "Inch Worms",
 								"on": "3 x 20",
-								"img": "Inchworm-exercise.jpg"
+								"img": "Inchworm-exercise.jpg",
+								"video": "18AQDRxYZGs"
 							},
 							{
 								"name": "Dips",
