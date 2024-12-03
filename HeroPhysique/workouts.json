@@ -1,0 +1,651 @@
+{
+	"active": true,
+	"data": {
+		"weights": [
+			{
+				"name": "Bench Press",
+				"on": "4 x 12",
+				"img": "Barbell-Bench-Press.png",
+				"video": "4Y2ZdHCOXok"
+			},
+			{
+				"name": "Tricep Overhead Extension",
+				"on": "4 x 12",
+				"img": "Dumbbell-Overhead-Triceps-Extension.png",
+				"video": "nRiJVZDpdL0"
+			},
+			{
+				"name": "Incline Bench Press",
+				"on": "4 x 12",
+				"img": "Incline-Dumbbell-Bench-Press.png",
+				"video": "ULxNmcGpzA0"
+			},
+			{
+				"name": "Tricep Pushdowns",
+				"on": "4 x 12",
+				"img": "Cable-Rope-Pushdown.png",
+				"video": "8WL0m0vLAPo"
+			},
+			{
+				"name": "Deadlift",
+				"on": "4 x 12",
+				"img": "Barbell-Deadlift.png",
+				"video": "vfKwjT5-86k"
+			},
+			{
+				"name": "Bicep Curls",
+				"on": "4 x 12",
+				"img": "Barbell-Curl.png"
+			},
+			{
+				"name": "Lateral Pulldowns",
+				"on": "4 x 12",
+				"img": "lat-pulldown.png",
+				"video": "jULa7guhCdM"
+			},
+			{
+				"name": "Cable Rows",
+				"on": "4 x 12",
+				"img": "Seated-Cable-Row.png",
+				"video": "IzoCF_b3cIY"
+			},
+			{
+				"name": "Military Press",
+				"on": "4 x 12",
+				"img": "Barbell-Push-Press.png",
+				"video": "3RdVYQ8l_V8"
+			},
+			{
+				"name": "Shrugs",
+				"on": "4 x 12",
+				"img": "Barbell-Shrug.png",
+				"video": "JatJyKQhjX4"
+			},
+			{
+				"name": "Front Raises",
+				"on": "4 x 12",
+				"img": "Barbell-Front-Raise.png"
+			},
+			{
+				"name": "One Arm Dumbbell Snatches",
+				"on": "4 x 12",
+				"img": "dumbbell-one-arm-snatch.webp",
+				"video": "f3s7oAavsAc"
+			},
+			{
+				"name": "Seated Calf Raises",
+				"on": "4 x 12",
+				"img": "Seated-Calf-Raise.png"
+			},
+			{
+				"name": "Leg Press",
+				"on": "4 x 12",
+				"img": "Leg-Press.png"
+			},
+			{
+				"name": "Hamstring Curls",
+				"on": "4 x 12",
+				"img": "Lying-Leg-Curl.png"
+			},
+			{
+				"name": "Seated Arnold Press",
+				"on": "4 x 12,10,8,5",
+				"img": "seated-arnold-press.jpg",
+				"video": "R-RTgOxrj88"
+			},
+			{
+				"name": "Bent Over Rows",
+				"on": "3 x 10",
+				"img": "Dumbbell-Bent-Over-Rows.png",
+				"video": "sBiZvfotOrY"
+			},
+			{
+				"name": "Alternating Bicep Curls",
+				"on": "3 x 10 each arm",
+				"img": "Alternating-Dumbbell-Curl.png"
+			},
+			{
+				"name": "Preacher Curls",
+				"on": "4 x 12,10,8,5",
+				"img": "EZ-Barbell-Preacher-Curl.png",
+				"video": "3mtXqrkbEfI"
+			},
+			{
+				"name": "Chest Fly",
+				"on": "3 x 10",
+				"img": "flat-bench-dumbbell-chest-fly.webp",
+				"video": "Nhvz9EzdJ4U"
+			},
+			{
+				"name": "Straight Leg Deadlift",
+				"on": "4 x 12,10,8,5",
+				"img": "Barbell-Romanian-Deadlift.png",
+				"video": "4MBM_7PqyF0"
+			},
+			{
+				"name": "Dumbbell Kickbacks",
+				"on": "3 x 10 each arm",
+				"img": "Kickback.png",
+				"video": "HyqTb_jE_oI"
+			},
+			{
+				"name": "Upright Rows",
+				"on": "3 x 10",
+				"img": "Barbell-Upright-Row.png",
+				"video": "jaAV-rD45I0"
+			},
+			{
+				"name": "Cable Crunches",
+				"on": "3 x 20",
+				"img": "Rope-Ab-Pulldown.png",
+				"video": "ToJeyhydUxU"
+			},
+			{
+				"name": "Dumbbell Skull Crushers",
+				"on": "3 x 10",
+				"img": "Dumbbell-Lying-Triceps-Extension.jpg",
+				"video": "jO2Jl9eZpXk"
+			},
+			{
+				"name": "Standing Calf Raise",
+				"on": "3 x 10",
+				"img": "Standing-Calf-Raise.png"
+			},
+			{
+				"name": "Arnold Press",
+				"on": "3 x 10",
+				"img": "arnold-press.png",
+				"video": "R-RTgOxrj88"
+			},
+			{
+				"name": "Kettlebell Swings",
+				"on": "3 x 10",
+				"img": "Kettlebell-Swing.png",
+				"video": "YSxHifyI6s8"
+			},
+			{
+				"name": "Thrusters",
+				"on": "21, 15, 9 reps",
+				"img": "Barbell-thruster.png",
+				"video": "aea5BGj9a8Y"
+			},
+			{
+				"name": "Goblet Squats",
+				"on": "3 x 10",
+				"img": "Dumbbell-Goblet-Squat.png",
+				"video": "gCESNsDsbqk"
+			},
+			{
+				"name": "Standing Dumbbell Front Raises",
+				"on": "3 x 10",
+				"img": "Dumbbell-Front-Raise.png",
+				"video": "gCESNsDsbqk"
+			},
+			{
+				"name": "Chest Dips",
+				"on": "3 x 15",
+				"img": "chest-dips.jpg",
+				"video": "4la6BkUBLgo"
+			},
+			{
+				"name": "Hamstring Curls",
+				"on": "3 x 10",
+				"img": "hamstring-curl.png"
+			},
+			{
+				"name": "Quad Extensions",
+				"on": "3 x 10",
+				"img": "leg-extension.png"
+			},
+			{
+				"name": "Hammer Curls",
+				"on": "3 x 10 (each arm)",
+				"img": "Hammer-Curl.png"
+			},
+			{
+				"name": "Close Grip Bench",
+				"on": "3 x 10",
+				"img": "Close-Grip-Bench-Press.png",
+				"video": "nEF0bv2FW94"
+			},
+			{
+				"name": "Skull Crushers w/ EZ Bar",
+				"on": "3 x 10",
+				"img": "Skull-Crushers-EZ-Bar.png",
+				"video": "D47mYdoKllE"
+			},
+			{
+				"name": "Hex Press",
+				"on": "3 x 10",
+				"img": "dumbbell-hex-press.png",
+				"video": "PMHbzfWcUyg"
+			},
+			{
+				"name": "Back Squat",
+				"on": "4 x 12,10,8,5",
+				"img": "Barbell-Squat.png",
+				"video": "ultWZbUMPL8"
+			},
+			{
+				"name": "Barbell Hip Thrust",
+				"on": "3 x 10",
+				"img": "Barbell-Hip-Thrust.png",
+				"video": "W86oVlnLqY4"
+			},
+			{
+				"name": "Cable Pullthroughs",
+				"on": "3 x 10",
+				"img": "cable-pull-through.png",
+				"video": "_u4gJO0ELhE"
+			},
+			{
+				"name": "Cleans w/ Barbell",
+				"on": "3 x 10",
+				"img": "Barbell-cleans.png",
+				"video": "592AzoKsUHo"
+			},
+			{
+				"name": "Straight Shoulder Raise with Cables",
+				"on": "3 x 10",
+				"img": "cable-front-raise.jpg"
+			},
+			{
+				"name": "Barbell Bent Over Rows",
+				"on": "3 x 10",
+				"img": "Barbell-Bent-Over-Rows.png",
+				"video": "UL8ZcK64KxA"
+			},
+			{
+				"name": "Barbell Row",
+				"on": "3 x 12,10,8",
+				"img": "Barbell-Row.png",
+				"video": "Nqh7q3zDCoQ"
+			},
+			{
+				"name": "Seated Overhead DB Press",
+				"on": "3 x 12,10,8",
+				"img": "Seated-Overhead-DB-Press.jpg",
+				"video": "-Xa2xYhPl-0"
+			},
+			{
+				"name": "Peck Deck",
+				"on": "2 x 15",
+				"img": "Peck-Deck.png"
+			},
+			{
+				"name": "V-Bar Lateral Pulldowns",
+				"on": "2 x 15",
+				"img": "V-Bar-Lateral-Pulldowns.png",
+				"video": "o8DLNpjv9sY"
+			},
+			{
+				"name": "Lateral Raises",
+				"on": "2 x 15",
+				"img": "Dumbbell-Lateral-Raise.png"
+			},
+			{
+				"name": "Cable Curls",
+				"on": "3 x 12,10,8",
+				"img": "Rope-Cable-Curl.png",
+				"video": "85kXYq7Ssh4"
+			},
+			{
+				"name": "Leg Press Calf Raises",
+				"on": "3 x 12,10,8",
+				"img": "Leg-Press-Calf-Raise.png"
+			},
+			{
+				"name": "Hack Squats",
+				"on": "2 x 15",
+				"img": "Hack-Squat.png"
+			},
+			{
+				"name": "Hyperextension",
+				"on": "3 x 12,10,8",
+				"img": "Hyperextension.png",
+				"video": "B0lzurAgmfw"
+			},
+			{
+				"name": "Incline Dumbbell Chest Flyes",
+				"on": "3 x 12",
+				"img": "Incline-Dumbbell-Fly.png",
+				"video": "JSDpq14vCZ8"
+			},
+			{
+				"name": "Front Squats",
+				"on": "3 x 12",
+				"img": "Front-Squat.png"
+			},
+			{
+				"name": "Weighted Lunges",
+				"on": "3 x 12",
+				"img": "Lunge.png",
+				"video": "ZkISva8aWDI"
+			},
+			{
+				"name": "Straight Leg Deadlift with Dumbbells",
+				"on": "3 x 15",
+				"img": "Dumbbell-Deadlift.png",
+				"video": "KE2A7G_nDc8"
+			},
+			{
+				"name": "Seated Dumbbell Front Raises",
+				"on": "3 x 12",
+				"img": "Seated-dumbell-front.png",
+				"video": "nCq-m4Zexxc"
+			},
+			{
+				"name": "Seated Lateral Raises",
+				"on": "3 x 15",
+				"img": "Seated-dumbell-lateral.png",
+				"video": "P_k_h5AIJXw"
+			},
+			{
+				"name": "Weighted Sit Ups",
+				"on": "3 x 30",
+				"img": "Wighted-situp.jpg",
+				"video": "kZvSaq192cg"
+			},
+			{
+				"name": "Bent Over Row",
+				"on": "3 x 12 each",
+				"img": "Dumbbell-Bent-Over-Row-_Single-Arm.png",
+				"video": "fCoelKTw8BM"
+			},
+			{
+				"name": "Wide Grip Pulldowns",
+				"on": "3 x 15",
+				"img": "Wide-Grip-Pulldown.png"
+			}
+		],
+		"calisthenics": [
+			{
+				"name": "Planks",
+				"on": "3 x 60 seconds",
+				"img": "Plank.png",
+				"video": "pvIjsG5Svck"
+			},
+			{
+				"name": "Dips",
+				"on": "3 x 15",
+				"img": "Bench-Dips.png",
+				"video": "0326dy_-CzM"
+			},
+			{
+				"name": "Jump Rope",
+				"on": "3 x 100",
+				"img": "JumpRope.png"
+			},
+			{
+				"name": "Bent Knee Reverse Crunch",
+				"on": "3 x 30",
+				"img": "Bent-Knee-Reverse-Crunch.png",
+				"video": "pvIjsG5Svck"
+			},
+			{
+				"name": "Hanging Knee Raises with Twist",
+				"on": "3 x 30",
+				"img": "Hanging-Leg-Raise.png"
+			},
+			{
+				"name": "Hanging Leg Raises",
+				"on": "3 x 30",
+				"img": "Hanging-Leg-Raise.png"
+			},
+			{
+				"name": "L-Sit Hold",
+				"on": "3 x 30 seconds",
+				"img": "Wall-Sit.png"
+			},
+			{
+				"name": "Chin Ups",
+				"on": "3 x 12",
+				"img": "Chin-up.jpg"
+			},
+			{
+				"name": "High Knees",
+				"on": "2 x 25",
+				"img": "high-knee-skips.png",
+				"video": "ZZZoCNMU48U"
+			},
+			{
+				"name": "Jumping Jacks",
+				"on": "2 x 25",
+				"img": "Jumping-Jacks.png",
+				"video": "iSSAk4XCsRA"
+			},
+			{
+				"name": "Butt Kickers",
+				"on": "2 x 25",
+				"img": "butt-kicks.webp",
+				"video": "oMW59TKZvaI"
+			},
+			{
+				"name": "Air Squats",
+				"on": "200 (on 5-10 reps)",
+				"img": "squat.png"
+			},
+			{
+				"name": "Pull Ups",
+				"on": "100 (on 5-10 reps)",
+				"img": "Pull-Up.png"
+			},
+			{
+				"name": "Hollow Hold",
+				"on": "3 x 45 Seconds",
+				"img": "hollow-hold.jpg",
+				"video": "xD8zGmxV7BI"
+			},
+			{
+				"name": "Double Unders",
+				"on": "3 x 20",
+				"img": "JumpRope.png",
+				"video": "-tF3hUsPZAI"
+			},
+			{
+				"name": "Jump Squats",
+				"on": "3 x 20",
+				"img": "Jump-Squat.png",
+				"video": "72BSZupb-1I"
+			},
+			{
+				"name": "Dips",
+				"on": "3 x 15",
+				"img": "arnold-dips.png",
+				"video": "0326dy_-CzM"
+			},
+			{
+				"name": "Mountain Climbers",
+				"on": "30",
+				"img": "mountain-climbers.png",
+				"video": "hq_0YlyfqGM"
+			},
+			{
+				"name": "Half Burpees",
+				"on": "3 x 10",
+				"img": "half-burpee.jpg",
+				"video": "om09kGWJm8w"
+			},
+			{
+				"name": "Jumping Lunges",
+				"on": "3 x 20",
+				"img": "Jump-lunge.jpg",
+				"video": "O-rntsAALBo"
+			},
+			{
+				"name": "V-Ups",
+				"on": "3 x 20",
+				"img": "v-ups.jpg"
+			},
+			{
+				"name": "Handstand Push Ups",
+				"on": "3 x 10",
+				"img": "kipping-handstand-push-up.webp",
+				"video": "pYx7CRs7kAM"
+			},
+			{
+				"name": "Wide Grip Pull Ups",
+				"on": "3 x 10",
+				"img": "wide-grip-pull-down.png"
+			},
+			{
+				"name": "Lying Leg Raises",
+				"on": "3 x 20",
+				"img": "laying-leg-raise.png"
+			},
+			{
+				"name": "Alternating Pistol Squats",
+				"on": "3 x 20",
+				"img": "pistol-squat-alternatives.jpg",
+				"video": "uqIMqZmyyH8"
+			},
+			{
+				"name": "Explosive Push Ups",
+				"on": "3 x 10",
+				"img": "explosive-push-up.jpg",
+				"video": "8zBEGGbArj8"
+			},
+			{
+				"name": "Inch Worms",
+				"on": "3 x 20",
+				"img": "Inchworm-exercise.jpg",
+				"video": "18AQDRxYZGs"
+			},
+			{
+				"name": "Glute Bridges",
+				"on": "3 x 10",
+				"img": "Glute-Bridge.png"
+			},
+			{
+				"name": "Plank to Push Ups",
+				"on": "3 x 10",
+				"img": "plank-get-ups.svg",
+				"video": "56vUOad6Irs"
+			},
+			{
+				"name": "Bicycle Crunches",
+				"on": "3 x 20,15,10",
+				"img": "bicycle-crunches.png",
+				"video": "1we3bh9uhqY"
+			},
+			{
+				"name": "Box Jumps",
+				"on": "3 x 20",
+				"img": "jump-box.webp"
+			},
+			{
+				"name": "Flutter Kicks",
+				"on": "3 x 20,15,10",
+				"img": "fluter-kicks.jpg",
+				"video": "K5wuM_gNWyw"
+			},
+			{
+				"name": "Alternating Step Ups",
+				"on": "3 x 20",
+				"img": "step-up.png"
+			},
+			{
+				"name": "Skater Lunges",
+				"on": "3 x 20,15,10",
+				"img": "skater-lunges.jpg",
+				"video": "DUbAhVe0e8Q"
+			},
+			{
+				"name": "Push Ups",
+				"on": "3 x 20",
+				"img": "Push-Ups.png",
+				"video": "WDIpL0pjun0"
+			},
+			{
+				"name": "Sit Ups",
+				"on": "3 x 20",
+				"img": "Sit-up.png",
+				"video": "jDwoBqPH0jk"
+			},
+			{
+				"name": "Lunges",
+				"on": "3 x 15",
+				"img": "Lunges.jpeg",
+				"video": "kn431INOxig"
+			},
+			{
+				"name": "Knee Push Ups",
+				"on": "3 x 25",
+				"img": "knee-push-up.png",
+				"video": "jWxvty2KROs"
+			},
+			{
+				"name": "Wall Climbs",
+				"on": "10",
+				"img": "wall-walk.jpg",
+				"video": "IacO9KoSalo"
+			},
+			{
+				"name": "Russian Twists",
+				"on": "3 x 20",
+				"img": "kettlebell-russian-twist.png",
+				"video": "JyUqwkVpsi8"
+			},
+			{
+				"name": "Toe Taps",
+				"on": "3 x 30",
+				"img": "Toe_Taps.png"
+			},
+			{
+				"name": "Lying Leg Raises with Hip Thrust",
+				"on": "3 x 20",
+				"img": "Lying-Leg-Raises-with-Hip-Thrust.jpg",
+				"video": "U0yVcBAeCJw"
+			},
+			{
+				"name": "Bulgarian Split Squats",
+				"on": "3 x 15 each leg",
+				"img": "Bodyweight-Bulgarian-Split-Squat.png",
+				"video": "9p5e2BSvoLs"
+			},
+			{
+				"name": "Superman Hold",
+				"on": "3 x 30 Seconds",
+				"img": "superman-hold.jpg"
+			},
+			{
+				"name": "Toes to Bar",
+				"on": "3 x 20",
+				"img": "hanging-toes-to-bar.webp"
+			},
+			{
+				"name": "Reverse Crunches",
+				"on": "3 x 20",
+				"img": "Reverse-Crunch.png"
+			},
+			{
+				"name": "Tricep Extensions",
+				"on": "3 x 10",
+				"img": "kneeling-triceps-extension.jpg"
+			},
+			{
+				"name": "Slow Crunches",
+				"on": "3 x 30",
+				"img": "crunch.jpg"
+			},
+			{
+				"name": "Wide Push Ups",
+				"on": "3 x 20",
+				"img": "wide-push-up.png",
+				"video": "RfTuQHDJwhw"
+			},
+			{
+				"name": "Planking Shoulder Taps",
+				"on": "10 (2 - 3 rounds)",
+				"img": "plank-shoulder-tap.png",
+				"video": "QOCn3_iOAro"
+			},
+			{
+				"name": "Knee Tucks Jump",
+				"on": "3 x 15",
+				"img": "Knee-Tuck-Jumps.png"
+			}
+		]
+	}
+}
+

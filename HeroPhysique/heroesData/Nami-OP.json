@@ -550,7 +550,8 @@
 							{
 								"name": "Wall Climbs",
 								"on": "5",
-								"img": "wall-walk.jpg"
+								"img": "wall-walk.jpg",
+								"video": "IacO9KoSalo"
 							}
 						]
 					},
@@ -804,7 +805,8 @@
 							{
 								"name": "Wall Climbs",
 								"on": "10",
-								"img": "wall-walk.jpg"
+								"img": "wall-walk.jpg",
+								"video": "IacO9KoSalo"
 							}
 						]
 					},
