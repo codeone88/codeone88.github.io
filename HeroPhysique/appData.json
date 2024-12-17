@@ -6,12 +6,14 @@
 			"name": "Beast Strength",
 			"description": "Unleash your inner beast with high-intensity strength training. Build explosive power and raw strength using functional movements that challenge your entire body.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/beast.JPG",
+			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/beast-rev.JPG",
 			"heroes": [
 				{
 					"data": "InosukeHashibira-DS",
 					"included": true,
 					"name": "The Wild Fighter",
 					"alias": "Inosuke Hashibira",
+					"anime": "Demon Slayer: Kimetsu no Yaiba",
 					"description": "Feral Fury: Channel your inner primal strength."
 				},
 				{
@@ -19,6 +21,7 @@
 					"included": true ,
 					"name": "The Cosmic Warrior",
 					"alias": "Goku",
+					"anime": "Dragon Ball",
 					"description": "Limitless Power: Push your strength beyond the ordinary."
 				}
 			]
@@ -27,12 +30,14 @@
 			"name": "Balanced Physique Training",
 			"description": "Achieve a lean and defined physique with workouts that focus on balance, tone, and endurance. Perfect for those seeking to sculpt their body while maintaining a regular, athletic shape.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
+			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/balanced-rev.JPG",
 			"heroes": [
 				{
 					"data": "NarutoUzumaki-N",
 					"included": true,
 					"name": "The Shadow Runner",
 					"alias": "Naruto Uzumaki",
+					"anime": "Naruto",
 					"description": "Endurance Unleashed: Build strength with lasting energy."
 				},
 				{
@@ -40,6 +45,7 @@
 					"included": true,
 					"name": "The Thunder Striker",
 					"alias": "Zenitsu Agatsuma",
+					"anime": "Demon Slayer: Kimetsu no Yaiba",
 					"description": "Focused Energy: Core strength with a burst of speed."
 				}
 			]
@@ -48,12 +54,14 @@
 			"name": "Focused Discipline",
 			"description": "Hone your focus and control with exercises designed to improve balance, precision, and inner strength. This path emphasizes breathing, core stability, and mental discipline.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
 			"heroes": [
 				{
 					"data": "TanjiroKamado-DS",
 					"included": true,
 					"name": "The Water Warrior",
 					"alias": "Tanjiro Kamado",
+					"anime": "Demon Slayer: Kimetsu no Yaiba",
 					"description": "Flow Precision: Move with balance and control."
 				},
 				{
@@ -61,6 +69,7 @@
 					"included": true,
 					"name": "The Silent Master",
 					"alias": "Itachi Uchiha",
+					"anime": "Naruto",
 					"description": "Calm Strength: Build focus and endurance with intent."
 				}
 			]
@@ -69,12 +78,14 @@
 			"name": "Adventurer's Resilience",
 			"description": "Prepare for any challenge with training that builds endurance, flexibility, and mobility. Develop the resilience of a seasoned adventurer with a focus on longevity and recovery.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
 			"heroes": [
 				{
 					"data": "Luffy-OP",
 					"included": true,
 					"name": "The Boundless Explorer",
 					"alias": "Monkey D. Luffy",
+					"anime": "One Piece",
 					"description": "Energy Unlimited: Train for adaptability and stamina." 
 				},
 				{
@@ -82,6 +93,7 @@
 					"included": true,
 					"name": "The Trailblazer",
 					"alias": "Nami",
+					"anime": "One Piece",
 					"description": "Grace in Motion: Strength with flexibility for every path."
 				}
 			]
