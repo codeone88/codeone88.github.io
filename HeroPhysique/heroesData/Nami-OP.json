@@ -9,7 +9,7 @@
 			"Ability"
 		],
 		"trainingDays": 5,
-		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+		"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
 		"img": "https://codeone88.github.io/HeroPhysique/heroes/nami.PNG",
 		"id": "Nami-OP",
 		"training": [

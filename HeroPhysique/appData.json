@@ -6,7 +6,7 @@
 			"name": "Beast Strength",
 			"description": "Unleash your inner beast with high-intensity strength training. Build explosive power and raw strength using functional movements that challenge your entire body.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/beast.JPG",
-			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/beast-rev.JPG",
+			"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/beast-rev.JPG",
 			"heroes": [
 				{
 					"data": "InosukeHashibira-DS",
@@ -30,7 +30,7 @@
 			"name": "Balanced Physique Training",
 			"description": "Achieve a lean and defined physique with workouts that focus on balance, tone, and endurance. Perfect for those seeking to sculpt their body while maintaining a regular, athletic shape.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
-			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/balanced-rev.JPG",
+			"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/balanced-rev.JPG",
 			"heroes": [
 				{
 					"data": "NarutoUzumaki-N",
@@ -54,7 +54,7 @@
 			"name": "Focused Discipline",
 			"description": "Hone your focus and control with exercises designed to improve balance, precision, and inner strength. This path emphasizes breathing, core stability, and mental discipline.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
-			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+			"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
 			"heroes": [
 				{
 					"data": "TanjiroKamado-DS",
@@ -78,7 +78,7 @@
 			"name": "Adventurer's Resilience",
 			"description": "Prepare for any challenge with training that builds endurance, flexibility, and mobility. Develop the resilience of a seasoned adventurer with a focus on longevity and recovery.",
 			"img": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
-			"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+			"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
 			"heroes": [
 				{
 					"data": "Luffy-OP",

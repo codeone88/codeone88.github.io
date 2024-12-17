@@ -9,7 +9,7 @@
 			"Ability"
 		],
 		"trainingDays": 5,
-		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+		"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
 		"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.PNG",
 		"id": "TanjiroKamado-DS",
 		"training": [

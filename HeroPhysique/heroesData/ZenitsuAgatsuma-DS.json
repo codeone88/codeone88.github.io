@@ -9,7 +9,7 @@
 			"Ability"
 		],
 		"trainingDays": 4,
-		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
+		"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
 		"img": "https://codeone88.github.io/HeroPhysique/heroes/zenitsu.PNG",
 		"id": "ZenitsuAgatsuma-DS",
 		"training": [],
