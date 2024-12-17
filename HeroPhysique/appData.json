@@ -11,12 +11,14 @@
 					"data": "InosukeHashibira-DS",
 					"included": true,
 					"name": "The Wild Fighter",
+					"alias": "Inosuke Hashibira",
 					"description": "Feral Fury: Channel your inner primal strength."
 				},
 				{
 					"data": "Goku-DB",
 					"included": true ,
 					"name": "The Cosmic Warrior",
+					"alias": "Goku",
 					"description": "Limitless Power: Push your strength beyond the ordinary."
 				}
 			]
@@ -30,12 +32,14 @@
 					"data": "NarutoUzumaki-N",
 					"included": true,
 					"name": "The Shadow Runner",
+					"alias": "Naruto Uzumaki",
 					"description": "Endurance Unleashed: Build strength with lasting energy."
 				},
 				{
 					"data": "ZenitsuAgatsuma-DS",
 					"included": true,
 					"name": "The Thunder Striker",
+					"alias": "Zenitsu Agatsuma",
 					"description": "Focused Energy: Core strength with a burst of speed."
 				}
 			]
@@ -49,12 +53,14 @@
 					"data": "TanjiroKamado-DS",
 					"included": true,
 					"name": "The Water Warrior",
+					"alias": "Tanjiro Kamado",
 					"description": "Flow Precision: Move with balance and control."
 				},
 				{
 					"data": "ItachiUchiha-N",
 					"included": true,
 					"name": "The Silent Master",
+					"alias": "Itachi Uchiha",
 					"description": "Calm Strength: Build focus and endurance with intent."
 				}
 			]
@@ -68,12 +74,14 @@
 					"data": "Luffy-OP",
 					"included": true,
 					"name": "The Boundless Explorer",
+					"alias": "Monkey D. Luffy",
 					"description": "Energy Unlimited: Train for adaptability and stamina." 
 				},
 				{
 					"data": "Nami-OP",
 					"included": true,
 					"name": "The Trailblazer",
+					"alias": "Nami",
 					"description": "Grace in Motion: Strength with flexibility for every path."
 				}
 			]
