@@ -1,6 +1,7 @@
 {
 	"data": {
 		"name": "Tanjiro Kamado",
+		"alias": "Tanjiro Kamado",
 		"anime": "Demon Slayer: Kimetsu no Yaiba",
 		"types": [
 			"Endurance",
@@ -8,7 +9,8 @@
 			"Ability"
 		],
 		"trainingDays": 5,
-		"img": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/tanjiro.JPG",
 		"id": "TanjiroKamado-DS",
 		"training": [
 			{

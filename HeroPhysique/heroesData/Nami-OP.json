@@ -1,6 +1,7 @@
 {
 	"data": {
 		"name": "Nami",
+		"alias": "Nami",
 		"anime": "One Piece",
 		"types": [
 			"Endurance",
@@ -8,7 +9,8 @@
 			"Ability"
 		],
 		"trainingDays": 5,
-		"img": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/nami.jpg",
 		"id": "Nami-OP",
 		"training": [
 			{

@@ -1,6 +1,7 @@
 {
 	"data": {
 		"name": "Zenitsu Agatsuma",
+		"alias": "Zenitsu Agatsuma",
 		"anime": "Demon Slayer: Kimetsu no Yaiba",
 		"types": [
 			"Endurance",
@@ -8,7 +9,8 @@
 			"Ability"
 		],
 		"trainingDays": 4,
-		"img": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
+		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/zenitsu.jpg",
 		"id": "ZenitsuAgatsuma-DS",
 		"training": [],
 		"trainingCal": [

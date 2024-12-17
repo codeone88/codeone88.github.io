@@ -1,13 +1,15 @@
 {
 	"data": {
 		"name": "Naruto Uzumaki",
+		"alias": "Naruto Uzumaki",
 		"anime": "Naruto",
 		"types": [
 			"Endurance",
 			"Ability"
 		],
 		"trainingDays": 6,
-		"img": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
+		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/balanced.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/naruto.jpg",
 		"id": "NarutoUzumaki-N",
 		"training": [],
 		"trainingCal": [

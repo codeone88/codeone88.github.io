@@ -1,6 +1,7 @@
 {
 	"data": {
 		"name": "Itachi Uchiha",
+		"alias": "Itachi Uchiha",
 		"anime": "Naruto",
 		"types": [
 			"Endurance",
@@ -8,7 +9,8 @@
 			"Ability"
 		],
 		"trainingDays": 5,
-		"img": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/focused.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/itachi.jpg",
 		"id": "ItachiUchiha-N",
 		"training": [
 			{

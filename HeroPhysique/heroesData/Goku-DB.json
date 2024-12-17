@@ -1,6 +1,7 @@
 {
 	"data": {
 		"name": "Goku",
+		"alias": "Goku",
 		"anime": "Dragon Ball",
 		"types": [
 			"Endurance",
@@ -8,7 +9,8 @@
 			"Ability"
 		],
 		"trainingDays": 6,
-		"img": "https://codeone88.github.io/HeroPhysique/heroes/beast.JPG",
+		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/beast.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/goku.jpg",
 		"id": "Goku-DB",
 		"training": [
 			{

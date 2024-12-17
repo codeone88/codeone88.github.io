@@ -1,6 +1,7 @@
 {
 	"data": {
 		"name": "Monkey D. Luffy",
+		"alias": "Monkey D. Luffy",
 		"anime": "One Piece",
 		"types": [
 			"Endurance",
@@ -8,7 +9,8 @@
 			"Ability"
 		],
 		"trainingDays": 4,
-		"img": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+		"img-rev": "https://codeone88.github.io/HeroPhysique/heroes/adventurer.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/luffy.jpg",
 		"id": "Luffy-OP",
 		"training": [
 			{
