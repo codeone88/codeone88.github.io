@@ -64,6 +64,13 @@
 			"title": "v13",
 			"url": "https://i.imgur.com/4qlbav7.mp4"
 		}
+	],
+	"creators":[
+		{
+			"name": "LoFiU",
+			"url": "creators/lofiu/creatorData.json",
+			"img": "creators/lofiu/img/icon.png"
+		}
 	]
 }
 
