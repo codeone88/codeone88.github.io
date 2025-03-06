@@ -69,7 +69,8 @@
 		{
 			"name": "LoFiU",
 			"url": "creators/lofiu/creatorData.json",
-			"img": "creators/lofiu/img/icon.png"
+			"img": "creators/lofiu/img/icon.png",
+			"social": "https://twitter.com/Enter_Apps"
 		}
 	]
 }
