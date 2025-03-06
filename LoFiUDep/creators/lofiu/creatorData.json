@@ -2,6 +2,14 @@
 	"active": true,
 	"packs":[
 		{
+			"name": "LoFiU Exclusive",
+			"price": 50,
+			"id": "uNoyPA5YHW0eFmlrTLjG",
+			"wallpapers": [
+				
+			]
+		},
+		{
 			"name": "LoFiU Pack",
 			"price": 0,
 			"id": "",
