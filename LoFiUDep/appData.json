@@ -71,6 +71,12 @@
 			"url": "creators/lofiu/creatorData.json",
 			"img": "creators/lofiu/img/icon.png",
 			"social": "https://twitter.com/Enter_Apps"
+		},
+		{
+			"name": "Classico",
+			"url": "creators/lofiu/creatorData.json",
+			"img": "creators/classico/img/logo.JPG",
+			"social": "https://x.com/Classisco123?t=-XzrNP3kzq0WMhuRaF81jg&s=08"
 		}
 	]
 }
