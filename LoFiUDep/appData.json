@@ -1,6 +1,7 @@
 {
 	"active": true,
 	"freeDays": true,
+	"creatorPassword": "LoFiUCreator",
 	"promo": {
 		"active": false,
 		"data": [
@@ -74,9 +75,15 @@
 		},
 		{
 			"name": "Classico",
-			"url": "creators/lofiu/creatorData.json",
+			"url": "creators/classico/creatorData.json",
 			"img": "creators/classico/img/logo.JPG",
 			"social": "https://x.com/Classisco123?t=-XzrNP3kzq0WMhuRaF81jg&s=08"
+		},
+		{
+			"name": "GWalls",
+			"url": "creators/gwalls/creatorData.json",
+			"img": "creators/gwalls/img/logo.JPG",
+			"social": "https://x.com/entergamesco?s=21"
 		}
 	]
 }
