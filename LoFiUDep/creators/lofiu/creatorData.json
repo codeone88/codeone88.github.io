@@ -3,9 +3,55 @@
 	"packs":[
 		{
 			"name": "LoFiU Exclusive",
-			"price": 50,
+			"price": 40,
 			"id": "uNoyPA5YHW0eFmlrTLjG",
+			"type": "image",
 			"wallpapers": [
+				{
+					"user": "Walltastik",
+					"link": "https://i.postimg.cc/fTfSkk7g/IMG-7169.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/PhBW3wCh/IMG-7169.jpg"
+				},
+				{
+					"user": "Walltastik",
+					"link": "https://i.postimg.cc/kgjVFZpQ/IMG-7170.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/GbRkrnP5/IMG-7170.jpg"
+				},
+				{
+					"user": "Walltastik",
+					"link": "https://i.postimg.cc/8PSr1Lv6/IMG-7173.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/b8G09TN3/IMG-7173.jpg"
+				},
+				{
+					"user": "Walltastik",
+					"link": "https://i.postimg.cc/RhrJJHb2/IMG-7174.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/GLtFNPP3/IMG-7174.jpg"
+				},
+				{
+					"user": "Walltastik",
+					"link": "https://i.postimg.cc/yNbZB5h1/IMG-7194.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/GccJPnHy/IMG-7194.jpg"
+				},
 				{
 					"user": "Walltastik",
 					"link": "https://i.postimg.cc/LXGMCrLQ/processed-9.png",
@@ -120,6 +166,7 @@
 			"name": "LoFiU Pack",
 			"price": 0,
 			"id": "",
+			"type": "image",
 			"wallpapers": [
 				{
 					"user": "Walltastik",

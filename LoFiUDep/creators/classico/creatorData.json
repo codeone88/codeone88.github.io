@@ -5,6 +5,7 @@
 			"name": "Free pack 1",
 			"price": 0,
 			"id": "",
+			"type": "image",
 			"wallpapers": [
 				{
 					"user": "Classico",
@@ -192,6 +193,7 @@
 			"name": "Paid pack 1",
 			"price": 20,
 			"id": "P89PXpElzE2SxTJ1ExG6",
+			"type": "image",
 			"wallpapers": [
 				{
 					"user": "Walltastik",

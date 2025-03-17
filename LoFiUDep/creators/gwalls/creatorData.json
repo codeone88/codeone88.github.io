@@ -5,6 +5,7 @@
 			"name": "Wallpapers I Found 1",
 			"price": 0,
 			"id": "",
+			"type": "image",
 			"wallpapers": [
 				{
 					"user": "GWalls",
@@ -147,7 +148,53 @@
 			"name": "Daily Drivers",
 			"price": 20,
 			"id": "434sUVB8IVrWi4JhRd8t",
+			"type": "image",
 			"wallpapers": [
+				{
+					"user": "GWalls",
+					"link": "https://i.postimg.cc/ZRj32RfQ/IMG-6590.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/rV2JdR5q/IMG-6590.jpg"
+				},
+				{
+					"user": "GWalls",
+					"link": "https://i.postimg.cc/Hnx5ggRk/IMG-6585.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/2kdxnjxh/IMG-6585.jpg"
+				},
+				{
+					"user": "GWalls",
+					"link": "https://i.postimg.cc/QCy7NzZk/IMG-6584.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/Df2P6VCD/IMG-6584.jpg"
+				},
+				{
+					"user": "GWalls",
+					"link": "https://i.postimg.cc/BZYHCjPL/IMG-6583.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/yBBjs9VP/IMG-6583.jpg"
+				},
+				{
+					"user": "GWalls",
+					"link": "https://i.postimg.cc/yYD9p70f/IMG-6578.jpg",
+					"category": [
+						"City", "Art"
+					],
+					"price": "exclusive",
+					"dlink": "https://i.postimg.cc/Ph44xxJk/IMG-6578.jpg"
+				},
 				{
 					"user": "GWalls",
 					"link": "https://i.postimg.cc/J7KTDFgX/1000008716-x9.png",
