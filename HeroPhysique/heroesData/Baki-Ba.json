@@ -1,0 +1,734 @@
+{
+	"data": {
+		"name": "Baki Hanma",
+		"alias": "Baki Hanma",
+		"anime": "Baki",
+		"types": [
+			"Endurance",
+			"Strength"
+		],
+		"trainingDays": 6,
+		"imgRev": "https://codeone88.github.io/HeroPhysique/heroes/beast-rev.JPG",
+		"img": "https://codeone88.github.io/HeroPhysique/heroes/baki.PNG",
+		"id": "Baki-Ba",
+		"training": [
+			{
+				"name": "Beginners",
+				"type": "free",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Bench Press",
+								"on": "5 x 5",
+								"img": "Barbell-Bench-Press.png",
+								"video": "4Y2ZdHCOXok"
+							},
+							{
+								"name": "Tricep Pushdowns",
+								"on": "4 x 12",
+								"img": "Cable-Rope-Pushdown.png",
+								"video": "8WL0m0vLAPo"
+							},
+							{
+								"name": "Incline Bench Press",
+								"on": "4 x 12",
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "ULxNmcGpzA0"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Goblet Squats",
+								"on": "5 x 5",
+								"img": "Dumbbell-Goblet-Squat.png",
+								"video": "gCESNsDsbqk"
+							},
+							{
+								"name": "Hamstring Curls",
+								"on": "4 x 12",
+								"img": "Lying-Leg-Curl.png"
+							},
+							{
+								"name": "Leg Press",
+								"on": "4 x 12",
+								"img": "Leg-Press.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 12",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Cleans w/ Barbell",
+								"on": "5 x 5",
+								"img": "Barbell-cleans.png",
+								"video": "592AzoKsUHo"
+							},
+							{
+								"name": "Weighted Lunges",
+								"on": "4 x 12",
+								"img": "Lunge.png",
+								"video": "ZkISva8aWDI"
+							},
+							{
+								"name": "Cable Crunches",
+								"on": "4 x 12",
+								"img": "Rope-Ab-Pulldown.png",
+								"video": "ToJeyhydUxU"
+							},
+							{
+								"name": "Hanging Leg Raises",
+								"on": "4 x 12",
+								"img": "Hanging-Leg-Raise.png"
+							},
+							{
+								"name": "Planks",
+								"on": "3 x 30 seconds",
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 15",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Deadlift",
+								"on": "5 x 5",
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
+							},
+							{
+								"name": "Bent Over Rows",
+								"on": "4 x 12",
+								"img": "Dumbbell-Bent-Over-Rows.png",
+								"video": "sBiZvfotOrY"
+							},
+							{
+								"name": "Cable or Dumbbell Rows",
+								"on": "4 x 12",
+								"img": "Seated-Cable-Row.png",
+								"video": "IzoCF_b3cIY"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 15",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							}
+						]
+					},
+					{
+						"name": "Friday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Military Press",
+								"on": "5 x 5",
+								"img": "Barbell-Push-Press.png",
+								"video": "3RdVYQ8l_V8"
+							},
+							{
+								"name": "Front Raises",
+								"on": "4 x 12",
+								"img": "Barbell-Front-Raise.png"
+							},
+							{
+								"name": "Shrugs",
+								"on": "4 x 12",
+								"img": "Barbell-Shrug.png",
+								"video": "JatJyKQhjX4"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 15",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Saturday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "One Arm Dumbbell Snatches",
+								"on": "5 x 5",
+								"img": "dumbbell-one-arm-snatch.webp",
+								"video": "f3s7oAavsAc"
+							},
+							{
+								"name": "Front Squats",
+								"on": "4 x 12",
+								"img": "Front-Squat.png"
+							},
+							{
+								"name": "Hanging Leg Raises",
+								"on": "3 x 30",
+								"img": "Hanging-Leg-Raise.png"
+							},
+							{
+								"name": "Planks",
+								"on": "3 x 60 seconds",
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Advanced",
+				"type": "paid",
+				"days": [
+					{
+						"name": "Monday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Bench Press",
+								"on": "5 × 5",
+								"img": "Barbell-Bench-Press.png",
+								"video": "4Y2ZdHCOXok"
+							},
+							{
+								"name": "Tricep Pushdowns",
+								"on": "4 x 12",
+								"img": "Cable-Rope-Pushdown.png",
+								"video": "8WL0m0vLAPo"
+							},
+							{
+								"name": "Incline Bench Press",
+								"on": "4 x 12",
+								"img": "Incline-Dumbbell-Bench-Press.png",
+								"video": "ULxNmcGpzA0"
+							},
+							{
+								"name": "Close Grip Bench",
+								"on": "4 x 12",
+								"img": "Close-Grip-Bench-Press.png",
+								"video": "nEF0bv2FW94"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Tuesday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Goblet Squats",
+								"on": "5 x 5",
+								"img": "Dumbbell-Goblet-Squat.png",
+								"video": "gCESNsDsbqk"
+							},
+							{
+								"name": "Hamstring Curls",
+								"on": "4 x 12",
+								"img": "Lying-Leg-Curl.png"
+							},
+							{
+								"name": "Leg Press",
+								"on": "4 x 12",
+								"img": "Leg-Press.png"
+							},
+							{
+								"name": "Quad Extensions",
+								"on": "4 x 12",
+								"img": "leg-extension.png"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Wednesday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Cleans w/ Barbell",
+								"on": "5 x 5",
+								"img": "Barbell-cleans.png",
+								"video": "592AzoKsUHo"
+							},
+							{
+								"name": "Weighted Lunges",
+								"on": "4 x 12",
+								"img": "Lunge.png",
+								"video": "ZkISva8aWDI"
+							},
+							{
+								"name": "Cable Crunches",
+								"on": "4 x 12",
+								"img": "Rope-Ab-Pulldown.png",
+								"video": "ToJeyhydUxU"
+							},
+							{
+								"name": "Hanging Leg Raises",
+								"on": "4 x 12",
+								"img": "Hanging-Leg-Raise.png"
+							},
+							{
+								"name": "Planks",
+								"on": "3 x 60 seconds",
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Thursday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Deadlift",
+								"on": "5 x 5",
+								"img": "Barbell-Deadlift.png",
+								"video": "vfKwjT5-86k"
+							},
+							{
+								"name": "Bent Over Rows",
+								"on": "4 x 12",
+								"img": "Dumbbell-Bent-Over-Rows.png",
+								"video": "sBiZvfotOrY"
+							},
+							{
+								"name": "Lateral Pulldowns",
+								"on": "4 x 12",
+								"img": "lat-pulldown.png",
+								"video": "jULa7guhCdM"
+							},
+							{
+								"name": "Cable or Dumbbell Rows",
+								"on": "4 x 12",
+								"img": "Seated-Cable-Row.png",
+								"video": "IzoCF_b3cIY"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Friday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "Military Press",
+								"on": "5 x 5",
+								"img": "Barbell-Push-Press.png",
+								"video": "3RdVYQ8l_V8"
+							},
+							{
+								"name": "Lateral Raises",
+								"on": "4 x 12",
+								"img": "Dumbbell-Lateral-Raise.png"
+							},
+							{
+								"name": "Front Raises",
+								"on": "4 x 12",
+								"img": "Barbell-Front-Raise.png"
+							},
+							{
+								"name": "Shrugs",
+								"on": "4 x 12",
+								"img": "Barbell-Shrug.png",
+								"video": "JatJyKQhjX4"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					},
+					{
+						"name": "Saturday",
+						"description": "Weights and Calisthenics",
+						"workout": [
+							{
+								"name": "Stretch & Sprint",
+								"on": "20 min",
+								"img": ""
+							},
+							{
+								"name": "One Arm Dumbbell Snatches",
+								"on": "5 x 5",
+								"img": "dumbbell-one-arm-snatch.webp",
+								"video": "f3s7oAavsAc"
+							},
+							{
+								"name": "Front Squats",
+								"on": "4 x 12",
+								"img": "Front-Squat.png"
+							},
+							{
+								"name": "Cable Crunches",
+								"on": "4 x 12",
+								"img": "Rope-Ab-Pulldown.png",
+								"video": "ToJeyhydUxU"
+							},
+							{
+								"name": "Hanging Leg Raises",
+								"on": "3 x 30",
+								"img": "Hanging-Leg-Raise.png"
+							},
+							{
+								"name": "Planks",
+								"on": "3 x 60 seconds",
+								"img": "Plank.png",
+								"video": "pvIjsG5Svck"
+							},
+							{
+								"name": "Push Ups",
+								"on": "4 x 25",
+								"img": "Push-Ups.png",
+								"video": "WDIpL0pjun0"
+							},
+							{
+								"name": "Sit Ups",
+								"on": "4 x 20",
+								"img": "Sit-up.png",
+								"video": "jDwoBqPH0jk"
+							},
+							{
+								"name": "Dips",
+								"on": "4 x 15",
+								"img": "Bench-Dips.png",
+								"video": "0326dy_-CzM"
+							},
+							{
+								"name": "Box Jumps",
+								"on": "4 x 12",
+								"img": "jump-box.webp"
+							},
+							{
+								"name": "Pull Ups",
+								"on": "4 x 10",
+								"img": "Pull-Up.png"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

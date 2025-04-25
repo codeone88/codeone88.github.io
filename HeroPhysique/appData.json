@@ -23,6 +23,14 @@
 					"alias": "Goku",
 					"anime": "Dragon Ball",
 					"description": "Limitless Power: Push your strength beyond the ordinary."
+				},
+				{
+					"data": "Baki-Ba",
+					"included": true ,
+					"name": "The Ultimate Fighter",
+					"alias": "Baki Hanma",
+					"anime": "Baki",
+					"description": "Unyielding Strength: Train for raw power and endurance."
 				}
 			]
 		},
