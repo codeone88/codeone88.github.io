@@ -165,7 +165,7 @@
 			},
 			{
 				"name": "Thrusters",
-				"on": "21, 15, 9 reps",
+				"on": "3 x 21, 15, 9",
 				"img": "Barbell-thruster.png",
 				"video": "aea5BGj9a8Y"
 			},
@@ -422,12 +422,12 @@
 			},
 			{
 				"name": "Air Squats",
-				"on": "200 (on 5-10 reps)",
+				"on": "5 x 20",
 				"img": "squat.png"
 			},
 			{
 				"name": "Pull Ups",
-				"on": "100 (on 5-10 reps)",
+				"on": "4 x 20",
 				"img": "Pull-Up.png"
 			},
 			{
