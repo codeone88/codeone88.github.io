@@ -1,0 +1,238 @@
+
+{
+	"baseURL": "https://codeone88.github.io/AnimeAura/songs/",
+	"data": [
+		{
+			"name": "Cinematic Inspirational",
+			"artist": "makesoundmusic",
+			"url": "cinematic-inspirational-150013.mp3",
+			"tags": ["awesome", "happy", "loved"],
+			"energy": "high",
+			"tone": "positive"
+		},
+		{
+			"name": "Cold Sad Pianos",
+			"artist": "makesoundmusic",
+			"url": "cold-sad-pianos.mp3",
+			"tags": ["sad", "okay", "meh", "terrible"],
+			"energy": "medium",
+			"tone": "soothing"
+		},
+		{
+			"name": "Emotional Inspiring Piano & Violin",
+			"artist": "makesoundmusic",
+			"url": "emotional-inspiring-piano-violin.mp3",
+			"tags": ["sad", "loved", "stressed", "angry", "awesome"],
+			"energy": "low",
+			"tone": "neutral"
+		},
+		{
+			"name": "Emotional Inspiring Piano & Strings",
+			"artist": "makesoundmusic",
+			"url": "emotional-inspiring-piano-and-strings.mp3",
+			"tags": ["sad", "loved", "stressed", "angry", "awesome", "happy"],
+			"energy": "medium",
+			"tone": "soothing"
+		},
+		{
+			"name": "Countdown",
+			"artist": "makesoundmusic",
+			"url": "countdown.mp3",
+			"tags": ["sad", "loved", "angry", "awesome", "happy"],
+			"energy": "medium",
+			"tone": "neutral"
+		},
+		{
+			"name": "Romantic Love Piano",
+			"artist": "makesoundmusic",
+			"url": "romantic-love-piano.mp3",
+			"tags": ["sad", "loved", "angry", "awesome", "anxious", "meh"],
+			"energy": "low",
+			"tone": "neutral"
+		},
+		{
+			"name": "Action Intro",
+			"artist": "makesoundmusic",
+			"url": "cinematic-action-intro.mp3",
+			"tags": ["sad", "angry", "awesome", "anxious", "meh", "stressed", "okay"],
+			"energy": "high",
+			"tone": "positive"
+		},
+		{
+			"name": "Dramatic Emotional",
+			"artist": "makesoundmusic",
+			"url": "dramatic-emotional-piano.mp3",
+			"tags": ["sad", "angry", "awesome", "anxious", "meh", "stressed", "okay", "terrible"],
+			"energy": "medium",
+			"tone": "soothing"
+		},
+		{
+			"name": "Adventure Music",
+			"artist": "Primefacts7",
+			"url": "adventure-music.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "terrible", "happy", "loved"],
+			"energy": "high",
+			"tone": "positive"
+		},
+		{
+			"name": "The Ensnared",
+			"artist": "EpicAIst",
+			"url": "the-ensnared.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy"],
+			"energy": "high",
+			"tone": "neutral"
+		},
+		{
+			"name": "Phonk Music",
+			"artist": "Tunetank",
+			"url": "phonk-music.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy"],
+			"energy": "high",
+			"tone": "neutral"
+		},
+		{
+			"name": "ah",
+			"artist": "knob",
+			"url": "ah.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy"],
+			"energy": "high",
+			"tone": "neutral"
+		},
+		{
+			"name": "Cyberpunk Doomsday Cult",
+			"artist": "Nicholas Panek",
+			"url": "cyberpunk-doomsday-cult-aggressive-brostep-heavy-metal-fusion.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy"],
+			"energy": "high",
+			"tone": "neutral"
+		},
+		{
+			"name": "Heavy Metal Fusion With Digital Edge",
+			"artist": "Nicholas Panek",
+			"url": "heavy-metal-fusion-with-digital-edge.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy", "terrible"],
+			"energy": "high",
+			"tone": "neutral"
+		},
+		{
+			"name": "Chaos",
+			"artist": "knob",
+			"url": "chaos.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy", "terrible", "loved"],
+			"energy": "high",
+			"tone": "positive"
+		},
+		{
+			"name": "Electro | 12",
+			"artist": "Furkan Lim",
+			"url": "electro-12instrument-enthusiastic.mp3",
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy", "terrible", "loved"],
+			"energy": "medium",
+			"tone": "positive"
+		},
+		{
+			"name": "Electric Pulse v2",
+			"artist": "Furkan Lim",
+			"url": "electric-pulse-v2.mp3",
+			"tags": ["sad", "angry", "awesome", "stressed", "okay", "happy", "terrible"],
+			"energy": "medium",
+			"tone": "neutral"
+		},
+		{
+			"name": "Return of the Demon Slayer",
+			"artist": "",
+			"url": "return-of-the-demon-slayer.mp3",
+			"tags": ["sad", "angry", "awesome", "stressed", "okay", "happy", "terrible"],
+			"energy": "high",
+			"tone": "neutral"
+		},
+		{
+			"name": "Anime Inspiring",
+			"artist": "Bijay Karki",
+			"url": "anime-inspiring-music.mp3",
+			"tags": ["angry", "awesome", "stressed", "okay", "happy"],
+			"energy": "low",
+			"tone": "soothing"
+		},
+		{
+			"name": "Anime",
+			"artist": "music_for_video",
+			"url": "anime.mp3",
+			"tags": ["angry", "stressed", "okay", "happy"],
+			"energy": "low",
+			"tone": "soothing"
+		},
+		{
+			"name": "Anime Rock",
+			"artist": "jumpingbunny",
+			"url": "anime-rock.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh", "terrible", "sad", "anxious"],
+			"energy": "low",
+			"tone": "neutral"
+		},
+		{
+			"name": "Rainy Lofi City",
+			"artist": "lofidreams99",
+			"url": "rainy-lofi-city.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh"],
+			"energy": "low",
+			"tone": "soothing"
+		},
+		{
+			"name": "Lofi",
+			"artist": "DELOSound",
+			"url": "lofi-lofi-song.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh"],
+			"energy": "low",
+			"tone": "soothing"
+		},
+		{
+			"name": "Lofi girl",
+			"artist": "lofidreams99",
+			"url": "lofi-girl-lofi-hiphop-beats.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh"],
+			"energy": "low",
+			"tone": "soothing"
+		},
+		{
+			"name": "Built Your Throne on Broken Trust",
+			"artist": "JustinVinicius",
+			"url": "built-your-throne-on-broken-trust-amv-anime.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh", "terrible", "sad", "anxious"],
+			"energy": "medium",
+			"tone": "neutral"
+		},
+		{
+			"name": "Retro Dreams",
+			"artist": "Nikoo1",
+			"url": "free-lofi-type-beat-retro-dreams.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved"],
+			"energy": "low",
+			"tone": "soothing"
+		},
+		{
+			"name": "Pearl White Dusk",
+			"artist": "AlesiaDavina",
+			"url": "pearl-white-dusk.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh", "terrible", "sad", "anxious"],
+			"energy": "medium",
+			"tone": "positive"
+		},
+		{
+			"name": "Aggressive Metal",
+			"artist": "ikoliks",
+			"url": "aggressive-metal.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh", "terrible", "sad", "anxious"],
+			"energy": "high",
+			"tone": "positive"
+		},
+		{
+			"name": "Train To Hell",
+			"artist": "BFCMUSIC",
+			"url": "train-to-hell.mp3",
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh", "terrible", "sad", "anxious"],
+			"energy": "high",
+			"tone": "positive"
+		}
+	]
+}
