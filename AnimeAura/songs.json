@@ -118,7 +118,7 @@
 			"name": "Chaos",
 			"artist": "knob",
 			"url": "chaos.mp3",
-			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy", "terrible", "loved"],
+			"tags": ["sad", "angry", "awesome", "meh", "stressed", "okay", "happy"],
 			"energy": "high",
 			"tone": "positive"
 		},
@@ -198,7 +198,7 @@
 			"name": "Built Your Throne on Broken Trust",
 			"artist": "JustinVinicius",
 			"url": "built-your-throne-on-broken-trust-amv-anime.mp3",
-			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh", "terrible", "sad", "anxious"],
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "meh", "terrible", "sad", "anxious"],
 			"energy": "medium",
 			"tone": "neutral"
 		},
@@ -230,7 +230,7 @@
 			"name": "Train To Hell",
 			"artist": "BFCMUSIC",
 			"url": "train-to-hell.mp3",
-			"tags": ["angry", "stressed", "okay", "happy", "awesome", "loved", "meh", "terrible", "sad", "anxious"],
+			"tags": ["angry", "stressed", "okay", "happy", "awesome", "meh", "terrible", "sad", "anxious"],
 			"energy": "high",
 			"tone": "positive"
 		}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<opml version="1.0">
+	<head>
+		<title>Pods</title>
+		<url>https://clooudi.com/</url>
+		<ownerName>Clooudi</ownerName>
+		<ownerEmail></ownerEmail>
+	</head>
+	<body>
+		<outline text="Clooudi" title="Clooudi" description="" xmlUrl="https://clooudi.com/feed/" type="rss" />
+		<outline text="Blingspark" title="Blingspark" description="" xmlUrl="https://blingspark.com/feed/" type="rss" />
+		<outline text="Deals of Dreams" title="Deals of Dreams" description="" xmlUrl="https://dealsofdreams.com/feed/" type="rss" />
+		<outline text="Deals of Dreams" title="Boost Up Blogging" description="" xmlUrl="https://boostupblogging.com/feed/" type="rss" />
+		<outline text="Drakewire" title="Drakewire" description="" xmlUrl="https://drakewire.com/feed/" type="rss" />
+		<outline text="FixingBee" title="FixingBee" description="" xmlUrl="https://fixingbee.com/feed/" type="rss" />
+	</body>
+</opml>
