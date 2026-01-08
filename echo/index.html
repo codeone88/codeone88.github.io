@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Echo — Your companion when silence feels heavy." />
+    <title>Echo - Your Chat Mate</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+      :root{ --bg:#0b1020; --panel:#0f1624; --accent1:#ff6b6b; --accent2:#7c5cff; --muted:#9aa6b2 }
+      *{box-sizing:border-box}
+      html,body{height:100%}
+      body{margin:0;font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial;color:#fff;background:linear-gradient(180deg,#081020,#08131b);-webkit-font-smoothing:antialiased}
+
+      /* Top wave background */
+      .bg-wave{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+      .wave{position:absolute;right:-10%;top:-20%;width:900px;height:900px;border-radius:50%;background:linear-gradient(135deg,var(--accent2),#3fe0ff);filter:blur(80px);opacity:.12;transform:rotate(0deg);animation:spin 14s linear infinite}
+      .wave.w2{left:-20%;top:10%;background:linear-gradient(135deg,var(--accent1),#ffd36b);animation:spin 20s linear reverse}
+      @keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+
+      main{position:relative;min-height:100vh;display:flex;flex-direction:column}
+
+      header{padding:28px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+      .brand{display:flex;align-items:center;gap:12px}
+      .brand img{width:44px;height:44px;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.5)}
+      .brand h2{margin:0;font-size:1.1rem;font-weight:600}
+
+      /* hero */
+      .hero{padding:40px 24px 8px;text-align:center}
+      .hero .title{font-size:2.6rem;margin:6px 0 6px;letter-spacing:-0.02em}
+      .hero .tag{color:var(--muted);max-width:800px;margin:0 auto 18px}
+
+      .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+      .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;border:none;cursor:pointer;font-weight:600}
+      .btn.primary{background:linear-gradient(90deg,var(--accent2),#2ad9ff);color:#081020;box-shadow:0 12px 30px rgba(124,92,255,.12)}
+      .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.06);color:#fff}
+
+      /* animated gallery row */
+      .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:900px;margin:36px auto;padding:0 24px}
+      .tile{background:linear-gradient(180deg,rgba(255,255,255,.02),transparent);border-radius:14px;overflow:hidden;min-height:160px;position:relative;cursor:pointer;border:1px solid rgba(255,255,255,.03);transition:transform .45s cubic-bezier(.2,.9,.3,1),box-shadow .35s}
+      .tile:hover{transform:translateY(-12px) rotate(-.5deg);box-shadow:0 20px 50px rgba(2,6,23,.6)}
+      .tile img{width:100%;height:100%;object-fit:cover}
+
+      /* phone mock for emphasis */
+      .feature{max-width:980px;margin:30px auto;padding:22px;background:linear-gradient(180deg,rgba(255,255,255,.015),transparent);border-radius:16px;border:1px solid rgba(255,255,255,.03);display:flex;gap:18px;align-items:center;justify-content:center}
+      .mock{width:220px;height:auto;background:#08121b;border-radius:12px;box-shadow:0 30px 80px rgba(2,6,23,.6);display:flex;align-items:center;justify-content:center}
+      .mock svg{width:86%;height:auto}
+
+      /* download badges */
+      .download{display:flex;gap:28px;align-items:center;justify-content:left}
+      .download img{height:48px;border-radius:10px}
+
+      footer{margin-top:auto;padding:30px 20px;text-align:center;color:var(--muted);font-size:.8rem}
+
+      /* responsive */
+      @media (max-width:1000px){.gallery{grid-template-columns:repeat(2,1fr)}.mock{width:120px}}
+      @media (max-width:640px){.gallery{grid-template-columns:repeat(1,1fr)}.hero .title{font-size:1.6rem} .brand h2{font-size:0.9rem}}
+
+      /* reveals */
+      .fade{opacity:0;transform:translateY(10px);transition:opacity .6s ease,transform .6s ease}
+      .fade.show{opacity:1;transform:none}
+
+      /* little bounce for CTA */
+      .pulse{animation:pulse 2.8s ease-in-out infinite}
+      @keyframes pulse{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+    </style>
+</head>
+
+<body>
+
+    <main>
+      <header>
+        <div class="brand">
+          <img src="img/icon.png" alt="Echo icon" onerror="this.style.display='none'">
+          <h2>Echo - Your Chat Mate</h2>
+        </div>
+        <nav>
+          <a class="btn ghost" href="#download">Download</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="fade" style="transition-delay:.05s">
+          <div style="font-size:.9rem;color:var(--muted)">When silence feels heavy</div>
+          <h1 class="title">Echo</h1>
+          <p class="tag">Instant conversations when silence hits.<br>
+              Not “AI assistant”, not “productivity”, not “chatbot”.<br>
+              It solves message anxiety + loneliness + mental noise.</p><br>
+
+          <div class="cta-row">
+            <a class="btn primary pulse" href="#download">Get the app</a>
+            <!--<button class="btn ghost" id="twitter-btn" onclick="openTwitter(event)">Follow on Twitter</button>-->
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery fade" style="transition-delay:.12s" aria-label="Screenshots and previews">
+        <div class="tile"><img src="img/sc1.PNG" alt=""></div>
+        <div class="tile"><img src="img/sc2.PNG" alt=""></div>
+        <div class="tile"><img src="img/sc3.PNG" alt=""></div>
+        <div class="tile"><img src="img/sc4.PNG" alt=""></div>
+        <div class="tile"><img src="img/sc5.PNG" alt=""></div>
+      </section>
+
+      <section class="feature fade" style="transition-delay:.18s">
+        <!--<div class="mock" aria-hidden="true">
+           Simple SVG phone placeholder 
+          <svg viewBox="0 0 120 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="phone placeholder">
+            <rect x="0" y="0" width="120" height="240" rx="20" fill="#071018"></rect>
+            <rect x="12" y="18" width="96" height="204" rx="14" fill="#091520"></rect>
+            <circle cx="60" cy="54" r="26" fill="#374151"></circle>
+            <rect x="28" y="122" width="64" height="18" rx="6" fill="#111827"></rect>
+          </svg>
+        </div>-->
+
+        <img class="mock" src="img/sc6.PNG" alt="">
+
+        <div id="download" style="max-width:640px;text-align:left">
+          <h3 style="margin:4px 0 8px">Ever stare at your phone waiting for a reply?</h3>
+          <p style="color:var(--muted);margin:0 0 12px">We reply instantly.</p>
+          <div class="download">
+            <a title="App Store" onclick="openURL('https://apps.apple.com/us/app/echo-your-chat-mate/id6756187120')"><img src="img/AppStore.png" alt="App Store badge" onerror="this.style.opacity=.35"></a>
+            <a title="Play Store" onclick="openURL('https://play.google.com/store/apps/details?id=air.enter.echo')"><img src="img/PlayStore.png" alt="Play Store badge" onerror="this.style.opacity=.35"></a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div>Made with ♥️ by EnterApps</div>
+        <!-- <div style="margin-top:8px"><a id="twitter-link" href="#" onclick="openTwitter(event)" style="color:var(--muted)">@WalltastiK</a></div> -->
+      </footer>
+    </main>
+
+    <script>
+      // reveal on scroll
+      const observer = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('show'); })
+      },{threshold:.12});
+      document.querySelectorAll('.fade').forEach(el=>observer.observe(el));
+
+      function openTwitter(e){ e.preventDefault(); const handle='WalltastiK'; window.open('https://twitter.com/'+handle,'_blank','noopener'); }
+      window.addEventListener('keydown', (e)=>{ if(e.key && e.key.toLowerCase()==='t') openTwitter(e); });
+
+      function openURL(url){ window.open(url,'_blank','noopener'); }
+
+      // make tiles focusable and keyboard-friendly
+      document.querySelectorAll('.tile').forEach((t)=>{ t.setAttribute('tabindex','0'); t.addEventListener('keydown', (e)=>{ if(e.key==='Enter') { t.classList.toggle('selected') } }) })
+    </script>
+
+</body>
+
+</html>
